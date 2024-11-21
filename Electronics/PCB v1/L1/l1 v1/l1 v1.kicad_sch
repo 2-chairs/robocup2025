@@ -1818,6 +1818,261 @@
 				)
 			)
 		)
+		(symbol "LM2596AD:LM2596ADJ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LM2596ADJ"
+				(at -10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LM2596ADJ:LM2596ADJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            SIMPLE SWITCHER Power Converter\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2596-ADJ/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LM2596-ADJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LM2596-ADJ/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LM2596ADJ_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "~{ON}/OFF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -2859,12 +3114,6 @@
 		(uuid "72abe1dc-933c-41fa-be40-469b4c13a1c2")
 	)
 	(junction
-		(at 102.87 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "745775ef-61ce-4b77-b9d5-363631894586")
-	)
-	(junction
 		(at 241.3 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3061,12 +3310,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2fd8692-1a3d-4517-869f-4a6fc05f3f0d")
-	)
-	(junction
-		(at 102.87 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5935535-4cbc-40e1-8316-4f812f72d0a8")
 	)
 	(junction
 		(at 146.05 69.85)
@@ -3361,12 +3604,20 @@
 		(uuid "04a457b8-0d48-4ede-9b57-95fa7e39ce95")
 	)
 	(no_connect
+		(at 92.71 176.53)
+		(uuid "0eb4d21c-a9ca-43ec-959c-c2d19dab91f9")
+	)
+	(no_connect
 		(at 193.04 208.28)
 		(uuid "195645a8-b939-4970-99b6-04f74ebb8140")
 	)
 	(no_connect
 		(at 193.04 215.9)
 		(uuid "1d985727-e681-43b4-8397-9368d9b3222c")
+	)
+	(no_connect
+		(at 67.31 173.99)
+		(uuid "20688a24-85dd-4523-8693-d855d7d72097")
 	)
 	(no_connect
 		(at 193.04 205.74)
@@ -3500,16 +3751,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 172.72) (xy 102.87 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb3618f-8ef2-494a-a061-00613d73b0d2")
-	)
-	(wire
-		(pts
 			(xy 196.85 69.85) (xy 201.93 69.85)
 		)
 		(stroke
@@ -3620,16 +3861,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 180.34) (xy 53.34 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af6bd80-e61b-4722-ae79-3f9008ea6325")
-	)
-	(wire
-		(pts
 			(xy 100.33 69.85) (xy 105.41 69.85)
 		)
 		(stroke
@@ -3707,6 +3938,16 @@
 			(type default)
 		)
 		(uuid "230aef95-29b1-44e7-81cf-fd1112ed4b43")
+	)
+	(wire
+		(pts
+			(xy 92.71 171.45) (xy 101.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cef595-6a76-49c4-b9f3-c698a17a88b0")
 	)
 	(wire
 		(pts
@@ -3880,16 +4121,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 102.87 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d1a4b5-fbe6-4598-a553-986c9d908839")
-	)
-	(wire
-		(pts
 			(xy 140.97 62.23) (xy 146.05 62.23)
 		)
 		(stroke
@@ -3977,6 +4208,16 @@
 			(type default)
 		)
 		(uuid "5217c219-82c2-4b01-8aac-f79f89ddfd79")
+	)
+	(wire
+		(pts
+			(xy 54.61 168.91) (xy 67.31 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5469d999-0ec4-412c-bd38-a304887b7a10")
 	)
 	(wire
 		(pts
@@ -4260,16 +4501,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 142.24) (xy 102.87 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7babf3c1-441c-4c6c-b03f-713a21a37de8")
-	)
-	(wire
-		(pts
 			(xy 241.3 175.26) (xy 241.3 177.8)
 		)
 		(stroke
@@ -4387,16 +4618,6 @@
 			(type default)
 		)
 		(uuid "8d06a7a4-3876-483f-bf8b-5d4f2da42d66")
-	)
-	(wire
-		(pts
-			(xy 102.87 152.4) (xy 118.11 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5a5f3d-7cfc-4f4f-bc8e-3b1f961d9c3e")
 	)
 	(wire
 		(pts
@@ -4640,16 +4861,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 180.34) (xy 53.34 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2fc3cf-2389-4065-afad-7701006a9b27")
-	)
-	(wire
-		(pts
 			(xy 207.01 62.23) (xy 212.09 62.23)
 		)
 		(stroke
@@ -4800,6 +5011,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 154.94) (xy 54.61 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d277312f-208a-4140-a2ad-04f703c14c8f")
+	)
+	(wire
+		(pts
 			(xy 311.15 72.39) (xy 318.77 72.39)
 		)
 		(stroke
@@ -4870,16 +5091,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 152.4) (xy 102.87 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de92f6f0-7a4b-423d-a6e2-f34c962586cc")
-	)
-	(wire
-		(pts
 			(xy 104.14 72.39) (xy 113.03 72.39)
 		)
 		(stroke
@@ -4917,16 +5128,6 @@
 			(type default)
 		)
 		(uuid "e0516269-4258-4a4c-ac77-146560d2e11f")
-	)
-	(wire
-		(pts
-			(xy 118.11 152.4) (xy 118.11 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0bd30ef-cff6-4e89-9ebf-7c5d6702954a")
 	)
 	(wire
 		(pts
@@ -5214,26 +5415,6 @@
 		)
 		(uuid "86fa6b07-9a63-48a7-af3a-0d325c78b35d")
 	)
-	(text "10 K"
-		(exclude_from_sim no)
-		(at 114.3 148.844 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a60e121e-da9c-4176-942f-ee5f0ac4f76e")
-	)
-	(text "3 K 24"
-		(exclude_from_sim no)
-		(at 115.824 176.784 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "df13866f-d2b2-4cf7-a1f0-19a5b1bda4e7")
-	)
 	(text "Voltager Divider \n(12 v -> 5v -> 3V3 )"
 		(exclude_from_sim no)
 		(at 80.772 128.016 0)
@@ -5254,17 +5435,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f003f32-488a-43f7-b78d-81e3028b7509")
-	)
-	(label "3v3"
-		(at 74.93 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3cfa700e-920e-4f0b-a3ee-d7955e8735b9")
 	)
 	(label "LED"
 		(at 109.22 50.8 0)
@@ -5290,7 +5460,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 118.11 160.02 0)
+		(at 101.6 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5298,9 +5468,9 @@
 			)
 			(justify left)
 		)
-		(uuid "aada45a5-b1c8-4dc7-9b44-59d59abf1a7c")
+		(uuid "5a8fcf1d-3857-4464-be53-39f6370a5e2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6028 160.02 0)
+			(at 108.0928 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,9 +5480,9 @@
 			)
 		)
 	)
-	(global_label "Battery ( 12 V )"
+	(global_label "3V3"
 		(shape input)
-		(at 53.34 142.24 180)
+		(at 74.93 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5320,14 +5490,36 @@
 			)
 			(justify right)
 		)
-		(uuid "b73ff365-0944-4e44-afd6-8ab35404c38f")
+		(uuid "8c6a6fda-5b18-4940-af65-1652b2bb5062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.5706 142.24 0)
+			(at 68.4372 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Battery ( 12 V )"
+		(shape input)
+		(at 54.61 154.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b73ff365-0944-4e44-afd6-8ab35404c38f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 136.1706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11141,76 +11333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 102.87 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b43322d-46b3-45bf-af4e-20d6c4c3b1de")
-		(property "Reference" "R33"
-			(at 105.41 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 105.41 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.092 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 102.87 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c113dd87-a9fc-4995-9b9e-b0041c211916")
-		)
-		(pin "1"
-			(uuid "f1a9d52d-3e34-4e68-849c-bc00b168a9ea")
-		)
-		(instances
-			(project ""
-				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pspice:INDUCTOR")
 		(at 223.52 86.36 90)
 		(unit 1)
@@ -11550,6 +11672,167 @@
 			(project ""
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM2596AD:LM2596ADJ")
+		(at 80.01 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fb2e423-c69b-4fbb-9484-8d4b9e0af4bd")
+		(property "Reference" "U2"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596ADJ"
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LM2596ADJ:LM2596ADJ"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            SIMPLE SWITCHER Power Converter\n                        \n"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM2596-ADJ/Texas+Instruments/view-part/?ref=snap"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM2596-ADJ"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM2596-ADJ/Texas+Instruments/view-part/?ref=eda"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b68de767-d7bb-4b6b-97a9-5f9d2cee3c5d")
+		)
+		(pin "4"
+			(uuid "0d96eeec-3fe1-4633-a494-97d08e426bfb")
+		)
+		(pin "1"
+			(uuid "65bba9f6-a1e4-440c-8a63-7c9129dd2cb3")
+		)
+		(pin "6"
+			(uuid "93b12585-bba2-4861-986d-358b22326356")
+		)
+		(pin "5"
+			(uuid "245408a6-1d54-40c3-9757-cbb191c7314a")
+		)
+		(pin "2"
+			(uuid "7af79bc1-ef27-4706-9663-5b83efbf645b")
+		)
+		(instances
+			(project ""
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15140,76 +15423,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 102.87 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce0870fb-cb65-41b6-abf5-ac1ffbf0ac2d")
-		(property "Reference" "R34"
-			(at 105.41 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 105.41 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.092 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 102.87 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "253df1f8-32bb-4101-8ddb-d52b34dc442a")
-		)
-		(pin "2"
-			(uuid "010f1181-587b-4ec0-ae92-34da6b6dc992")
-		)
-		(instances
-			(project ""
-				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 104.14 50.8 180)
 		(unit 1)
@@ -15337,6 +15550,72 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "LED_20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5706ec5-d4f5-4d40-9e62-1456f0b178c3")
+		(property "Reference" "#PWR04"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3f871d3-5bec-4284-b7ad-53f76c1d3534")
+		)
+		(instances
+			(project ""
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
