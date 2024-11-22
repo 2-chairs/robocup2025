@@ -5415,7 +5415,7 @@
 		)
 		(uuid "86fa6b07-9a63-48a7-af3a-0d325c78b35d")
 	)
-	(text "Voltager Divider \n(12 v -> 5v -> 3V3 )"
+	(text "DC - DC Converter \n(12v -> 3v3)"
 		(exclude_from_sim no)
 		(at 80.772 128.016 0)
 		(effects
@@ -7922,10 +7922,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34d2cef6-fa3e-4036-a790-b379cc2725b1")
 		(property "Reference" "TP1"
-			(at 92.71 48.7679 0)
+			(at 90.424 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +7933,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 92.71 51.3079 0)
+			(at 90.17 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,10 +12991,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "926cb00f-9a26-46a0-b3b0-3b5d6ed5eb3e")
 		(property "Reference" "LED_3"
-			(at 237.49 166.37 90)
+			(at 237.49 169.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
