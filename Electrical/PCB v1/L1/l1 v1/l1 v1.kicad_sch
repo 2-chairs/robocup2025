@@ -2658,7 +2658,7 @@
 		(uuid "032352c1-f204-4a30-9e02-733604dfbe23")
 	)
 	(junction
-		(at 241.3 205.74)
+		(at 302.26 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03f2211f-9a42-45db-a9fe-1e970767228a")
@@ -2670,13 +2670,13 @@
 		(uuid "0423733a-c108-4347-9018-5e8289cedfc5")
 	)
 	(junction
-		(at 185.42 185.42)
+		(at 246.38 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "065cfa2b-1283-43eb-8179-1c8dd137ebfb")
 	)
 	(junction
-		(at 185.42 167.64)
+		(at 246.38 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0664bcbf-712b-4c2f-8c94-1aa27086df89")
@@ -2700,7 +2700,7 @@
 		(uuid "09ad1298-13b7-446b-92cb-905fb1853061")
 	)
 	(junction
-		(at 241.3 198.12)
+		(at 302.26 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09b79c9a-8f7e-4b5d-abb1-270b69694cea")
@@ -2724,7 +2724,7 @@
 		(uuid "0c8deb90-de7b-40ac-934d-d855976baa81")
 	)
 	(junction
-		(at 185.42 187.96)
+		(at 246.38 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d029096-d692-4547-a6b1-e03ed27871b1")
@@ -2736,7 +2736,7 @@
 		(uuid "0f06b6d3-ea4f-46c8-88b2-b582320acc0f")
 	)
 	(junction
-		(at 241.3 177.8)
+		(at 302.26 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f0ba7b3-8dc8-4158-a96e-42980903f32e")
@@ -2784,7 +2784,7 @@
 		(uuid "1c4ab24e-4a99-44a1-b3ff-c3fb265afd1f")
 	)
 	(junction
-		(at 185.42 182.88)
+		(at 246.38 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fa5c267-366c-46c4-9ec6-33928f2a28db")
@@ -2844,7 +2844,7 @@
 		(uuid "28382bef-9d9f-46e4-b472-022fb358ca26")
 	)
 	(junction
-		(at 241.3 200.66)
+		(at 302.26 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28559924-f34e-4814-970f-1187878f1566")
@@ -2856,7 +2856,7 @@
 		(uuid "2c33a52a-d950-4d81-a6b6-dd03dc53f735")
 	)
 	(junction
-		(at 241.3 187.96)
+		(at 302.26 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2df629cb-a70f-4dbb-af4a-f95a39455d65")
@@ -2880,7 +2880,7 @@
 		(uuid "32589831-e2b4-4b46-a806-106d6a863716")
 	)
 	(junction
-		(at 185.42 190.5)
+		(at 246.38 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34b75be6-27d6-4fc6-9ecd-38879e00b397")
@@ -2934,7 +2934,7 @@
 		(uuid "40b8c382-f467-4f45-bd65-f7733046235f")
 	)
 	(junction
-		(at 185.42 172.72)
+		(at 246.38 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "436b0c90-6cf9-4c91-9204-de9d1d3bafe6")
@@ -2946,7 +2946,7 @@
 		(uuid "4386d8ca-c244-4b42-b359-ac46cf712ba4")
 	)
 	(junction
-		(at 241.3 185.42)
+		(at 302.26 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "466201a1-3d01-404d-bca6-b6cbaf58004d")
@@ -2976,7 +2976,7 @@
 		(uuid "4ed76a8c-60de-4b50-b58f-3dad9dda270d")
 	)
 	(junction
-		(at 241.3 203.2)
+		(at 302.26 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4faec4ff-b8fd-4fc8-bc3e-8ddb645d1f76")
@@ -3108,19 +3108,19 @@
 		(uuid "723303bf-5acf-46db-ba56-333381b06fb6")
 	)
 	(junction
-		(at 241.3 218.44)
+		(at 302.26 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72abe1dc-933c-41fa-be40-469b4c13a1c2")
 	)
 	(junction
-		(at 241.3 172.72)
+		(at 302.26 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78869d86-2652-4fcc-8f6b-03cda00b84bb")
 	)
 	(junction
-		(at 241.3 195.58)
+		(at 302.26 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78da3d6a-aab4-4297-b255-93853d2cd8ba")
@@ -3150,7 +3150,7 @@
 		(uuid "7e55b6b2-d716-4074-9f40-953d32b32388")
 	)
 	(junction
-		(at 185.42 177.8)
+		(at 246.38 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fb5a49b-7729-4a8a-8ded-960fee23ca6b")
@@ -3186,7 +3186,7 @@
 		(uuid "8bd8f760-7ee1-4854-ad89-81d508a1afeb")
 	)
 	(junction
-		(at 241.3 175.26)
+		(at 302.26 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c023044-f86c-4ba8-b9e7-18033959b6c6")
@@ -3240,7 +3240,7 @@
 		(uuid "97bb1a58-f636-4a70-a6b0-cc6f53379b34")
 	)
 	(junction
-		(at 241.3 190.5)
+		(at 302.26 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a928b5a-c112-4354-b459-6975fadc1fac")
@@ -3294,7 +3294,7 @@
 		(uuid "acf34fc0-ff66-44ff-bfb7-ba0e700a67ed")
 	)
 	(junction
-		(at 241.3 180.34)
+		(at 302.26 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae8a4ef7-82f2-4024-b1b1-e4c35bda11f5")
@@ -3306,7 +3306,7 @@
 		(uuid "af5f2bd1-1068-4db8-87ec-95e7f0ca9987")
 	)
 	(junction
-		(at 185.42 193.04)
+		(at 246.38 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2fd8692-1a3d-4517-869f-4a6fc05f3f0d")
@@ -3324,7 +3324,7 @@
 		(uuid "be7fbad0-d16e-454b-99d1-3f7d3ac4e1e2")
 	)
 	(junction
-		(at 185.42 180.34)
+		(at 246.38 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfcd0de6-14c4-422b-8a38-799b20d1e5cf")
@@ -3336,7 +3336,7 @@
 		(uuid "c237cf96-d563-4f55-8b01-23ef5449460a")
 	)
 	(junction
-		(at 241.3 210.82)
+		(at 302.26 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5985c31-1487-40d7-8a52-d9762fe29295")
@@ -3360,19 +3360,19 @@
 		(uuid "cbd62374-b924-4370-ac01-84293b8e013a")
 	)
 	(junction
-		(at 241.3 208.28)
+		(at 302.26 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd3421e1-5008-438a-9a07-8998270e7dc8")
 	)
 	(junction
-		(at 185.42 175.26)
+		(at 246.38 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cec8bd3e-21dc-4faf-8599-f11ef6d0df7c")
 	)
 	(junction
-		(at 241.3 182.88)
+		(at 302.26 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d032d74e-564e-4d30-8903-c2ea5ab0427e")
@@ -3426,7 +3426,7 @@
 		(uuid "db911b2b-b5fa-42ac-8f7e-a553b8709ed9")
 	)
 	(junction
-		(at 185.42 195.58)
+		(at 246.38 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc576af0-fc20-464d-b1d0-5d712ffe3f75")
@@ -3450,7 +3450,7 @@
 		(uuid "e1344d72-6f93-409e-bef7-3b5e89e3af4f")
 	)
 	(junction
-		(at 241.3 213.36)
+		(at 302.26 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1aecdbb-057c-4f22-af5c-3547d0431bac")
@@ -3474,7 +3474,7 @@
 		(uuid "e44d9c09-bc93-437c-89e9-2159bc16c860")
 	)
 	(junction
-		(at 241.3 215.9)
+		(at 302.26 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e07c9a-ad6f-4859-b6b6-255b7a1229b5")
@@ -3498,7 +3498,7 @@
 		(uuid "e7cbe8e9-1ec5-477a-a4aa-1e3ca508e8ee")
 	)
 	(junction
-		(at 241.3 193.04)
+		(at 302.26 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e951fe5b-58c8-401e-a967-0f0030346991")
@@ -3564,7 +3564,7 @@
 		(uuid "f5d80520-8181-4254-9299-a48e969deaa6")
 	)
 	(junction
-		(at 185.42 170.18)
+		(at 246.38 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6815721-36cf-4200-a5a1-02a367b96513")
@@ -3600,7 +3600,7 @@
 		(uuid "fe0cb0f6-d212-4219-bd0f-d8641144afeb")
 	)
 	(no_connect
-		(at 193.04 200.66)
+		(at 254 195.58)
 		(uuid "04a457b8-0d48-4ede-9b57-95fa7e39ce95")
 	)
 	(no_connect
@@ -3608,11 +3608,11 @@
 		(uuid "0eb4d21c-a9ca-43ec-959c-c2d19dab91f9")
 	)
 	(no_connect
-		(at 193.04 208.28)
+		(at 254 203.2)
 		(uuid "195645a8-b939-4970-99b6-04f74ebb8140")
 	)
 	(no_connect
-		(at 193.04 215.9)
+		(at 254 210.82)
 		(uuid "1d985727-e681-43b4-8397-9368d9b3222c")
 	)
 	(no_connect
@@ -3620,23 +3620,23 @@
 		(uuid "20688a24-85dd-4523-8693-d855d7d72097")
 	)
 	(no_connect
-		(at 193.04 205.74)
+		(at 254 200.66)
 		(uuid "2fb21060-5abe-4994-aa01-0cf0955b3e49")
 	)
 	(no_connect
-		(at 193.04 220.98)
+		(at 254 215.9)
 		(uuid "31b8b11f-abdf-4d8a-9146-54bb5cd0e91a")
 	)
 	(no_connect
-		(at 193.04 213.36)
+		(at 254 208.28)
 		(uuid "903227b3-3f2f-48e3-b188-c3bcf046368c")
 	)
 	(no_connect
-		(at 193.04 210.82)
+		(at 254 205.74)
 		(uuid "d0d93b6f-7441-42ad-8150-c02b831c975e")
 	)
 	(no_connect
-		(at 193.04 203.2)
+		(at 254 198.12)
 		(uuid "f29db249-28a1-45a6-911f-b7d1b9652d29")
 	)
 	(wire
@@ -3671,7 +3671,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 158.75) (xy 185.42 167.64)
+			(xy 246.38 153.67) (xy 246.38 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3701,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 198.12) (xy 241.3 200.66)
+			(xy 302.26 193.04) (xy 302.26 195.58)
 		)
 		(stroke
 			(width 0)
@@ -3771,7 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 177.8) (xy 241.3 180.34)
+			(xy 302.26 172.72) (xy 302.26 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 177.8) (xy 185.42 180.34)
+			(xy 246.38 172.72) (xy 246.38 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3801,7 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 170.18) (xy 185.42 172.72)
+			(xy 246.38 165.1) (xy 246.38 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3811,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 175.26) (xy 185.42 177.8)
+			(xy 246.38 170.18) (xy 246.38 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3841,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 193.04) (xy 241.3 195.58)
+			(xy 302.26 187.96) (xy 302.26 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3991,7 +3991,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 195.58) (xy 241.3 198.12)
+			(xy 302.26 190.5) (xy 302.26 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4021,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 190.5) (xy 185.42 193.04)
+			(xy 246.38 185.42) (xy 246.38 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 215.9) (xy 241.3 218.44)
+			(xy 302.26 210.82) (xy 302.26 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4161,7 +4161,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 185.42) (xy 185.42 187.96)
+			(xy 246.38 180.34) (xy 246.38 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4221,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 218.44) (xy 241.3 220.98)
+			(xy 302.26 213.36) (xy 302.26 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4251,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 172.72) (xy 241.3 175.26)
+			(xy 302.26 167.64) (xy 302.26 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4351,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 200.66) (xy 241.3 203.2)
+			(xy 302.26 195.58) (xy 302.26 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4361,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 195.58) (xy 185.42 198.12)
+			(xy 246.38 190.5) (xy 246.38 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4371,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 158.75) (xy 185.42 158.75)
+			(xy 302.26 153.67) (xy 246.38 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4401,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 172.72) (xy 241.3 158.75)
+			(xy 302.26 167.64) (xy 302.26 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4411,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 210.82) (xy 241.3 213.36)
+			(xy 302.26 205.74) (xy 302.26 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4431,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 190.5) (xy 241.3 193.04)
+			(xy 302.26 185.42) (xy 302.26 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4481,7 +4481,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 172.72) (xy 185.42 175.26)
+			(xy 246.38 167.64) (xy 246.38 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4501,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 175.26) (xy 241.3 177.8)
+			(xy 302.26 170.18) (xy 302.26 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4591,7 +4591,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 205.74) (xy 241.3 208.28)
+			(xy 302.26 200.66) (xy 302.26 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 193.04) (xy 185.42 195.58)
+			(xy 246.38 187.96) (xy 246.38 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4721,7 +4721,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 208.28) (xy 241.3 210.82)
+			(xy 302.26 203.2) (xy 302.26 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4831,7 +4831,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 167.64) (xy 185.42 167.64)
+			(xy 254 162.56) (xy 246.38 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +4871,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 182.88) (xy 241.3 185.42)
+			(xy 302.26 177.8) (xy 302.26 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4981,7 +4981,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 187.96) (xy 241.3 190.5)
+			(xy 302.26 182.88) (xy 302.26 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5001,7 +5001,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 180.34) (xy 241.3 182.88)
+			(xy 302.26 175.26) (xy 302.26 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5041,7 +5041,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 167.64) (xy 185.42 170.18)
+			(xy 246.38 162.56) (xy 246.38 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5111,7 +5111,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 203.2) (xy 241.3 205.74)
+			(xy 302.26 198.12) (xy 302.26 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5161,7 +5161,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 180.34) (xy 185.42 182.88)
+			(xy 246.38 175.26) (xy 246.38 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5171,7 +5171,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 185.42) (xy 241.3 187.96)
+			(xy 302.26 180.34) (xy 302.26 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5251,7 +5251,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 213.36) (xy 241.3 215.9)
+			(xy 302.26 208.28) (xy 302.26 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5301,7 +5301,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 187.96) (xy 185.42 190.5)
+			(xy 246.38 182.88) (xy 246.38 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5331,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 182.88) (xy 185.42 185.42)
+			(xy 246.38 177.8) (xy 246.38 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5341,7 +5341,7 @@
 	)
 	(rectangle
 		(start 26.67 24.13)
-		(end 396.24 113.03)
+		(end 396.24 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -5352,8 +5352,8 @@
 		(uuid 7e86c820-4d0f-43d8-a60f-6038a867b3b7)
 	)
 	(rectangle
-		(start 142.24 121.92)
-		(end 382.27 238.76)
+		(start 140.97 119.38)
+		(end 396.24 246.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -5397,7 +5397,7 @@
 	)
 	(text "ESP32 & Photoresistors"
 		(exclude_from_sim no)
-		(at 216.154 127.508 0)
+		(at 274.066 128.27 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -5526,7 +5526,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 193.04 218.44 180)
+		(at 254 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5536,7 +5536,7 @@
 		)
 		(uuid "c5762836-387a-4baf-8a0c-54aec850ee68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.7567 218.44 0)
+			(at 248.7167 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 170.18 270)
+		(at 250.19 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5767,7 +5767,7 @@
 		(fields_autoplaced yes)
 		(uuid "04a42132-cd5a-476f-8982-938bfd71092d")
 		(property "Reference" "LED_21"
-			(at 189.23 161.29 90)
+			(at 250.19 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5775,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 163.83 90)
+			(at 250.19 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 171.45 90)
+			(at 243.84 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 170.18 0)
+			(at 248.92 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5802,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 170.18 0)
+			(at 250.19 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6457,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 172.72 270)
+		(at 250.19 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6466,7 +6466,7 @@
 		(fields_autoplaced yes)
 		(uuid "151dcb65-2219-40ca-b54c-e66c2f2d0ac2")
 		(property "Reference" "LED_22"
-			(at 189.23 163.83 90)
+			(at 250.19 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6474,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 166.37 90)
+			(at 250.19 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 173.99 90)
+			(at 243.84 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 172.72 0)
+			(at 248.92 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6501,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 172.72 0)
+			(at 250.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +7226,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 215.9 90)
+		(at 298.45 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7235,7 +7235,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fc515bf-763d-41e1-a985-e90adc77fae6")
 		(property "Reference" "LED_18"
-			(at 237.49 209.55 90)
+			(at 298.45 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7243,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 212.09 90)
+			(at 298.45 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 214.63 90)
+			(at 304.8 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 215.9 0)
+			(at 299.72 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +7270,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 215.9 0)
+			(at 298.45 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,7 +7435,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 218.44 90)
+		(at 298.45 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7444,7 +7444,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a7c445-ba32-421e-8edc-8b7b2ff48bcc")
 		(property "Reference" "LED_19"
-			(at 237.49 212.09 90)
+			(at 298.45 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7452,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 214.63 90)
+			(at 298.45 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 217.17 90)
+			(at 304.8 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 218.44 0)
+			(at 299.72 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7479,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 218.44 0)
+			(at 298.45 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7638,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 195.58 90)
+		(at 298.45 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7647,7 +7647,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c7bfd84-0947-43b8-a8b7-a4111622d9d5")
 		(property "Reference" "LED_10"
-			(at 237.49 189.23 90)
+			(at 298.45 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,7 +7655,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 191.77 90)
+			(at 298.45 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +7663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 194.31 90)
+			(at 304.8 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +7673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 195.58 0)
+			(at 299.72 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7682,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 195.58 0)
+			(at 298.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7777,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 198.12 90)
+		(at 298.45 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7786,7 +7786,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ca95b7a-c684-4c2f-a7ae-efe1beb4d6f8")
 		(property "Reference" "LED_11"
-			(at 237.49 191.77 90)
+			(at 298.45 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +7794,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 194.31 90)
+			(at 298.45 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +7802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 196.85 90)
+			(at 304.8 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 198.12 0)
+			(at 299.72 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7821,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 198.12 0)
+			(at 298.45 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +8122,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 203.2 90)
+		(at 298.45 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8131,7 +8131,7 @@
 		(fields_autoplaced yes)
 		(uuid "37af764f-8233-4ffe-9424-b6c83dda959a")
 		(property "Reference" "LED_13"
-			(at 237.49 196.85 90)
+			(at 298.45 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,7 +8139,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 199.39 90)
+			(at 298.45 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 201.93 90)
+			(at 304.8 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,7 +8157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 203.2 0)
+			(at 299.72 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8166,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 203.2 0)
+			(at 298.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8891,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 213.36 90)
+		(at 298.45 208.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8900,7 +8900,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ae23116-1dcc-4807-9c5a-8b06630e169b")
 		(property "Reference" "LED_17"
-			(at 237.49 207.01 90)
+			(at 298.45 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +8908,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 209.55 90)
+			(at 298.45 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 212.09 90)
+			(at 304.8 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +8926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 213.36 0)
+			(at 299.72 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +8935,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 213.36 0)
+			(at 298.45 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9100,7 +9100,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 175.26 90)
+		(at 298.45 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9109,7 +9109,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ec6101e-44cc-4c3b-bda5-47c11fa15cd6")
 		(property "Reference" "LED_4"
-			(at 237.49 168.91 90)
+			(at 298.45 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +9118,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 171.45 90)
+			(at 298.45 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 173.99 90)
+			(at 304.8 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 175.26 0)
+			(at 299.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9145,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 175.26 0)
+			(at 298.45 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,7 +9870,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 187.96 270)
+		(at 250.19 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9879,7 +9879,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cf85aa3-b743-4aaf-a2fe-8a5bf3fe64bf")
 		(property "Reference" "LED_28"
-			(at 189.23 179.07 90)
+			(at 250.19 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +9887,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 181.61 90)
+			(at 250.19 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9895,7 +9895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 189.23 90)
+			(at 243.84 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +9905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 187.96 0)
+			(at 248.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9914,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 187.96 0)
+			(at 250.19 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10149,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 177.8 270)
+		(at 250.19 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10158,7 +10158,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ee1869d-2b05-454a-b981-2dec9f225aec")
 		(property "Reference" "LED_24"
-			(at 189.23 168.91 90)
+			(at 250.19 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10166,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 171.45 90)
+			(at 250.19 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +10174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 179.07 90)
+			(at 243.84 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10184,7 +10184,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 177.8 0)
+			(at 248.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10193,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 177.8 0)
+			(at 250.19 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10425,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 210.82 90)
+		(at 298.45 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10434,7 +10434,7 @@
 		(fields_autoplaced yes)
 		(uuid "609c2195-6476-4a68-8bc1-7b08ef4b565b")
 		(property "Reference" "LED_16"
-			(at 237.49 204.47 90)
+			(at 298.45 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,7 +10442,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 207.01 90)
+			(at 298.45 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10450,7 +10450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 209.55 90)
+			(at 304.8 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 210.82 0)
+			(at 299.72 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10469,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 210.82 0)
+			(at 298.45 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +10914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 193.04 270)
+		(at 250.19 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10923,7 +10923,7 @@
 		(fields_autoplaced yes)
 		(uuid "720174dc-5159-4040-bdff-ff7875548cc8")
 		(property "Reference" "LED_30"
-			(at 189.23 184.15 90)
+			(at 250.19 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,7 +10931,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 186.69 90)
+			(at 250.19 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,7 +10939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 194.31 90)
+			(at 243.84 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +10949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 193.04 0)
+			(at 248.92 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +10958,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 193.04 0)
+			(at 250.19 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11403,7 +11403,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 185.42 270)
+		(at 250.19 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11412,7 +11412,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cfcb27d-2554-4820-a044-3f48e3a104c3")
 		(property "Reference" "LED_27"
-			(at 189.23 176.53 90)
+			(at 250.19 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,7 +11420,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 179.07 90)
+			(at 250.19 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 186.69 90)
+			(at 243.84 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +11438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 185.42 0)
+			(at 248.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +11447,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 185.42 0)
+			(at 250.19 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,7 +11542,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 175.26 270)
+		(at 250.19 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11551,7 +11551,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f1b142d-6362-4345-a8f7-0d184f2b22a2")
 		(property "Reference" "LED_23"
-			(at 189.23 166.37 90)
+			(at 250.19 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11559,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 168.91 90)
+			(at 250.19 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,7 +11567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 176.53 90)
+			(at 243.84 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11577,7 +11577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 175.26 0)
+			(at 248.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11586,7 +11586,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 175.26 0)
+			(at 250.19 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11839,7 @@
 	)
 	(symbol
 		(lib_id "ESP32 DEV Kit:ESP32-S3-DEVKITM-1-N8")
-		(at 213.36 195.58 0)
+		(at 274.32 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11848,7 +11848,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fb9dfbc-1140-4c69-8557-059c83718119")
 		(property "Reference" "U1"
-			(at 213.36 160.02 0)
+			(at 274.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11856,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-DEVKITM-1-N8"
-			(at 213.36 162.56 0)
+			(at 274.32 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11864,7 +11864,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-S3-DEVKITM-1-N8:MODULE_ESP32-S3-DEVKITM-1-N8"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11874,7 +11874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11883,7 +11883,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +11892,7 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11902,7 +11902,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            ESP32-S3-MINI-1-N8 ESP32-S Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® 5.x (BLE) 2.4GHz Evaluation Board\n                        \n"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11912,7 +11912,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,7 +11922,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +11932,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-DEVKITM-1-N8/Espressif+Systems/view-part/?ref=eda"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,7 +11942,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +11952,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11962,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-DEVKITM-1-N8/Espressif+Systems/view-part/?ref=snap"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,7 +11972,7 @@
 			)
 		)
 		(property "MP" "ESP32-S3-DEVKITM-1-N8"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11982,7 +11982,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,7 +11992,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Espressif Systems"
-			(at 213.36 195.58 0)
+			(at 274.32 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12985,7 +12985,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 172.72 90)
+		(at 298.45 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12993,7 +12993,7 @@
 		(dnp no)
 		(uuid "926cb00f-9a26-46a0-b3b0-3b5d6ed5eb3e")
 		(property "Reference" "LED_3"
-			(at 237.49 169.164 90)
+			(at 298.45 164.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13001,7 +13001,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 168.91 90)
+			(at 298.45 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,7 +13009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 171.45 90)
+			(at 304.8 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13019,7 +13019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 172.72 0)
+			(at 299.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13028,7 +13028,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 172.72 0)
+			(at 298.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +13123,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 190.5 270)
+		(at 250.19 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13132,7 +13132,7 @@
 		(fields_autoplaced yes)
 		(uuid "955cee2c-dd0f-4ad8-9f94-c8aecdfb2bd8")
 		(property "Reference" "LED_29"
-			(at 189.23 181.61 90)
+			(at 250.19 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13140,7 +13140,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 184.15 90)
+			(at 250.19 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13148,7 +13148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 191.77 90)
+			(at 243.84 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13158,7 +13158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 190.5 0)
+			(at 248.92 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13167,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 190.5 0)
+			(at 250.19 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +13262,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 190.5 90)
+		(at 298.45 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13271,7 +13271,7 @@
 		(fields_autoplaced yes)
 		(uuid "97f5f2f9-e79b-4156-ad9b-721666c92013")
 		(property "Reference" "LED_2"
-			(at 237.49 184.15 90)
+			(at 298.45 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +13279,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 186.69 90)
+			(at 298.45 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13287,7 +13287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 189.23 90)
+			(at 304.8 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +13297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 190.5 0)
+			(at 299.72 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,7 +13306,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 190.5 0)
+			(at 298.45 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +13611,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 205.74 90)
+		(at 298.45 200.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13620,7 +13620,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4b70991-d013-46a5-931e-c7c59674536f")
 		(property "Reference" "LED_14"
-			(at 237.49 199.39 90)
+			(at 298.45 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13628,7 +13628,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 201.93 90)
+			(at 298.45 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 204.47 90)
+			(at 304.8 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +13646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 205.74 0)
+			(at 299.72 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +13655,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 205.74 0)
+			(at 298.45 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13680,7 +13680,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 180.34 90)
+		(at 298.45 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13689,7 +13689,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5ae315b-2528-4509-8f01-1c7ab1b59bf2")
 		(property "Reference" "LED_6"
-			(at 237.49 173.99 90)
+			(at 298.45 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13697,7 +13697,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 176.53 90)
+			(at 298.45 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13705,7 +13705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 179.07 90)
+			(at 304.8 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +13715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 180.34 0)
+			(at 299.72 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13724,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 180.34 0)
+			(at 298.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14169,7 +14169,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 198.12 270)
+		(at 250.19 193.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14178,7 +14178,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab8caec1-e265-4d07-8ebd-569f481c7a80")
 		(property "Reference" "LED_32"
-			(at 189.23 189.23 90)
+			(at 250.19 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +14186,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 191.77 90)
+			(at 250.19 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,7 +14194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 199.39 90)
+			(at 243.84 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 198.12 0)
+			(at 248.92 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14213,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 198.12 0)
+			(at 250.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14308,7 +14308,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 200.66 90)
+		(at 298.45 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14317,7 +14317,7 @@
 		(fields_autoplaced yes)
 		(uuid "acffe850-8f56-416e-9a42-d579a3920646")
 		(property "Reference" "LED_12"
-			(at 237.49 194.31 90)
+			(at 298.45 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14325,7 +14325,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 196.85 90)
+			(at 298.45 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,7 +14333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 199.39 90)
+			(at 304.8 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,7 +14343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 200.66 0)
+			(at 299.72 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,7 +14352,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 200.66 0)
+			(at 298.45 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14727,7 +14727,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 167.64 90)
+		(at 294.64 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14736,7 +14736,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc3966b8-a775-4eb2-8b9a-7910565383ea")
 		(property "Reference" "#PWR01"
-			(at 240.03 167.64 0)
+			(at 300.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14745,7 +14745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 167.6399 90)
+			(at 298.45 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14754,7 +14754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 167.64 0)
+			(at 294.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14763,7 +14763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 167.64 0)
+			(at 294.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14772,7 +14772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 167.64 0)
+			(at 294.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14864,7 +14864,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 187.96 90)
+		(at 298.45 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14873,7 +14873,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0be1cc5-fec4-435a-86e5-e535303e8998")
 		(property "Reference" "LED_1"
-			(at 237.49 181.61 90)
+			(at 298.45 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14881,7 +14881,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 184.15 90)
+			(at 298.45 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14889,7 +14889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 186.69 90)
+			(at 304.8 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14899,7 +14899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 187.96 0)
+			(at 299.72 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +14908,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 187.96 0)
+			(at 298.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15283,7 +15283,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 193.04 90)
+		(at 298.45 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15292,7 +15292,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb98be16-449a-4061-a5eb-b7435953b9bf")
 		(property "Reference" "LED_9"
-			(at 237.49 186.69 90)
+			(at 298.45 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15300,7 +15300,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 189.23 90)
+			(at 298.45 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15308,7 +15308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 191.77 90)
+			(at 304.8 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15318,7 +15318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 193.04 0)
+			(at 299.72 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15327,7 +15327,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 193.04 0)
+			(at 298.45 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15486,7 +15486,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 220.98 90)
+		(at 298.45 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15495,7 +15495,7 @@
 		(fields_autoplaced yes)
 		(uuid "d219ee75-6c3f-44d1-8702-0c4d511038a1")
 		(property "Reference" "LED_20"
-			(at 237.49 214.63 90)
+			(at 298.45 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15503,7 +15503,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 217.17 90)
+			(at 298.45 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,7 +15511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 219.71 90)
+			(at 304.8 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15521,7 +15521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 220.98 0)
+			(at 299.72 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15530,7 +15530,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 220.98 0)
+			(at 298.45 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15691,7 +15691,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 185.42 90)
+		(at 298.45 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15700,7 +15700,7 @@
 		(fields_autoplaced yes)
 		(uuid "d86e04dd-7208-4321-8750-b7b3857cda2d")
 		(property "Reference" "LED_8"
-			(at 237.49 179.07 90)
+			(at 298.45 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +15708,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 181.61 90)
+			(at 298.45 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +15716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 184.15 90)
+			(at 304.8 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +15726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 185.42 0)
+			(at 299.72 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,7 +15735,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 185.42 0)
+			(at 298.45 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15970,7 +15970,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 180.34 270)
+		(at 250.19 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15979,7 +15979,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc8af0e1-c3fc-4c73-9eea-913234a74cad")
 		(property "Reference" "LED_25"
-			(at 189.23 171.45 90)
+			(at 250.19 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15987,7 +15987,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 173.99 90)
+			(at 250.19 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15995,7 +15995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 181.61 90)
+			(at 243.84 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16005,7 +16005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 180.34 0)
+			(at 248.92 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16014,7 +16014,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 180.34 0)
+			(at 250.19 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16109,7 +16109,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 182.88 90)
+		(at 298.45 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16118,7 +16118,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddd6d440-3a9e-4936-bde7-2d22d0b005f5")
 		(property "Reference" "LED_7"
-			(at 237.49 176.53 90)
+			(at 298.45 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16126,7 +16126,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 179.07 90)
+			(at 298.45 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16134,7 +16134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 181.61 90)
+			(at 304.8 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16144,7 +16144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 182.88 0)
+			(at 299.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,7 +16153,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 182.88 0)
+			(at 298.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16318,7 +16318,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 208.28 90)
+		(at 298.45 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16327,7 +16327,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1ef824c-76ee-4c22-a09a-feb3cf5932a0")
 		(property "Reference" "LED_15"
-			(at 237.49 201.93 90)
+			(at 298.45 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16335,7 +16335,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 204.47 90)
+			(at 298.45 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16343,7 +16343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 207.01 90)
+			(at 304.8 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16353,7 +16353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 208.28 0)
+			(at 299.72 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16362,7 +16362,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 208.28 0)
+			(at 298.45 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16737,7 +16737,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 182.88 270)
+		(at 250.19 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16746,7 +16746,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6562f0b-1d02-4daa-9552-7dd810d5f305")
 		(property "Reference" "LED_26"
-			(at 189.23 173.99 90)
+			(at 250.19 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16754,7 +16754,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 176.53 90)
+			(at 250.19 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16762,7 +16762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 184.15 90)
+			(at 243.84 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +16772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 182.88 0)
+			(at 248.92 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16781,7 +16781,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 182.88 0)
+			(at 250.19 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16876,7 +16876,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 237.49 177.8 90)
+		(at 298.45 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16885,7 +16885,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6ca72a1-7874-4f95-82a5-0348ba246924")
 		(property "Reference" "LED_5"
-			(at 237.49 171.45 90)
+			(at 298.45 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,7 +16893,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 237.49 173.99 90)
+			(at 298.45 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16901,7 +16901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 176.53 90)
+			(at 304.8 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16911,7 +16911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 177.8 0)
+			(at 299.72 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16920,7 +16920,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 237.49 177.8 0)
+			(at 298.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16945,7 +16945,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 189.23 195.58 270)
+		(at 250.19 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16954,7 +16954,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7287fb3-87fe-4146-b8c0-68267def25bc")
 		(property "Reference" "LED_31"
-			(at 189.23 186.69 90)
+			(at 250.19 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16962,7 +16962,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 189.23 189.23 90)
+			(at 250.19 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16970,7 +16970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 196.85 90)
+			(at 243.84 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,7 +16980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 195.58 0)
+			(at 248.92 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16989,7 +16989,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 189.23 195.58 0)
+			(at 250.19 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
