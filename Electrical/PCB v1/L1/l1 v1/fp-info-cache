@@ -1,4 +1,4 @@
-24464360580101000
+24466086735472298
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -56776,13 +56776,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ESP32
-XCVR_ESP32-S3-WROOM-1U-N4
-
-
-0
-61
-61
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -90993,12 +90986,6 @@ rotary encoder illuminated switch vertical
 9
 8
 SM0603UYC
-LED_SM0603UYC
-
-
-0
-2
-2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -91650,6 +91637,20 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Stabalisers
+MXOnly-2U-FLIPPED
+
+
+0
+4
+4
+Stabalisers
+MXOnly-6.25U-ReversedStabilizers
+
+
+0
+4
+4
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -99081,6 +99082,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+photoresistor
+XDCR_ALS-PT19-315C_L177_TR8
+
+
 0
 2
 2
