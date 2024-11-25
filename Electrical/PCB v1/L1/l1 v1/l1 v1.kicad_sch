@@ -2073,6 +2073,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -5352,7 +5434,7 @@
 		(uuid 7e86c820-4d0f-43d8-a60f-6038a867b3b7)
 	)
 	(rectangle
-		(start 140.97 119.38)
+		(start 224.79 119.38)
 		(end 396.24 246.38)
 		(stroke
 			(width 0)
@@ -5374,6 +5456,25 @@
 			(type none)
 		)
 		(uuid e8bb03b1-f82f-4448-8a8f-363b3a5e2c36)
+	)
+	(text_box "Mounting Holes"
+		(exclude_from_sim no)
+		(at 138.43 121.92 0)
+		(size 81.28 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify top)
+		)
+		(uuid "e762f658-6518-447d-b5b2-9fbb5000504c")
 	)
 	(text "LEDS "
 		(exclude_from_sim no)
@@ -5574,7 +5675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 113.03 96.52 0)
 			(effects
 				(font
@@ -5714,7 +5815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 318.77 96.52 0)
 			(effects
 				(font
@@ -5853,7 +5954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -5923,7 +6024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -6100,6 +6201,134 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 150.5422 166.6204 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0837053a-33fd-4338-8f1e-2bf905569bc3")
+		(property "Reference" "H8"
+			(at 153.0822 165.3503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.0822 167.8903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 150.5422 166.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.5422 166.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 150.5422 166.6204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.1376 150.4631 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09402fcf-c7c6-47c2-856c-0bd37b777ec6")
+		(property "Reference" "H2"
+			(at 170.6776 149.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 170.6776 151.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 168.1376 150.4631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.1376 150.4631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.1376 150.4631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7042,7 +7271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -7112,7 +7341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 215.9 96.52 0)
 			(effects
 				(font
@@ -7872,7 +8101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 176.53 96.52 0)
 			(effects
 				(font
@@ -8078,7 +8307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -8190,6 +8419,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 156.21 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "389ed21e-0c39-4e60-bd9b-c3a9f00d3168")
+		(property "Reference" "H6"
+			(at 189.23 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 186.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 187.4304 167.3081 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "392e7e50-582a-438f-ad7c-9fe4bc1443f3")
+		(property "Reference" "H14"
+			(at 189.9704 166.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.9704 168.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 187.4304 167.3081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.4304 167.3081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 187.4304 167.3081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 262.89 96.52 90)
 		(unit 1)
@@ -8217,7 +8574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 262.89 96.52 0)
 			(effects
 				(font
@@ -8707,7 +9064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 223.52 96.52 0)
 			(effects
 				(font
@@ -8847,7 +9204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 72.39 96.52 0)
 			(effects
 				(font
@@ -9056,7 +9413,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 191.77 96.52 0)
 			(effects
 				(font
@@ -9266,7 +9623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -9616,7 +9973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 294.64 96.52 0)
 			(effects
 				(font
@@ -9729,6 +10086,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 150.8014 172.2145 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b4dd4dd-27c5-4bf5-b0b0-98597c12647c")
+		(property "Reference" "H9"
+			(at 153.3414 170.9444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.3414 173.4844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 150.8014 172.2145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.8014 172.2145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 150.8014 172.2145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 160.02 96.52 90)
 		(unit 1)
@@ -9756,7 +10177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -10381,7 +10802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -10557,6 +10978,198 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.8198 172.3837 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c4ade5-c9f4-4c6e-9818-453032f441fe")
+		(property "Reference" "H12"
+			(at 171.3598 171.1136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 171.3598 173.6536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 168.8198 172.3837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.8198 172.3837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.8198 172.3837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.7482 150.5477 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68b465bf-52c7-486c-9117-1c286427eca5")
+		(property "Reference" "H3"
+			(at 189.2882 149.2776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.2882 151.8176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 186.7482 150.5477 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.7482 150.5477 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.7482 150.5477 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 187.3722 172.9704 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "695779b8-d228-4bba-b40b-1240ed73ca31")
+		(property "Reference" "H13"
+			(at 189.9122 171.7003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.9122 174.2403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 187.3722 172.9704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.3722 172.9704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 187.3722 172.9704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -10800,7 +11413,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 167.64 96.52 0)
 			(effects
 				(font
@@ -10870,7 +11483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 255.27 96.52 0)
 			(effects
 				(font
@@ -11079,7 +11692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 279.4 96.52 0)
 			(effects
 				(font
@@ -11498,7 +12111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 303.53 96.52 0)
 			(effects
 				(font
@@ -11604,6 +12217,70 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "LED_23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f41d99a-0aa1-42fc-89a8-3d43bb97604d")
+		(property "Reference" "H1"
+			(at 152.4 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.4 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 149.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12521,7 +13198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -12768,6 +13445,70 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 150.2884 194.1419 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d7ce208-e2f3-4566-8571-951a1e37d6d2")
+		(property "Reference" "H17"
+			(at 152.8284 192.8718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.8284 195.4118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 150.2884 194.1419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.2884 194.1419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 150.2884 194.1419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H17")
 					(unit 1)
 				)
 			)
@@ -13122,6 +13863,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.7482 183.5677 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "939f69b3-12c5-410b-9d89-00ed07ea8a80")
+		(property "Reference" "H21"
+			(at 189.2882 182.2976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.2882 184.8376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 186.7482 183.5677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.7482 183.5677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.7482 183.5677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Photo")
 		(at 250.19 185.42 270)
 		(unit 1)
@@ -13218,7 +14023,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 96.52 96.52 0)
 			(effects
 				(font
@@ -13470,6 +14275,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 189.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d220b28-014c-4ea9-9efa-6f6eef9e2ee2")
+		(property "Reference" "H20"
+			(at 189.23 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.23 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 186.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 186.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 240.03 96.52 90)
 		(unit 1)
@@ -13497,7 +14366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 240.03 96.52 0)
 			(effects
 				(font
@@ -13812,6 +14681,70 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 150.9706 177.8823 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e9a1e8-fc9f-45c9-bb3a-c5ab4d394a5d")
+		(property "Reference" "H10"
+			(at 153.5106 176.6122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 153.5106 179.1522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 150.9706 177.8823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.9706 177.8823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 150.9706 177.8823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -14446,6 +15379,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 150.1192 188.4741 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b222150a-50d9-4367-93ac-ca433906aecd")
+		(property "Reference" "H16"
+			(at 152.6592 187.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.6592 189.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 150.1192 188.4741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.1192 188.4741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 150.1192 188.4741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 66.04 0)
 		(unit 1)
@@ -14516,6 +15513,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.8198 167.2235 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b489ff09-6914-415b-81e1-e8607eab3215")
+		(property "Reference" "H11"
+			(at 171.3598 165.9534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 171.3598 168.4934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 168.8198 167.2235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.8198 167.2235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.8198 167.2235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 231.14 96.52 90)
 		(unit 1)
@@ -14543,7 +15604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 231.14 96.52 0)
 			(effects
 				(font
@@ -14613,7 +15674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -14683,7 +15744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 120.65 96.52 0)
 			(effects
 				(font
@@ -15239,7 +16300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 311.15 96.52 0)
 			(effects
 				(font
@@ -15415,6 +16476,70 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 150.2884 161.1219 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfbf15a2-c5a9-4419-a5ee-8267b80b1663")
+		(property "Reference" "H7"
+			(at 152.8284 159.8518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.8284 162.3918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 150.2884 161.1219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.2884 161.1219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 150.2884 161.1219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -15856,7 +16981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -16204,7 +17329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 287.02 96.52 0)
 			(effects
 				(font
@@ -16413,7 +17538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 135.89 96.52 0)
 			(effects
 				(font
@@ -17083,6 +18208,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb05eb35-8eb5-46d4-bd42-3109881cec3e")
+		(property "Reference" "H15"
+			(at 152.4 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.4 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pspice:INDUCTOR")
 		(at 318.77 86.36 90)
 		(unit 1)
@@ -17147,6 +18336,70 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "L32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 150.1192 155.4541 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a58bf6-b8db-4779-9503-8365e93bb461")
+		(property "Reference" "H4"
+			(at 152.6592 154.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.6592 156.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 150.1192 155.4541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.1192 155.4541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 150.1192 155.4541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17387,7 +18640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -17424,6 +18677,70 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.1376 155.6233 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f705fc90-6d3a-42ad-b02a-165030395f8d")
+		(property "Reference" "H5"
+			(at 170.6776 154.3532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 170.6776 156.8932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 168.1376 155.6233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.1376 155.6233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.1376 155.6233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -17640,6 +18957,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.1376 188.6433 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa8d573f-b8d9-4164-ad01-5f398cc4a530")
+		(property "Reference" "H19"
+			(at 170.6776 187.3732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 170.6776 189.9132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 168.1376 188.6433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.1376 188.6433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.1376 188.6433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 247.65 96.52 90)
 		(unit 1)
@@ -17667,7 +19048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM0603UYC:LED_SM0603UYC"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 247.65 96.52 0)
 			(effects
 				(font
@@ -17704,6 +19085,70 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.1376 183.4831 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda07d3b-ed2f-4617-92d6-3cc7ea1eac75")
+		(property "Reference" "H18"
+			(at 170.6776 182.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 170.6776 184.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 168.1376 183.4831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.1376 183.4831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.1376 183.4831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "l1 v1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "H18")
 					(unit 1)
 				)
 			)
