@@ -5782,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 166.37 90)
 			(effects
 				(font
@@ -6481,7 +6481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 168.91 90)
 			(effects
 				(font
@@ -7250,7 +7250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 209.55 90)
 			(effects
 				(font
@@ -7459,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 212.09 90)
 			(effects
 				(font
@@ -7662,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 189.23 90)
 			(effects
 				(font
@@ -7801,7 +7801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 191.77 90)
 			(effects
 				(font
@@ -8146,7 +8146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 196.85 90)
 			(effects
 				(font
@@ -8915,7 +8915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 207.01 90)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 168.91 90)
 			(effects
 				(font
@@ -9894,7 +9894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 184.15 90)
 			(effects
 				(font
@@ -10173,7 +10173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 173.99 90)
 			(effects
 				(font
@@ -10449,7 +10449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 204.47 90)
 			(effects
 				(font
@@ -10938,7 +10938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 189.23 90)
 			(effects
 				(font
@@ -11427,7 +11427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 181.61 90)
 			(effects
 				(font
@@ -11566,7 +11566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 171.45 90)
 			(effects
 				(font
@@ -13008,7 +13008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 166.37 90)
 			(effects
 				(font
@@ -13147,7 +13147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 186.69 90)
 			(effects
 				(font
@@ -13286,7 +13286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 184.15 90)
 			(effects
 				(font
@@ -13635,7 +13635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 199.39 90)
 			(effects
 				(font
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 173.99 90)
 			(effects
 				(font
@@ -14193,7 +14193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 194.31 90)
 			(effects
 				(font
@@ -14332,7 +14332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 194.31 90)
 			(effects
 				(font
@@ -14888,7 +14888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 181.61 90)
 			(effects
 				(font
@@ -15307,7 +15307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 186.69 90)
 			(effects
 				(font
@@ -15510,7 +15510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 214.63 90)
 			(effects
 				(font
@@ -15715,7 +15715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 179.07 90)
 			(effects
 				(font
@@ -15994,7 +15994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 176.53 90)
 			(effects
 				(font
@@ -16133,7 +16133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 176.53 90)
 			(effects
 				(font
@@ -16342,7 +16342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 201.93 90)
 			(effects
 				(font
@@ -16761,7 +16761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 179.07 90)
 			(effects
 				(font
@@ -16900,7 +16900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 304.8 171.45 90)
 			(effects
 				(font
@@ -16969,7 +16969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "photoresistor:XDCR_ALS-PT19-315C_L177_TR8"
 			(at 243.84 191.77 90)
 			(effects
 				(font
