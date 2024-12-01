@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -458,7 +458,24 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "unconnected-(U1-D7{slash}CSB{slash}P1{slash}RX-Pad8)": "mux 8",
+      "unconnected-(U1-P0{slash}{slash}TX{slash}D6-Pad7)": "mux 7",
+      "unconnected-(U1-P26{slash}A0{slash}D0-Pad1)": "mux 1",
+      "unconnected-(U1-P27{slash}A1{slash}D1-Pad2)": "mux 2",
+      "unconnected-(U1-P28{slash}A2{slash}D2-Pad3)": "mux 3",
+      "unconnected-(U1-P29{slash}A3{slash}D3-Pad4)": "mux 4",
+      "unconnected-(U1-P6{slash}SDA{slash}D4-Pad5)": "mux 5",
+      "unconnected-(U1-P7{slash}SCL{slash}D5-Pad6)": "mux 6",
+      "unconnected-(U2-S0-Pad10)": "mux 1",
+      "unconnected-(U2-S1-Pad11)": "mux 2",
+      "unconnected-(U2-S2-Pad14)": "mux 3",
+      "unconnected-(U2-S3-Pad13)": "mux 4",
+      "unconnected-(U3-S0-Pad10)": "mux 8",
+      "unconnected-(U3-S1-Pad11)": "mux 7",
+      "unconnected-(U3-S2-Pad14)": "mux 6",
+      "unconnected-(U3-S3-Pad13)": "mux 5"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

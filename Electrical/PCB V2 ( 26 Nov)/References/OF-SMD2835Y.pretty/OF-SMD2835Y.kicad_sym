@@ -1,0 +1,128 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "OF-SMD2835Y" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -3.0988 4.4958 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "OF-SMD2835Y" (id 1) (at -3.556 -3.302 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "OF-SMD2835Y:LED_OF-SMD2835Y" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Optoflash" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "PLCC-2 Optoflash" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/OF-SMD2835Y/Optoflash/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "N/A" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/OF-SMD2835Y/Optoflash/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "OF-SMD2835Y" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            LED; SMD; 2835, PLCC2; yellow; 2200-2800mcd; 2.8x3.5x0.75mm; 120°\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Optoflash" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "OF-SMD2835Y_0_0"
+      (polyline
+        (pts (xy -2.54 1.524) (xy -2.54 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -2.54 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -1.524) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy -2.54 1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.524) (xy 0.0 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.016 4.064) (xy -0.762 2.032)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 3.0988) (xy 0.127 3.5814)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.127 3.5814) (xy 1.016 4.064)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.016 4.064) (xy 0.6858 3.0988)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 3.0988) (xy 0.7112 3.8354)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.7112 3.8354) (xy 0.5842 3.8354)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.3048 3.5052) (xy 0.5334 3.6576)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 4.1656) (xy -2.0066 2.1336)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 3.2004) (xy -1.1176 3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.1176 3.683) (xy -0.2286 4.1656)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 4.1656) (xy -0.5588 3.2004)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 3.2004) (xy -0.5334 3.937)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5334 3.937) (xy -0.6604 3.937)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.9398 3.6068) (xy -0.7112 3.7592)) (stroke (width 0.254))
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
