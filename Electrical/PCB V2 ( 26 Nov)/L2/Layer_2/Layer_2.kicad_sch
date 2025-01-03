@@ -2272,8 +2272,8 @@
 		(uuid "d2367795-f778-4531-b0e0-68b3f485a766")
 	)
 	(rectangle
-		(start 144.78 66.04)
-		(end 195.58 134.62)
+		(start 198.12 19.05)
+		(end 248.92 87.63)
 		(stroke
 			(width 0)
 			(type default)
@@ -2284,8 +2284,8 @@
 		(uuid 102c276d-a7f9-40f5-bbaf-d1e17ac79f49)
 	)
 	(rectangle
-		(start 96.52 127)
-		(end 139.7 147.32)
+		(start 90.17 73.66)
+		(end 133.35 93.98)
 		(stroke
 			(width 0)
 			(type default)
@@ -2321,7 +2321,7 @@
 	)
 	(text "Coonector thing\n"
 		(exclude_from_sim no)
-		(at 116.586 122.936 0)
+		(at 110.236 69.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2339,7 +2339,7 @@
 		)
 		(uuid "d0187b11-abf0-4b08-8959-6195b74e8922")
 	)
-	(text "Motors\n"
+	(text "Motor Controllers\n"
 		(exclude_from_sim no)
 		(at 130.556 20.828 0)
 		(effects
@@ -2351,7 +2351,7 @@
 	)
 	(text "ESP32 for motor control\n"
 		(exclude_from_sim no)
-		(at 211.836 92.202 0)
+		(at 265.176 45.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,7 +2415,7 @@
 		(uuid "300c99bd-4793-4f11-b9b8-4e5ceae8dae0")
 	)
 	(label "IN6"
-		(at 152.4 91.44 0)
+		(at 205.74 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2426,7 +2426,7 @@
 		(uuid "37a03209-fad8-45b3-9689-47fe30f46bf5")
 	)
 	(label "GND"
-		(at 152.4 129.54 0)
+		(at 205.74 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2448,7 +2448,7 @@
 		(uuid "444effa0-c99a-44f9-b654-eba5d50733cd")
 	)
 	(label "IN8"
-		(at 152.4 96.52 0)
+		(at 205.74 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2470,7 +2470,7 @@
 		(uuid "5292128d-6c78-47b6-984b-4dbb909c607b")
 	)
 	(label "IN1"
-		(at 152.4 78.74 0)
+		(at 205.74 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2481,7 +2481,7 @@
 		(uuid "530bfb97-6ade-4977-b6da-10cf9e49e8ec")
 	)
 	(label "3v3"
-		(at 152.4 76.2 0)
+		(at 205.74 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2525,7 +2525,7 @@
 		(uuid "789d06ca-ad6e-462f-807d-4de5e34e931f")
 	)
 	(label "3v3"
-		(at 133.35 138.43 0)
+		(at 127 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2536,7 +2536,7 @@
 		(uuid "7ad35076-9762-439f-8514-a9c3a66c0782")
 	)
 	(label "IN7"
-		(at 152.4 93.98 0)
+		(at 205.74 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2547,7 +2547,7 @@
 		(uuid "7f8e006f-c151-4cd7-bc4a-59927f0dcf33")
 	)
 	(label "GND"
-		(at 133.35 140.97 0)
+		(at 127 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2580,7 +2580,7 @@
 		(uuid "95515ddd-ddaf-41f2-acb2-a72e11dcbf2f")
 	)
 	(label "IN2"
-		(at 152.4 81.28 0)
+		(at 205.74 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2591,7 +2591,7 @@
 		(uuid "97a0e424-8784-48f7-a8a9-e10267171e0a")
 	)
 	(label "5v"
-		(at 114.3 139.7 0)
+		(at 107.95 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2657,7 +2657,7 @@
 		(uuid "bbf9245b-0123-4843-af09-a1c138f64fcf")
 	)
 	(label "IN3"
-		(at 152.4 83.82 0)
+		(at 205.74 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2690,7 +2690,7 @@
 		(uuid "c36fa125-8b0e-4e44-b81d-87b3ba96cc93")
 	)
 	(label "GND"
-		(at 114.3 142.24 0)
+		(at 107.95 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2712,7 +2712,7 @@
 		(uuid "d4862c31-3694-41b4-ae22-c698cc362789")
 	)
 	(label "IN4"
-		(at 152.4 86.36 0)
+		(at 205.74 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2745,7 +2745,7 @@
 		(uuid "e3d4a988-775a-49fc-b4fb-69331c32f003")
 	)
 	(label "IN5"
-		(at 152.4 88.9 0)
+		(at 205.74 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2801,7 +2801,7 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-M:XT30UPB-M")
-		(at 125.73 140.97 0)
+		(at 119.38 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2810,7 +2810,7 @@
 		(fields_autoplaced yes)
 		(uuid "0211926c-dbbc-4188-9d3b-d6fdb1f22ed9")
 		(property "Reference" "U4"
-			(at 126.365 130.81 0)
+			(at 120.015 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2818,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 126.365 133.35 0)
+			(at 120.015 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2826,7 @@
 			)
 		)
 		(property "Footprint" "XT30UPB-M:XT30UPB-M"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2854,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2864,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2874,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2894,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2904,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2914,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2924,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 125.73 140.97 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3260,7 @@
 	)
 	(symbol
 		(lib_id "ESP32-S3-DEVKITM-1-N8:ESP32-S3-DEVKITM-1-N8")
-		(at 172.72 104.14 0)
+		(at 226.06 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3269,7 +3269,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f9f1901-b2ef-4944-93f7-9219bc9dee33")
 		(property "Reference" "U5"
-			(at 172.72 68.58 0)
+			(at 226.06 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3277,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-DEVKITM-1-N8"
-			(at 172.72 71.12 0)
+			(at 226.06 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3285,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-S3-DEVKITM-1-N8:MODULE_ESP32-S3-DEVKITM-1-N8"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3313,7 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            ESP32-S3-MINI-1-N8 ESP32-S Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® 5.x (BLE) 2.4GHz Evaluation Board\n                        \n"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3333,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3343,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3353,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-DEVKITM-1-N8/Espressif+Systems/view-part/?ref=eda"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3363,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3373,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3383,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-DEVKITM-1-N8/Espressif+Systems/view-part/?ref=snap"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3393,7 @@
 			)
 		)
 		(property "MP" "ESP32-S3-DEVKITM-1-N8"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3403,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3413,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Espressif Systems"
-			(at 172.72 104.14 0)
+			(at 226.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3791,6 @@
 		)
 	)
 	(symbol
-		(lib_name "motor driver:L298N")
 		(lib_id "motor driver:L298N")
 		(at 101.6 53.34 0)
 		(unit 1)
@@ -4391,7 +4390,7 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-M:XT30UPB-M")
-		(at 106.68 142.24 0)
+		(at 100.33 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4400,7 +4399,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6132841-19b5-4d94-a3d1-87023d76bb02")
 		(property "Reference" "U3"
-			(at 107.315 132.08 0)
+			(at 100.965 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4407,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 107.315 134.62 0)
+			(at 100.965 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4415,7 @@
 			)
 		)
 		(property "Footprint" "XT30UPB-M:XT30UPB-M"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4443,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4453,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4463,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4473,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4483,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4493,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4503,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4513,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 106.68 142.24 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
