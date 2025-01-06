@@ -1881,37 +1881,43 @@
 				)
 			)
 		)
-		(symbol "motor driver:L298N"
+		(symbol "l298n:L298N"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L298N"
-				(at 13.716 24.892 0)
+			(property "Reference" "U"
+				(at -12.7 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 16.51 23.114 0)
+			(property "Value" "L298N"
+				(at -12.7 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 16.51 23.114 0)
+			(property "Footprint" "L298N:TO127P2020X500X2100-15"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 16.51 23.114 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1920,7 +1926,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 16.51 23.114 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1928,232 +1934,404 @@
 					(hide yes)
 				)
 			)
-			(symbol "L298N_0_1"
+			(property "MF" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Multiwatt-15 STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/L298N/STMicroelectronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/L298N/STMicroelectronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "L298N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Half Bridge (4) Driver DC Motors, Relays, Solenoids, Stepper Motors Bipolar 15-Multiwatt\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "L298N_0_0"
 				(rectangle
-					(start 8.89 22.86)
-					(end 23.114 -7.366)
+					(start -12.7 -15.24)
+					(end 12.7 17.78)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "L298N_1_1"
+				(pin passive line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "SENSE_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin input line
-					(at 6.35 20.32 0)
-					(length 2.54)
-					(name "12v"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 20.32 180)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 17.78 180)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 17.78 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 15.24 180)
-					(length 2.54)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 12.7 180)
-					(length 2.54)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 10.16 180)
-					(length 2.54)
+					(at -17.78 -5.08 0)
+					(length 5.08)
 					(name "IN3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 7.62 180)
-					(length 2.54)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "ENB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
 					(name "IN4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "12"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 15.24 0)
-					(length 2.54)
-					(name "Out1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 6.35 12.7 0)
-					(length 2.54)
-					(name "Out2"
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "OUT3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 10.16 0)
-					(length 2.54)
-					(name "Out3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 6.35 7.62 0)
-					(length 2.54)
-					(name "Out4"
+				(pin output line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "OUT4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number ""
+					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "SENSE_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2275,6 +2453,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 49.53) (xy 177.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3c2e44-2a15-490f-88c2-bde589c281b8")
+	)
+	(wire
+		(pts
 			(xy 19.05 93.98) (xy 19.05 107.95)
 		)
 		(stroke
@@ -2282,6 +2470,66 @@
 			(type default)
 		)
 		(uuid "2209f312-5f81-4160-bf2a-83de06bf9136")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 171.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29063b1b-4564-409d-a8c1-855c02c80d19")
+	)
+	(wire
+		(pts
+			(xy 113.03 44.45) (xy 116.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373f8eb1-18c4-420a-b5ff-c6ab9d2241ff")
+	)
+	(wire
+		(pts
+			(xy 113.03 52.07) (xy 120.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9a2a4c-f98a-4d56-bf52-7db99d405de4")
+	)
+	(wire
+		(pts
+			(xy 175.26 31.75) (xy 179.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3d3ccc-c8c2-412a-a0cc-3cc94153f0ad")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 120.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53589014-c19c-4499-a337-83afa00ac30d")
+	)
+	(wire
+		(pts
+			(xy 171.45 40.64) (xy 175.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0a3ca1-6ac6-45fe-a38e-b5a2dcc30d04")
 	)
 	(wire
 		(pts
@@ -2305,6 +2553,26 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 52.07) (xy 175.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcbd4af-16aa-477f-aba0-c201380c5dda")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.29) (xy 120.65 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc2c790-acf5-4389-b90c-8533b0637dbf")
+	)
+	(wire
+		(pts
 			(xy 57.15 73.66) (xy 66.04 73.66)
 		)
 		(stroke
@@ -2315,6 +2583,36 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 44.45) (xy 171.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf92017-c95d-4c68-b971-ba1797ddffb0")
+	)
+	(wire
+		(pts
+			(xy 116.84 44.45) (xy 116.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8511c04a-0ec8-4ad0-8a90-af46a415ff0b")
+	)
+	(wire
+		(pts
+			(xy 175.26 54.61) (xy 177.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909707fe-213e-4a85-aa83-13198d875c84")
+	)
+	(wire
+		(pts
 			(xy 50.8 46.99) (xy 35.56 46.99)
 		)
 		(stroke
@@ -2322,6 +2620,16 @@
 			(type default)
 		)
 		(uuid "94199397-5315-47fa-aeea-0dfc6d973fac")
+	)
+	(wire
+		(pts
+			(xy 175.26 52.07) (xy 175.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d5de67-ce77-4048-9827-201cb7d56d29")
 	)
 	(wire
 		(pts
@@ -2345,6 +2653,36 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 46.99) (xy 120.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d17ab7-d487-4bfd-bdd3-e40955de3138")
+	)
+	(wire
+		(pts
+			(xy 113.03 49.53) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba85333-3147-4854-9a58-3af6614f3c35")
+	)
+	(wire
+		(pts
+			(xy 120.65 49.53) (xy 120.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d169528c-23c3-4867-9aa3-0398c2200a7b")
+	)
+	(wire
+		(pts
 			(xy 19.05 71.12) (xy 31.75 71.12)
 		)
 		(stroke
@@ -2352,6 +2690,58 @@
 			(type default)
 		)
 		(uuid "d2367795-f778-4531-b0e0-68b3f485a766")
+	)
+	(wire
+		(pts
+			(xy 179.07 34.29) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d683a51d-27ab-4982-ab94-e5c8613092f1")
+	)
+	(wire
+		(pts
+			(xy 120.65 46.99) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d6488b-fc8b-409b-9782-46a98ee16bbb")
+	)
+	(wire
+		(pts
+			(xy 177.8 49.53) (xy 177.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5889d4-570b-428d-87a5-a11e7a5a0004")
+	)
+	(wire
+		(pts
+			(xy 175.26 40.64) (xy 175.26 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f037afc2-d5d1-4d45-9c47-ea37cadefe32")
+	)
+	(rectangle
+		(start 75.565 22.86)
+		(end 195.58 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 004fa005-a906-46ca-936b-ea996d1560a8)
 	)
 	(rectangle
 		(start 198.12 19.05)
@@ -2400,18 +2790,6 @@
 			(type none)
 		)
 		(uuid 7780759e-b046-4c94-8415-bd2e05e01b8c)
-	)
-	(rectangle
-		(start 86.36 22.86)
-		(end 175.26 63.5)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e433d04f-cc37-49e8-a22b-91fa1b7acbe1)
 	)
 	(text "Coonector thing\n"
 		(exclude_from_sim no)
@@ -2463,8 +2841,8 @@
 		)
 		(uuid "fdbe3cc8-0ffd-4410-851a-e331ae97a6ff")
 	)
-	(label "IN7"
-		(at 166.37 41.91 0)
+	(label "IN4"
+		(at 77.47 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2472,7 +2850,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1e76aa72-668b-4fb6-bf8b-8ea50bc7af07")
+		(uuid "02b8bc48-0d05-4395-bc9c-8d452f1086ef")
+	)
+	(label "IN6"
+		(at 135.89 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2018dac7-ec67-4ee3-811f-7a8c9acdfba8")
 	)
 	(label "12v"
 		(at 19.05 57.15 0)
@@ -2485,8 +2874,8 @@
 		)
 		(uuid "23499dd8-9c27-4b80-a396-b7c25a25b2c4")
 	)
-	(label "IN5"
-		(at 166.37 36.83 0)
+	(label "IN8"
+		(at 135.89 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2494,29 +2883,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "26ca4203-3c82-47cf-919e-d48f5650fc08")
-	)
-	(label "Out4"
-		(at 100.33 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2aafd20b-463e-41ad-b6a2-5e9a7dab7261")
-	)
-	(label "12v"
-		(at 147.32 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "300c99bd-4793-4f11-b9b8-4e5ceae8dae0")
+		(uuid "30f4ba62-b961-4944-a8a3-37f60813e1b1")
 	)
 	(label "IN6"
 		(at 205.74 44.45 0)
@@ -2529,6 +2896,28 @@
 		)
 		(uuid "37a03209-fad8-45b3-9689-47fe30f46bf5")
 	)
+	(label "O5"
+		(at 191.77 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e20afa3-dfd6-4fbd-81e3-fff18e447dbd")
+	)
+	(label "O6"
+		(at 191.77 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "403e0982-6fcb-4d9c-87e7-e08154eb4249")
+	)
 	(label "GND"
 		(at 205.74 82.55 0)
 		(fields_autoplaced yes)
@@ -2539,17 +2928,6 @@
 			(justify left bottom)
 		)
 		(uuid "407b6465-1938-435e-a00f-64cc508c4435")
-	)
-	(label "GND"
-		(at 147.32 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "444effa0-c99a-44f9-b654-eba5d50733cd")
 	)
 	(label "IN8"
 		(at 205.74 49.53 0)
@@ -2562,41 +2940,30 @@
 		)
 		(uuid "460287be-1082-4c80-b73a-e67d8f675f4f")
 	)
-	(label "OUT7"
-		(at 147.32 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5292128d-6c78-47b6-984b-4dbb909c607b")
-	)
 	(label "IN1"
-		(at 205.74 31.75 0)
+		(at 205.74 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "530bfb97-6ade-4977-b6da-10cf9e49e8ec")
 	)
 	(label "3v3"
-		(at 205.74 29.21 0)
+		(at 205.74 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "54b6bd49-631b-47a6-ab4b-69e2ebd9cd4c")
 	)
-	(label "IN6"
-		(at 166.37 39.37 0)
+	(label "O7"
+		(at 190.5 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2604,7 +2971,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "57bd5237-63fd-4d61-b297-a0620433ba63")
+		(uuid "58544675-3cc6-4c5b-8010-4799c6db1814")
+	)
+	(label "IN7"
+		(at 135.89 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61a2969e-56da-49d3-8a34-a689b5484725")
 	)
 	(label "GND"
 		(at 35.56 57.15 0)
@@ -2617,8 +2995,8 @@
 		)
 		(uuid "73756019-fda8-4f32-a4c5-58ea6ed6484e")
 	)
-	(label "Out3"
-		(at 100.33 54.61 0)
+	(label "IN5"
+		(at 135.89 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2626,7 +3004,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "789d06ca-ad6e-462f-807d-4de5e34e931f")
+		(uuid "75df88a8-4785-4b09-b6d8-074fb2b698c7")
 	)
 	(label "3v3"
 		(at 127 85.09 0)
@@ -2661,8 +3039,8 @@
 		)
 		(uuid "80353d48-c3ef-422b-991c-3a1c570c2c87")
 	)
-	(label "Out3"
-		(at 107.95 43.18 0)
+	(label "IN1"
+		(at 77.47 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2670,21 +3048,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "85a40c9b-f402-4c8b-a144-cabb239b20c7")
-	)
-	(label "IN3"
-		(at 127 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95515ddd-ddaf-41f2-acb2-a72e11dcbf2f")
+		(uuid "8e95fad7-3ae8-4d63-8313-03a9bd2a663d")
 	)
 	(label "IN2"
-		(at 205.74 34.29 0)
+		(at 205.74 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97a0e424-8784-48f7-a8a9-e10267171e0a")
+	)
+	(label "GND"
+		(at 171.45 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2692,7 +3070,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "97a0e424-8784-48f7-a8a9-e10267171e0a")
+		(uuid "993fcf8e-b0bc-4d5a-9569-652578cecef2")
 	)
 	(label "5v"
 		(at 107.95 86.36 0)
@@ -2716,6 +3094,17 @@
 		)
 		(uuid "b18f10ba-409a-41ee-92df-9dd7ac7ebd18")
 	)
+	(label "GND"
+		(at 113.03 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b431dcae-08a2-482f-bd9a-0b2cea6b2be6")
+	)
 	(label "3v3"
 		(at 66.04 73.66 0)
 		(fields_autoplaced yes)
@@ -2727,8 +3116,8 @@
 		)
 		(uuid "b811614f-510f-4cee-866e-af18bb19ca9b")
 	)
-	(label "IN8"
-		(at 166.37 44.45 0)
+	(label "O8"
+		(at 190.5 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2736,18 +3125,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ba27e43e-0784-4cc6-827f-c84688d2d254")
-	)
-	(label "IN4"
-		(at 127 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb9e477d-c503-486f-b432-44818c585ec9")
+		(uuid "baeba311-6fbf-470a-9a0c-157c16754707")
 	)
 	(label "12v"
 		(at 60.96 52.07 0)
@@ -2761,37 +3139,15 @@
 		(uuid "bbf9245b-0123-4843-af09-a1c138f64fcf")
 	)
 	(label "IN3"
-		(at 205.74 36.83 0)
+		(at 205.74 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bf4871c2-7187-40b5-bf7a-e5fc37169131")
-	)
-	(label "Out4"
-		(at 107.95 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0afa285-55df-4a90-864d-eb842e65cf51")
-	)
-	(label "12v"
-		(at 107.95 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c36fa125-8b0e-4e44-b81d-87b3ba96cc93")
 	)
 	(label "GND"
 		(at 107.95 88.9 0)
@@ -2826,8 +3182,8 @@
 		)
 		(uuid "d7fc0efc-f35f-49ff-9e3d-b2cec6da95e2")
 	)
-	(label "GND"
-		(at 107.95 35.56 0)
+	(label "IN2"
+		(at 77.47 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2835,18 +3191,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dee80a55-9ce3-4d66-b3d8-bba554bd971b")
-	)
-	(label "OUT7"
-		(at 139.7 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3d4a988-775a-49fc-b4fb-69331c32f003")
+		(uuid "e5077406-ed71-49cd-b239-12261b5bafb8")
 	)
 	(label "IN5"
 		(at 205.74 41.91 0)
@@ -2859,8 +3204,8 @@
 		)
 		(uuid "e8adf608-8601-4957-9eae-65e12e62c1fc")
 	)
-	(label "IN1"
-		(at 127 38.1 0)
+	(label "IN3"
+		(at 77.47 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2868,40 +3213,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f152022f-a045-420a-8cca-fbb7cfe3ad13")
-	)
-	(label "IN2"
-		(at 127 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3ada6a1-d170-4d04-a96e-a80026c9651c")
-	)
-	(label "OUT8"
-		(at 139.7 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6753c28-7d5b-403d-b85f-c254f5cbb235")
-	)
-	(label "OUT8"
-		(at 147.32 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "faa4594d-2e00-42a1-9b49-fb5ece1206a1")
+		(uuid "ffe9f9e3-d234-45bc-ab26-11241751f54e")
 	)
 	(symbol
 		(lib_id "XT30UPB-M:XT30UPB-M")
@@ -2929,7 +3241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -3175,155 +3487,6 @@
 			(project "Layer_2"
 				(path "/164539e9-489b-4b17-b405-637c12a94360"
 					(reference "H11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT30UPB-M:XT30UPB-M")
-		(at 139.7 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bd25d4f-cd4b-492d-a187-45956359ee3e")
-		(property "Reference" "U9"
-			(at 140.335 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30UPB-M"
-			(at 140.335 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "xt30:XT30UPB-M"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "amass"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "XT30UPB-M"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "P$2"
-			(uuid "ffba2991-c6c4-45dc-9c55-4778d228f254")
-		)
-		(pin "P$1"
-			(uuid "d1157a75-5425-4bdc-a471-9e56aee69d1c")
-		)
-		(instances
-			(project "layer2"
-				(path "/164539e9-489b-4b17-b405-637c12a94360"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4021,6 +4184,155 @@
 		)
 	)
 	(symbol
+		(lib_id "XT30UPB-M:XT30UPB-M")
+		(at 128.27 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "439dbdc8-fbf8-44ee-8b9b-a8d7b7ef1e29")
+		(property "Reference" "U11"
+			(at 127.635 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30UPB-M"
+			(at 127.635 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xt30:XT30UPB-M"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "amass"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT30UPB-M"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "98e7334b-46d9-4684-8fe4-e62c1c4551f2")
+		)
+		(pin "P$1"
+			(uuid "df89dd72-08be-4ccc-b448-0a26e4c3ae7d")
+		)
+		(instances
+			(project "Layer_2"
+				(path "/164539e9-489b-4b17-b405-637c12a94360"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 118.11 0)
 		(unit 1)
@@ -4087,41 +4399,43 @@
 		)
 	)
 	(symbol
-		(lib_id "motor driver:L298N")
-		(at 101.6 53.34 0)
+		(lib_id "l298n:L298N")
+		(at 153.67 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "66130d7d-abcc-4cdb-a822-245bf832b852")
-		(property "Reference" "L298N1"
-			(at 117.602 26.67 0)
+		(fields_autoplaced yes)
+		(uuid "4d739c16-1241-4b0d-9019-9977045be489")
+		(property "Reference" "U10"
+			(at 153.67 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 117.602 29.21 0)
+		(property "Value" "L298N"
+			(at 153.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "l298n:TO127P2020X500X2100-15"
-			(at 118.11 30.226 0)
+		(property "Footprint" "L298N:TO127P2020X500X2100-15"
+			(at 153.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 30.226 0)
+			(at 153.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 30.226 0)
+			(at 153.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,46 +4452,175 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "f55f91c7-b109-439a-a863-7b003f132acc")
+		(property "MF" "STMicroelectronics"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "ab3618e4-74d1-4076-b03d-bd945654da44")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0mm"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "c6c05f99-5ecf-41d9-912d-181c94de5ec6")
+		(property "Package" "Multiwatt-15 STMicroelectronics"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "15395736-9ea4-4271-b0ea-929d4713e9e1")
+		(property "Price" "None"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "cd268e80-bbcb-493b-999b-67aeeb3e2a9a")
+		(property "Check_prices" "https://www.snapeda.com/parts/L298N/STMicroelectronics/view-part/?ref=eda"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "eb34dbfd-d8e5-4eaf-b957-caaca3d02f0e")
+		(property "STANDARD" "IPC-7351B"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "84801d93-8a43-43a7-9570-e3cda7053cfb")
+		(property "PARTREV" ""
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "952616f1-c081-41cd-9d55-32be64ecba32")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L298N/STMicroelectronics/view-part/?ref=snap"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "a6df89ec-ab53-4981-9405-d6d9bcd89811")
+		(property "MP" "L298N"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "3ecd42bb-13a1-4fdb-8afc-7374e8194f12")
+		(property "Description_1" "\n                        \n                            Half Bridge (4) Driver DC Motors, Relays, Solenoids, Stepper Motors Bipolar 15-Multiwatt\n                        \n"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "4bb2fd2c-ca32-482c-8c89-02270a64f0ee")
+		(property "Availability" "In Stock"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "ba26b632-8f29-45ed-a952-0ccc6e5398f8")
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "57c516b2-7bbd-411a-a239-cfe3dc3750d9")
+		)
+		(pin "9"
+			(uuid "a322b9e1-a4a6-4c60-a4b6-27d6866bb9a9")
+		)
+		(pin "5"
+			(uuid "36f218c1-777e-466c-8480-dd831221e256")
+		)
+		(pin "15"
+			(uuid "0b18c4cf-3a17-4f50-8ac4-ba58e50918fb")
+		)
+		(pin "4"
+			(uuid "1a0fd906-f696-4d03-a9eb-cbfb0ebaab44")
+		)
+		(pin "13"
+			(uuid "54599792-046a-4f19-85fe-7ab5e6479c0c")
+		)
+		(pin "14"
+			(uuid "8612aff1-b921-4a93-a444-0fce23a5a640")
+		)
+		(pin "12"
+			(uuid "1ca839bb-fe11-4ae5-930c-713fce90afde")
+		)
+		(pin "2"
+			(uuid "ecb82ce4-8b22-4f09-8511-b9b8bdeda9dc")
+		)
+		(pin "3"
+			(uuid "b90f2b22-acf3-4dc2-8100-240b11812b92")
+		)
+		(pin "6"
+			(uuid "94ada7e2-820f-427e-beb0-f778e94260bc")
+		)
+		(pin "8"
+			(uuid "f88d9d40-aee2-4b04-b20c-42f763d9a92a")
+		)
+		(pin "7"
+			(uuid "633aaaee-db5d-4141-bd1f-7908ff761a17")
+		)
+		(pin "1"
+			(uuid "3716add5-8690-4da9-87cf-3f426fad10a7")
+		)
+		(pin "10"
+			(uuid "44cbc647-9746-4ab2-88a5-a341058a8bf5")
 		)
 		(instances
 			(project ""
 				(path "/164539e9-489b-4b17-b405-637c12a94360"
-					(reference "L298N1")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -4709,16 +5152,15 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-M:XT30UPB-M")
-		(at 132.08 55.88 0)
+		(at 128.27 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e717a76-f059-4629-af4c-3a6f4d0abcc6")
-		(property "Reference" "U8"
-			(at 132.715 45.72 0)
+		(uuid "946a43ba-0e4b-4ad8-8efc-2cdc3563668c")
+		(property "Reference" "U9"
+			(at 127.635 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +5168,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 132.715 48.26 0)
+			(at 127.635 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +5176,7 @@
 			)
 		)
 		(property "Footprint" "xt30:XT30UPB-M"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +5186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +5195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +5204,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +5214,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +5224,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +5234,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +5244,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5254,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +5264,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +5274,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 132.08 55.88 0)
+			(at 128.27 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,15 +5284,15 @@
 			)
 		)
 		(pin "P$2"
-			(uuid "a42b0235-975e-44b5-8e73-8686233e6290")
+			(uuid "1d5256ce-1040-4df8-9c22-f85db9886b17")
 		)
 		(pin "P$1"
-			(uuid "f2c0b18a-76f0-4db2-9c7c-5ca8b603d5d4")
+			(uuid "c3f06ced-c8c8-4759-abc5-00eb1dad360d")
 		)
 		(instances
-			(project "layer2"
+			(project "Layer_2"
 				(path "/164539e9-489b-4b17-b405-637c12a94360"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4858,7 +5300,7 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-M:XT30UPB-M")
-		(at 92.71 57.15 0)
+		(at 185.42 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4866,7 +5308,7 @@
 		(dnp no)
 		(uuid "a2f7922b-422c-45c8-97e0-2d5d799b9975")
 		(property "Reference" "U7"
-			(at 93.345 46.99 0)
+			(at 184.785 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +5316,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 93.345 49.53 0)
+			(at 184.785 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5324,7 @@
 			)
 		)
 		(property "Footprint" "xt30:XT30UPB-M"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +5334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +5343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +5352,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +5362,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +5372,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +5382,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +5392,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5402,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +5412,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +5422,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 92.71 57.15 0)
+			(at 185.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,6 +5441,234 @@
 			(project "layer2"
 				(path "/164539e9-489b-4b17-b405-637c12a94360"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "l298n:L298N")
+		(at 95.25 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa7f4d89-4226-42dd-99d2-62652c682661")
+		(property "Reference" "U8"
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L298N"
+			(at 95.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L298N:TO127P2020X500X2100-15"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.0mm"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Multiwatt-15 STMicroelectronics"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/L298N/STMicroelectronics/view-part/?ref=eda"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L298N/STMicroelectronics/view-part/?ref=snap"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "L298N"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Half Bridge (4) Driver DC Motors, Relays, Solenoids, Stepper Motors Bipolar 15-Multiwatt\n                        \n"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "21fe09a2-3a9f-478d-bbb4-b325b5c95345")
+		)
+		(pin "9"
+			(uuid "93ab6cf5-90c9-4c0d-b6ec-96e1867fcec8")
+		)
+		(pin "5"
+			(uuid "24fe3022-ed4a-4c35-bfe4-49dc9eec8996")
+		)
+		(pin "15"
+			(uuid "09823da2-c3b4-4249-9805-5a6a66ec60c7")
+		)
+		(pin "4"
+			(uuid "bc5638e0-0e6d-4de3-8565-f003e2be1499")
+		)
+		(pin "13"
+			(uuid "4e2a6869-7a87-4de2-bda8-3792238173aa")
+		)
+		(pin "14"
+			(uuid "b80315b6-fe38-4371-b3a7-5ea693d351a0")
+		)
+		(pin "12"
+			(uuid "bc2a92bd-e765-4450-9172-c54b3ec3dfe6")
+		)
+		(pin "2"
+			(uuid "6beeff45-b171-44d6-b610-33f8dfa3af17")
+		)
+		(pin "3"
+			(uuid "ada1d2a0-84ab-4c76-bc53-aab366836349")
+		)
+		(pin "6"
+			(uuid "a9eb8208-3250-4e40-adfb-700e46400d62")
+		)
+		(pin "8"
+			(uuid "adbe9077-3025-40cb-af6a-cc8876252cb8")
+		)
+		(pin "7"
+			(uuid "51cc089e-cb07-4031-9558-feea2b5a0ab8")
+		)
+		(pin "1"
+			(uuid "07955f78-b93a-4d33-b83a-44abec2eea46")
+		)
+		(pin "10"
+			(uuid "af5c3ede-bd6e-467a-aed5-6bb239480f27")
+		)
+		(instances
+			(project "Layer_2"
+				(path "/164539e9-489b-4b17-b405-637c12a94360"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5030,7 +5700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -5282,104 +5952,6 @@
 		)
 	)
 	(symbol
-		(lib_id "motor driver:L298N")
-		(at 140.97 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1151bd2-0e16-44cf-ba29-7c21fd2db640")
-		(property "Reference" "L298N2"
-			(at 156.972 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 156.972 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "l298n:TO127P2020X500X2100-15"
-			(at 157.48 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "9e839d10-3087-48c6-a052-56c581f4cc2d")
-		)
-		(pin ""
-			(uuid "fa38294d-ca2c-49d2-8574-974403532ff3")
-		)
-		(pin ""
-			(uuid "74833eac-1ff6-40c6-895f-42ec11ab4ccb")
-		)
-		(pin ""
-			(uuid "0dbed866-1ef7-4020-af7e-ccd3642e0c53")
-		)
-		(pin ""
-			(uuid "e0771e82-f1d8-4674-b8a3-48f3d22fdaf1")
-		)
-		(pin ""
-			(uuid "d10be4a5-e8c6-4e8f-9e30-953a8042cf70")
-		)
-		(pin ""
-			(uuid "93c3902a-2b4d-4227-98b3-71db9f4fabe3")
-		)
-		(pin ""
-			(uuid "ca960926-5e80-4f71-8eea-d81f0920cc0b")
-		)
-		(pin ""
-			(uuid "6cac428f-5d72-4a12-923e-da78c02f0424")
-		)
-		(pin ""
-			(uuid "c7a2cf28-b595-4584-b206-3f16fe7d3364")
-		)
-		(pin ""
-			(uuid "e1a400da-e24c-4fd0-b507-c22c8f1aa898")
-		)
-		(pin ""
-			(uuid "660882eb-5b1b-4149-b086-5418d58e5294")
-		)
-		(instances
-			(project "layer2"
-				(path "/164539e9-489b-4b17-b405-637c12a94360"
-					(reference "L298N2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 162.6049 97.5954 0)
 		(unit 1)
@@ -5445,7 +6017,7 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-M:XT30UPB-M")
-		(at 100.33 40.64 0)
+		(at 186.69 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5454,23 +6026,25 @@
 		(fields_autoplaced yes)
 		(uuid "fa1a8292-0c61-4e87-9523-5537dc9193b7")
 		(property "Reference" "U6"
-			(at 100.965 30.48 0)
+			(at 190.5 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 100.965 33.02 0)
+			(at 190.5 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "xt30:XT30UPB-M"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +6054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +6063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +6072,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +6082,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +6092,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +6102,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +6112,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +6122,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +6132,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +6142,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 100.33 40.64 0)
+			(at 186.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

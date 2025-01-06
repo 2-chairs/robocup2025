@@ -1,4 +1,4 @@
-24734233104403434
+24737705396723450
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -99854,6 +99854,13 @@ Varistor VF
 0
 2
 2
+esp32 dev kit
+MODULE_ESP32-S3-DEVKITM-1-N8
+
+
+0
+44
+44
 esp32 thinfy
 MODULE_ESP32-WROOM-32D-N4
 
@@ -99896,3 +99903,10 @@ MODULE_102010428
 0
 14
 14
+xt30
+XT30UPB-M
+
+
+0
+2
+2
