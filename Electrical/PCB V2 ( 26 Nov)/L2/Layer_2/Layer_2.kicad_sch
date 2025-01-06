@@ -3815,7 +3815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "l298n:TO127P2020X500X2100-15"
 			(at 118.11 30.226 0)
 			(effects
 				(font
@@ -4538,7 +4538,6 @@
 		)
 	)
 	(symbol
-		(lib_name "motor driver:L298N")
 		(lib_id "motor driver:L298N")
 		(at 140.97 52.07 0)
 		(unit 1)
@@ -4564,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "l298n:TO127P2020X500X2100-15"
 			(at 157.48 28.956 0)
 			(effects
 				(font
