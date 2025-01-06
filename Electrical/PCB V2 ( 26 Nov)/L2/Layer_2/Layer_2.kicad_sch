@@ -2825,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -3123,7 +3123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM2596ADJ:LM2596ADJ"
+		(property "Footprint" "Motor Controller:LM2596ADJ"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S3-DEVKITM-1-N8:MODULE_ESP32-S3-DEVKITM-1-N8"
+		(property "Footprint" "ESP32 DEV KIT:MODULE_ESP32-S3-DEVKITM-1-N8"
 			(at 226.06 57.15 0)
 			(effects
 				(font
@@ -3589,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM2596ADJ:LM2596ADJ"
+		(property "Footprint" "Motor Controller:LM2596ADJ"
 			(at 44.45 76.2 0)
 			(effects
 				(font
@@ -4414,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 100.33 88.9 0)
 			(effects
 				(font
