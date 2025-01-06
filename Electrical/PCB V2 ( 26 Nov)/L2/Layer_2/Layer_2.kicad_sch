@@ -2825,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 139.7 39.37 0)
 			(effects
 				(font
@@ -3123,7 +3123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM2596ADJ:LM2596ADJ"
+		(property "Footprint" "Motor Controller:LM2596ADJ"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S3-DEVKITM-1-N8:MODULE_ESP32-S3-DEVKITM-1-N8"
+		(property "Footprint" "ESP32 DEV KIT:MODULE_ESP32-S3-DEVKITM-1-N8"
 			(at 226.06 57.15 0)
 			(effects
 				(font
@@ -3589,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM2596ADJ:LM2596ADJ"
+		(property "Footprint" "Motor Controller:LM2596ADJ"
 			(at 44.45 76.2 0)
 			(effects
 				(font
@@ -3815,7 +3815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "l298n:TO127P2020X500X2100-15"
 			(at 118.11 30.226 0)
 			(effects
 				(font
@@ -4049,7 +4049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "flipswitch:SW_100SP1T1B4M2QE"
 			(at 55.88 46.99 0)
 			(effects
 				(font
@@ -4117,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -4265,7 +4265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -4414,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -4538,7 +4538,6 @@
 		)
 	)
 	(symbol
-		(lib_name "motor driver:L298N")
 		(lib_id "motor driver:L298N")
 		(at 140.97 52.07 0)
 		(unit 1)
@@ -4564,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "l298n:TO127P2020X500X2100-15"
 			(at 157.48 28.956 0)
 			(effects
 				(font
@@ -4662,7 +4661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30UPB-M:XT30UPB-M"
+		(property "Footprint" "xt30:XT30UPB-M"
 			(at 100.33 40.64 0)
 			(effects
 				(font
