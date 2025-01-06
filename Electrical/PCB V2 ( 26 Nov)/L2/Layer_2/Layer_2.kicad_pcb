@@ -139,10 +139,352 @@
 	(net 57 "/OUT7")
 	(net 58 "Net-(L298N2-Out1)")
 	(net 59 "Net-(L298N2-Out2)")
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "0124ce78-115f-47bf-879c-1dd4c5ef7102")
+		(at 82.02 169.76)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H4"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "203e13eb-428f-498d-ac48-4c07a53795f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "1f70395c-4fac-45e5-96ed-204f569e4934")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "479f561d-1829-4596-a8d9-90ddaa3b00fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6580e54-6c04-4237-9c46-390c450b61b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b069a6e-26b4-4f1b-85ef-78fdaf6a56d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d91f4bfd-a265-4127-bd8b-f1037116c987")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a69b4aa4-9116-4668-a5d2-1d73d51b7f36")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b309dd33-ce6e-47ce-884f-d58098253311")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "74f28ade-7376-4053-a1d2-73b293f24e38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ceff51da-9d0c-4c34-9145-081f30d41dce")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "144b5e46-62b6-4304-b014-d56a605c00ea")
+		(at 130.52 29)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H12"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "cfa02038-ca44-495c-8e89-692c830bd171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "cb8d05e3-7f03-45a1-a29b-6bd5e38b16cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "075f36ee-f4a6-4602-afe7-ff8a4ce0c2de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef622fcb-1d71-48a4-acb7-7cc1ee949a9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c13eff1b-929e-4317-aabf-971f50a6e9cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/f8d38fff-a221-411f-b664-17700a34f17f")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "47b80f47-9c36-4478-8bae-153a9bfddac0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ac676a2a-532a-4b6b-a7a9-e405c82d5958")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1889dc3f-11ae-46b3-b1a5-abfc671e1eec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "bf9e6964-df0f-42ba-ae29-9adc34126438")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "366d7d97-fe28-439f-9c2c-46ed376504b3")
+		(at 184.5 82.98)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H11"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "db620f94-35ee-4c5b-a367-f376d4d2bfb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "8e785dac-4423-41f5-bd81-9c83e99c6bfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04713a42-a140-4152-899f-046559bd968f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34f1f0d7-9c6d-4a1c-92f0-624f91fa0fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb6ee781-0f1a-493e-b501-c51175618188")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/059fd53f-08e9-424f-af5e-3fe2bc271219")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "63737032-7767-46ff-812d-133011cc332d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "114ab2fc-a6be-4459-a01e-2d123c0c5249")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5c67bf1d-a937-4dc8-bf10-6741af98d8bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "fde29d56-bb51-43d7-84b9-959b25b6dfee")
+		)
+	)
 	(footprint "xt30:XT30UPB-M"
 		(layer "F.Cu")
 		(uuid "377c57a6-27d8-4e9d-bda7-071ddaffbcc7")
-		(at 237.4885 109.8835)
+		(at 107.52 112.71)
 		(property "Reference" "U9"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -424,10 +766,407 @@
 			(uuid "d19a707a-4e33-4998-87ec-dc4a9b9581ee")
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "38cab687-6791-46a1-9552-5809b42762cc")
+		(at 184.51 132.97)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H10"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "6a2e42cf-beb9-4f70-b2c3-5affb328ec44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "010d485f-57c5-4139-a574-dbaf6886b290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c44b6510-2838-44f4-826b-d767ad205cd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30966f13-77a7-4d9c-94d6-56c495257183")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b0b3e6c-d8fc-413b-8a8c-2298552ca0a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/7bd995b2-62ff-4dc6-990f-c3bd51c2a3cf")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "9edf8ec3-1362-4ab0-b99a-6d9fc345ccf1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bc09ae65-0465-4237-9714-2e49ee03f2bf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8113a2df-6ade-4abc-89d1-36d663293657")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "92787359-1f26-4b4e-9263-92ec77fb078d")
+		)
+	)
+	(footprint "xt30:XT30UPB-M"
+		(layer "F.Cu")
+		(uuid "409fbccf-2bed-4ac2-b87f-f89a78e4070d")
+		(at 107.57 66.13)
+		(property "Reference" "U11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "3c5a782b-20fe-44f1-847d-d3c77ae983ee")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "XT30UPB-M"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8b8c65c6-441a-4005-9cf3-2ba4b713ecc3")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "xt30:XT30UPB-M"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9d96d7d-dd3c-44ad-8fd6-fb6ba2e841e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7401b6f-e59e-44bc-89c1-bcb4167cb733")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe056f0a-41de-43ed-b519-dfd2ce62ed59")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "amass"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62c2e1e8-2e4e-4a3e-a027-c92b2b36cd6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccdaee43-9c9c-4c43-9a9a-e25114a0328c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdbc6931-e518-48e7-97fb-bf639678c4e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8020b9c8-7d17-4a1f-ab8a-ab04c7f9c1f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb8cccc0-fe28-42c6-b8c7-e61823bbf681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "XT30UPB-M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "452ca504-af0e-4066-a5f4-301918b39ef3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b03e5c2-c7cb-44d8-9aae-08c5d4e89788")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6346f89c-cb4e-4585-ac99-809769f97457")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b6132841-19b5-4d94-a3d1-87023d76bb02")
+		(attr through_hole)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.1 2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ba44e0a-7cdd-4e7e-affe-f5ad30a68d78")
+		)
+		(fp_line
+			(start -5.1 2.6)
+			(end 3.81 2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d55075f-e429-4bae-99d1-abb236448fcd")
+		)
+		(fp_line
+			(start -4.8 0)
+			(end -4.1 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b0978b6e-b4c9-42f1-8217-bfa5465a707f")
+		)
+		(fp_line
+			(start -4.445 -0.35)
+			(end -4.445 0.35)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4bc24417-eeb4-48bb-be56-f10e7885a2dd")
+		)
+		(fp_line
+			(start 3.81 -2.6)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b6665caf-fc3f-4fa4-8e09-41aeb2591c01")
+		)
+		(fp_line
+			(start 3.81 2.6)
+			(end 5.1 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "82631341-3500-4834-926d-a5f3b3d8c31c")
+		)
+		(fp_line
+			(start 4.064 0)
+			(end 4.699 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba5140b2-17c6-497f-bf7c-1bf4f36f335e")
+		)
+		(fp_line
+			(start 5.1 -1.27)
+			(end 3.81 -2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dcd7be92-493a-4206-a116-5a1e8c37ba4c")
+		)
+		(fp_line
+			(start 5.1 1.27)
+			(end 5.1 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b732fde-1003-4be0-8f2e-c1892e88c7dc")
+		)
+		(pad "P$1" thru_hole circle
+			(at -2.5 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "/5v")
+			(pinfunction "+")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "cd0fdee6-f183-4ed1-a75f-dd157e849d5a")
+		)
+		(pad "P$2" thru_hole circle
+			(at 2.5 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1115b5f1-9fc1-4643-8c10-6acde805de2d")
+		)
+	)
 	(footprint "xt30:XT30UPB-M"
 		(layer "F.Cu")
 		(uuid "59e035eb-35e0-4d9f-9439-7f56ac611fac")
-		(at 237.4885 84.5755)
+		(at 108.06 135.71)
 		(property "Reference" "U4"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -712,7 +1451,7 @@
 	(footprint "xt30:XT30UPB-M"
 		(layer "F.Cu")
 		(uuid "64f6b149-ff69-4297-8c96-9a90613111b4")
-		(at 237.4885 103.5565)
+		(at 108.75 92.07)
 		(property "Reference" "U8"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -994,10 +1733,124 @@
 			(uuid "1fa91947-2a7e-4079-8036-be8cc2528fb2")
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "6e3289fb-c069-44c7-be7e-e2a680daa7fa")
+		(at 102.02 149.45)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H5"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "ab047763-6e26-4ddf-94b9-bbd725651f10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "717539ac-8b8a-42f3-a76f-ee8a3cd7ca2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4e1d170-1a29-4878-a066-accd1f3d2b24")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62a10e8f-b1bd-4041-81b4-a9976dc6b089")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96fe2ce5-4a1b-44c3-bed2-6574ca349e7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/863b4252-71f2-4acf-b8dd-b04e20986ddc")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "4dcd1cd5-7b0e-45e6-8031-f29c2c6f32db")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "24ea654a-ea9d-4100-afca-cdccbb495599")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "61c93ce8-72e8-488e-80d0-dcbdeffe5b32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "87154842-e966-4c81-9970-c32e374db095")
+		)
+	)
 	(footprint "Motor Controller:LM2596ADJ"
 		(layer "F.Cu")
 		(uuid "7310e321-303a-44a0-bf79-916bef6e6250")
-		(at 249.045 83.822)
+		(at 71.39 106.46315)
 		(property "Reference" "U1"
 			(at -6.223 2.413 180)
 			(layer "F.SilkS")
@@ -1458,6 +2311,403 @@
 			(uuid "4a0569b4-2ba7-4764-ace3-83787d822ab7")
 		)
 	)
+	(footprint "xt30:XT30UPB-M"
+		(layer "F.Cu")
+		(uuid "7f817122-4e41-4695-9a8e-2150855a92e6")
+		(at 107.57 66.13)
+		(property "Reference" "U12"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "e30be2dd-a4fa-4472-800e-c2c1ffa6382d")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "XT30UPB-M"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "335423ac-5a5e-4072-a1fd-5bc0a5e5088a")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "xt30:XT30UPB-M"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "727daa85-c953-439e-bf69-50201c9d2088")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28f31a55-d76f-4193-8a72-d81f6a4b54fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43a0ad0d-b3aa-4cd3-8208-a29ba2b9b3bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "amass"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a03a847-484d-400c-97b4-64c494c41eb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a31ae4cc-1eda-46d5-9e78-7fc1a82c57fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27f982e6-834c-4abb-8352-c2bdf57c1e65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2870254-d2f7-42b0-b845-bb2b3d5ecb92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f81d8bdb-1f82-4fec-baa5-8373dafa9a7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "XT30UPB-M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f407f131-334c-42ff-b028-0b72100e29a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d910b8b-4a30-4871-bd83-5ce52408fc8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42dad0e6-c3cb-4298-8fab-4bd1ecf9e3fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b6132841-19b5-4d94-a3d1-87023d76bb02")
+		(attr through_hole)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.1 2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2fd6c011-d879-4efe-8710-424598a14da9")
+		)
+		(fp_line
+			(start -5.1 2.6)
+			(end 3.81 2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "641ed7cf-50fe-4ac0-aeb7-3e9824847822")
+		)
+		(fp_line
+			(start -4.8 0)
+			(end -4.1 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a1062a8-060f-4344-a92a-b749878cb5ff")
+		)
+		(fp_line
+			(start -4.445 -0.35)
+			(end -4.445 0.35)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d771d0a4-a611-4887-8d20-3ecf79b4a6cb")
+		)
+		(fp_line
+			(start 3.81 -2.6)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "65636204-1282-40d7-be6a-4184594d7652")
+		)
+		(fp_line
+			(start 3.81 2.6)
+			(end 5.1 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "366b8087-e999-45d3-a4e8-91b784c5581f")
+		)
+		(fp_line
+			(start 4.064 0)
+			(end 4.699 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aef83972-6049-41d8-af18-ee75216455c5")
+		)
+		(fp_line
+			(start 5.1 -1.27)
+			(end 3.81 -2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f41566d2-a048-46f8-91f8-d7955eb8a761")
+		)
+		(fp_line
+			(start 5.1 1.27)
+			(end 5.1 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9376d57f-37c1-4380-b659-09fbce9dca80")
+		)
+		(pad "P$1" thru_hole circle
+			(at -2.5 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "/5v")
+			(pinfunction "+")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "4bc7b920-465c-4f90-bf1a-bde0435a7afd")
+		)
+		(pad "P$2" thru_hole circle
+			(at 2.5 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7424f1ad-0527-47bc-ae0c-a3799487d7d9")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "83b25a3c-116e-4fc6-b2aa-2927d4dd4b01")
+		(at 80.5 28.99)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H1"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "be847d16-86d7-4187-bdf6-f7a6ce1c3975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "94d47657-9b71-450c-9064-7f93ecda9bd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3982a0c9-446b-47a0-b264-fcb0821805eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74d3e175-ad55-442b-9431-f8f49cc8f20b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "425a16c8-88c2-4891-b08b-3725a982f6f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/cc2e5e8d-a1aa-458b-9e21-d53a5948abfe")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "252d16ea-c382-4b97-9185-18df09373b98")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "01341105-3e07-4d67-8e7c-1dd2949bcdca")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0ab33e2b-320f-43b1-bd7d-009daa59e590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "c483948a-54e7-4367-a746-71d425547f5a")
+		)
+	)
 	(footprint "flipswitch:SW_100SP1T1B4M2QE"
 		(layer "F.Cu")
 		(uuid "841c9bb8-3ae5-468d-ad48-a8975695d02d")
@@ -1723,9 +2973,9 @@
 	(footprint "l298n:TO127P2020X500X2100-15"
 		(layer "F.Cu")
 		(uuid "87022518-3b41-4703-a288-69095c35b5ee")
-		(at 244.899998 52.650003 180)
+		(at 188.510001 114.559997 180)
 		(property "Reference" "L298N1"
-			(at 2.425001 -2.495003 360)
+			(at 2.425001 -2.495003 0)
 			(layer "F.SilkS")
 			(uuid "6e694771-d880-4800-a0e2-41d6a0c4f817")
 			(effects
@@ -1736,7 +2986,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 13.219998 20.475002 360)
+			(at 13.219998 20.475002 0)
 			(layer "F.Fab")
 			(uuid "fed56a72-4d6a-4dea-955b-d4f23a36dd3a")
 			(effects
@@ -1747,7 +2997,7 @@
 			)
 		)
 		(property "Footprint" "l298n:TO127P2020X500X2100-15"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b8c1b25-e931-40d4-ada1-7a44d3887c7c")
@@ -1759,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08d5c8d7-32bb-4c7b-bb97-07f81c120323")
@@ -1771,7 +3021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "276e9a86-1c6d-4d3d-9015-0d2707281e84")
@@ -2054,12 +3304,240 @@
 			(uuid "540f07d7-e334-4e07-a0e3-4e6a2b47f49b")
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "8ec44827-8d73-43e0-8679-b79972fda48e")
+		(at 109.04 149.45)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H7"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "90b7c715-665d-4dcf-9f08-82b145cc086e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "53cdcb7d-c7e1-4271-8e7e-5d0146c7c268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ca5e285-1c67-48b9-be49-465e6da8fb13")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da3880cf-3b9c-4cd7-be55-598c066d15e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7306356c-9608-4ac8-893e-643d14e6474b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8ed4f430-7677-4580-9837-5279e9349b0f")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "e4523514-8604-4b52-8e9a-9048ddf839f1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "6e4a239a-d3c4-40a8-bcf2-bf0c1e421c93")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "66d19fbe-0cd0-4d15-987a-c42a771a6263")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "8a9f4583-9744-4b5c-8982-eddfcdc00ca8")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "9423e3a3-dc53-4a57-87b3-223e1b725e33")
+		(at 102 172.97)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H6"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "25a594aa-5695-43d8-97ac-42bddd7b89a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "ef8a97ec-32a4-464f-a642-59270bf4bc5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3916282b-0e32-4206-b0a3-40267b1a0728")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c8d45d4-da2c-4df9-9abc-88454df0add7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e8f966b-4588-421d-b488-f39bac6d9984")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/36ca2e5b-8909-49a8-8149-55976ef65455")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d8e79499-0df5-4adf-8458-97f9f7da388d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "017cf466-74bc-4b09-b320-d81fb4849440")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2f8864f2-1797-47bb-adf9-f534803edede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "65e8943e-5165-4468-98d4-4f3ccffea95f")
+		)
+	)
 	(footprint "xt30:XT30UPB-M"
 		(layer "F.Cu")
 		(uuid "a11bf264-b2a5-426a-83ed-bef105b22eca")
-		(at 237.4885 90.9025)
+		(at 160.570002 104.150001 90)
 		(property "Reference" "U6"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "6566fc81-1549-489b-ab8f-011613b614ac")
 			(effects
@@ -2070,7 +3548,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "8640500d-c537-46a1-8ee3-7d8f5e1cef21")
 			(effects
@@ -2081,7 +3559,7 @@
 			)
 		)
 		(property "Footprint" "xt30:XT30UPB-M"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0035bb8-9bbb-4ba8-b77d-69f243462195")
@@ -2093,7 +3571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98566d51-3dc8-4fb2-be3b-4470198a02e7")
@@ -2105,7 +3583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6044b1cb-12b8-4a38-b71e-eb9eff4a8398")
@@ -2117,7 +3595,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2130,7 +3608,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2143,7 +3621,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2156,7 +3634,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2169,7 +3647,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2182,7 +3660,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2195,7 +3673,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2208,7 +3686,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2225,8 +3703,8 @@
 		(sheetfile "Layer_2.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -5.1 -2.6)
-			(end -5.1 2.6)
+			(start -5.100001 -2.600001)
+			(end -5.099997 2.600001)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -2235,17 +3713,37 @@
 			(uuid "f22d6a08-d1f5-45ca-a745-a8da2998514e")
 		)
 		(fp_line
-			(start -5.1 2.6)
-			(end 3.81 2.6)
+			(start 3.810002 -2.599999)
+			(end -5.100001 -2.600001)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f8b127bf-4dd2-49a5-8526-8013520d553f")
+			(uuid "bc5ea17b-f899-42c2-8202-0c274ae0c7d2")
 		)
 		(fp_line
-			(start -4.8 0)
+			(start 5.1 -1.270001)
+			(end 3.810002 -2.599999)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "db9ade14-b179-49fa-a5fd-8e1ffb0dc38e")
+		)
+		(fp_line
+			(start -4.445 -0.350001)
+			(end -4.444999 0.349999)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0a8bfcd3-26a1-4fed-9b29-78afe37d72d4")
+		)
+		(fp_line
+			(start -4.800001 -0.000001)
 			(end -4.1 0)
 			(stroke
 				(width 0.127)
@@ -2255,38 +3753,8 @@
 			(uuid "10cb4d51-a9f6-491c-9fb8-05058de0ef1d")
 		)
 		(fp_line
-			(start -4.445 -0.35)
-			(end -4.445 0.35)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0a8bfcd3-26a1-4fed-9b29-78afe37d72d4")
-		)
-		(fp_line
-			(start 3.81 -2.6)
-			(end -5.1 -2.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bc5ea17b-f899-42c2-8202-0c274ae0c7d2")
-		)
-		(fp_line
-			(start 3.81 2.6)
-			(end 5.1 1.27)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c327878f-36ce-4230-af13-60dc36db509e")
-		)
-		(fp_line
 			(start 4.064 0)
-			(end 4.699 0)
+			(end 4.699001 -0.000001)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -2295,18 +3763,8 @@
 			(uuid "9859d7ac-54e3-408f-a28b-b9068f6a59d7")
 		)
 		(fp_line
-			(start 5.1 -1.27)
-			(end 3.81 -2.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db9ade14-b179-49fa-a5fd-8e1ffb0dc38e")
-		)
-		(fp_line
-			(start 5.1 1.27)
-			(end 5.1 -1.27)
+			(start 5.100001 1.27)
+			(end 5.1 -1.270001)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -2314,8 +3772,28 @@
 			(layer "F.SilkS")
 			(uuid "21d0ea05-474a-4fdc-93fc-f6fc0371c010")
 		)
+		(fp_line
+			(start 3.809998 2.600001)
+			(end 5.100001 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c327878f-36ce-4230-af13-60dc36db509e")
+		)
+		(fp_line
+			(start -5.099997 2.600001)
+			(end 3.809998 2.600001)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8b127bf-4dd2-49a5-8526-8013520d553f")
+		)
 		(pad "P$1" thru_hole circle
-			(at -2.5 0)
+			(at -2.499999 -0.000002 90)
 			(size 2.7 2.7)
 			(drill 1.8)
 			(layers "*.Cu" "*.Mask")
@@ -2327,7 +3805,7 @@
 			(uuid "4d40418e-6304-4d58-91e7-f2a29cc22629")
 		)
 		(pad "P$2" thru_hole circle
-			(at 2.5 0)
+			(at 2.499999 0.000002 90)
 			(size 2.7 2.7)
 			(drill 1.8)
 			(layers "*.Cu" "*.Mask")
@@ -2342,7 +3820,7 @@
 	(footprint "xt30:XT30UPB-M"
 		(layer "F.Cu")
 		(uuid "a954ff55-891a-4481-8e4e-49b983da1435")
-		(at 237.4885 78.2485)
+		(at 107.57 66.13)
 		(property "Reference" "U3"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -2627,9 +4105,9 @@
 	(footprint "xt30:XT30UPB-M"
 		(layer "F.Cu")
 		(uuid "b4310565-b826-4813-b9e5-79424774fdcf")
-		(at 237.4885 97.2295)
+		(at 55.922113 105.909514 95)
 		(property "Reference" "U7"
-			(at 0 0 0)
+			(at 0 0 95)
 			(layer "F.SilkS")
 			(uuid "069e7a80-c86f-41a7-8024-0b13bda28328")
 			(effects
@@ -2640,7 +4118,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 0 0 0)
+			(at 0 0 95)
 			(layer "F.Fab")
 			(uuid "d2833ac2-c0b7-44a2-90ad-e4de341702e7")
 			(effects
@@ -2651,7 +4129,7 @@
 			)
 		)
 		(property "Footprint" "xt30:XT30UPB-M"
-			(at 0 0 0)
+			(at 0 0 95)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c691873-a749-4a37-a198-4b3127cf682b")
@@ -2663,7 +4141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 95)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78c3f943-3bbe-4470-93d2-e736b5996a0e")
@@ -2675,7 +4153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 95)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46337bb5-1dfa-4918-b1dd-e1d9b51aef7b")
@@ -2687,7 +4165,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2700,7 +4178,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2713,7 +4191,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2726,7 +4204,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2739,7 +4217,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2752,7 +4230,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2765,7 +4243,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2778,7 +4256,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 95)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2795,8 +4273,18 @@
 		(sheetfile "Layer_2.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -5.1 -2.6)
-			(end -5.1 2.6)
+			(start 3.810002 -2.599999)
+			(end -5.100001 -2.600001)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c907b836-8958-476a-808e-eda2298c6617")
+		)
+		(fp_line
+			(start -5.100001 -2.600001)
+			(end -5.099997 2.600001)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -2805,17 +4293,37 @@
 			(uuid "30e4d30b-9930-498f-b20f-8d0e982d3554")
 		)
 		(fp_line
-			(start -5.1 2.6)
-			(end 3.81 2.6)
+			(start 5.1 -1.270001)
+			(end 3.810002 -2.599999)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2a97426c-fd44-4182-ada1-fb61a793f663")
+			(uuid "ce757250-43cf-414b-b0e7-2eacac6d79e4")
 		)
 		(fp_line
-			(start -4.8 0)
+			(start 4.064 0)
+			(end 4.699001 -0.000001)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f70c9421-4a5a-45d1-9245-b3561a5b1cb7")
+		)
+		(fp_line
+			(start -4.445 -0.350001)
+			(end -4.444999 0.349999)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "868fb322-48ff-40a7-89a8-6053ee581528")
+		)
+		(fp_line
+			(start -4.800001 -0.000001)
 			(end -4.1 0)
 			(stroke
 				(width 0.127)
@@ -2825,28 +4333,18 @@
 			(uuid "57ad535a-ec9b-4649-8e84-712c70d0d836")
 		)
 		(fp_line
-			(start -4.445 -0.35)
-			(end -4.445 0.35)
+			(start 5.100001 1.27)
+			(end 5.1 -1.270001)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "868fb322-48ff-40a7-89a8-6053ee581528")
+			(uuid "3a6afea2-0c74-4374-a4e9-15948619365f")
 		)
 		(fp_line
-			(start 3.81 -2.6)
-			(end -5.1 -2.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c907b836-8958-476a-808e-eda2298c6617")
-		)
-		(fp_line
-			(start 3.81 2.6)
-			(end 5.1 1.27)
+			(start 3.809998 2.600001)
+			(end 5.100001 1.27)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -2855,37 +4353,17 @@
 			(uuid "84958d11-cbb5-4980-ba84-ec845057c569")
 		)
 		(fp_line
-			(start 4.064 0)
-			(end 4.699 0)
+			(start -5.099997 2.600001)
+			(end 3.809998 2.600001)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f70c9421-4a5a-45d1-9245-b3561a5b1cb7")
-		)
-		(fp_line
-			(start 5.1 -1.27)
-			(end 3.81 -2.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ce757250-43cf-414b-b0e7-2eacac6d79e4")
-		)
-		(fp_line
-			(start 5.1 1.27)
-			(end 5.1 -1.27)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3a6afea2-0c74-4374-a4e9-15948619365f")
+			(uuid "2a97426c-fd44-4182-ada1-fb61a793f663")
 		)
 		(pad "P$1" thru_hole circle
-			(at -2.5 0)
+			(at -2.499999 -0.000002 95)
 			(size 2.7 2.7)
 			(drill 1.8)
 			(layers "*.Cu" "*.Mask")
@@ -2897,7 +4375,7 @@
 			(uuid "d9b5bd33-0a38-4658-b47e-6ecc5fe863e5")
 		)
 		(pad "P$2" thru_hole circle
-			(at 2.5 0)
+			(at 2.499999 0.000002 95)
 			(size 2.7 2.7)
 			(drill 1.8)
 			(layers "*.Cu" "*.Mask")
@@ -2907,6 +4385,289 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "a70c76dc-71a7-406c-8b9e-1e78dd185016")
+		)
+	)
+	(footprint "xt30:XT30UPB-M"
+		(layer "F.Cu")
+		(uuid "b723f04a-ab8b-425f-85d2-4822bb37e37b")
+		(at 107.57 66.13)
+		(property "Reference" "U10"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "c660d1f9-afe2-44f0-a4df-3b4421209282")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "XT30UPB-M"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9a5ce3cb-1c18-404a-bdda-a03604c39872")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "xt30:XT30UPB-M"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "295749d9-f925-432f-b262-e50206c4dbf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82cca5ad-4d98-45e1-b5f3-17a62c2547df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d67d7cbd-9643-4682-8900-da846b5b88fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "amass"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0044e343-df2e-443e-ab57-2edfd01400d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "963ef2cc-5e80-4e79-8de5-d8317996e622")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85ded7c4-0e50-40ee-8323-0463e0e3e5fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f2e3874-9dfb-4032-979a-61a4ab898de5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e4ff8e3-cc94-495f-a33e-025ea4f70579")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "XT30UPB-M"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ea05a6c-0847-452d-aa51-550e67d9a45e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cc77de2-a2a0-45b9-8638-9fcbe00d1898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84f650a7-9753-45c9-a1ac-964a40d4c77f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b6132841-19b5-4d94-a3d1-87023d76bb02")
+		(attr through_hole)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.1 2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "af8119bf-c412-441a-8db8-dec98939a5c4")
+		)
+		(fp_line
+			(start -5.1 2.6)
+			(end 3.81 2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "075a5aec-5d58-49a8-b8c4-97c28dd2515b")
+		)
+		(fp_line
+			(start -4.8 0)
+			(end -4.1 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7dd7e1ec-22d5-4ea0-86e4-7e157ad0cbed")
+		)
+		(fp_line
+			(start -4.445 -0.35)
+			(end -4.445 0.35)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5f04de1b-780b-4625-95a3-7681faf9dc61")
+		)
+		(fp_line
+			(start 3.81 -2.6)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "31ab769e-ca18-4b7a-879f-78b7ad045223")
+		)
+		(fp_line
+			(start 3.81 2.6)
+			(end 5.1 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d0a005fe-536f-48e1-9ae2-fc851f4efd6c")
+		)
+		(fp_line
+			(start 4.064 0)
+			(end 4.699 0)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20d208ab-48b6-4b28-a5ff-3928af4f3b73")
+		)
+		(fp_line
+			(start 5.1 -1.27)
+			(end 3.81 -2.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "373ff8df-131b-4d4b-96dd-bd3d4f2d3a9d")
+		)
+		(fp_line
+			(start 5.1 1.27)
+			(end 5.1 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a6d0ad4a-aa56-44f7-836e-bdaa88a1d76c")
+		)
+		(pad "P$1" thru_hole circle
+			(at -2.5 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "/5v")
+			(pinfunction "+")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f1b6e15f-354b-405b-94ed-90bb5075e5c7")
+		)
+		(pad "P$2" thru_hole circle
+			(at 2.5 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c0856c64-dd76-4450-9dc4-4f21b075d96c")
 		)
 	)
 	(footprint "ESP32 DEV KIT:MODULE_ESP32-S3-DEVKITM-1-N8"
@@ -4069,10 +5830,466 @@
 			(uuid "ca983b75-46c6-4f15-9177-f6b9c6d459e2")
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "d52b8520-f14b-4913-ac4d-ace36d70d0e3")
+		(at 26.49 82.99)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H2"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "0dc54084-47d1-49fa-b635-c9b8c2f4c345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "7e20fead-76f4-4af0-949c-ff5fb6c01472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c41d874-9f72-48a5-9ce2-d84f772ad7cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a39ee78-7586-479c-b76a-8ad53df85f0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11964b02-1dbf-4485-b1c0-34c92afb0c61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/775e5475-3eff-4770-b51f-68ceb3d2e6fe")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a6d95141-503d-4254-8e68-62e95b5998d2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "071e94cf-0ac4-4a55-9564-ec1bd0465b69")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a9dd8564-0517-4b86-ad6b-e686901a9bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1b56eef3-7367-445f-8121-debd88504450")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "d5bf03bf-0ec0-4b26-af4f-5693f1f356e0")
+		(at 26.53 132.99)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H3"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "516418e9-f908-47ca-9a11-698649e37b18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "e2dfb056-b80f-4c12-994d-7ffe969f9898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4847958a-b1f6-48fd-9d1b-b8df1ad044e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db90ded1-1c74-4d20-aa01-8a1dca779f89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3001d489-7402-4f9a-8769-2967b8753135")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/0447e0dd-608a-4278-a3d7-7a47ad79b0ae")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "0959d0e3-a4fe-41f5-9f17-6351f3371088")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b87f1da5-72b7-4b2a-833d-b45015402dbd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ceef68ce-6c21-4263-b119-ac7d1ef7bfd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f32d6ca7-2764-4a04-9e25-15e5add50ba6")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "db564e9d-a786-4302-94af-93378b5f68c3")
+		(at 109.03 172.97)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H8"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "6d3b9394-4020-45be-bbb6-628f09587b17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "e9051b29-21ba-40ee-98c0-0f52acb3818e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5480361-6ffd-44bd-8585-27cb2a24221d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72029c78-09cb-465c-bac3-08ec11e41e07")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0beafdc-75e8-4d66-a605-2751997d2785")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/fec7a68c-a217-498d-ba97-7402af7ceb4e")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d42f5667-8b4d-4e60-aabf-5618a0637dc6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d11b3acd-a56b-4dcd-bf52-9c1ae8aeaa4a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "83a18df5-f0ee-4a0d-ab0b-49362339714b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "2e62208f-0a9f-403f-bc8d-2ca9e4247070")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "db97ef79-8530-4996-a9fe-24cbde6d04ec")
+		(at 129.02 169.74)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H9"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "4a9aeef4-7fee-4a62-ade1-e62975faf726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "28f08985-29b1-4b07-ad75-2d51e47ba6cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60460bef-512f-4b73-90bf-9c91dbf6bfb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6bbf772-8dcb-45fe-ae96-839c4dfe3dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ac0b6fb-b8a6-4461-9373-276a5c38e0a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/6a29ea5a-c498-4db8-8274-1518c6aa9baa")
+		(sheetname "Root")
+		(sheetfile "Layer_2.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "412400cc-ca61-49c2-9892-844e87800be0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d642a416-6413-4285-a9ff-f015162dc38c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b2793c42-7165-48d8-9c16-599fcd3120bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "467300fd-1dbf-4c6a-80ec-c07ccb769c0c")
+		)
+	)
 	(footprint "l298n:TO127P2020X500X2100-15"
 		(layer "F.Cu")
 		(uuid "f043ea34-6d6c-45f2-a54d-cad58da06e14")
-		(at 246.06 125.1)
+		(at 21.35 98.05)
 		(property "Reference" "L298N2"
 			(at 2.425 -2.495 0)
 			(layer "F.SilkS")
@@ -4406,7 +6623,7 @@
 	(footprint "Motor Controller:LM2596ADJ"
 		(layer "F.Cu")
 		(uuid "f7c12c52-9168-4160-8436-087463f3f2ca")
-		(at 260.845 83.822)
+		(at 139.8382 106.6488)
 		(property "Reference" "U2"
 			(at -6.223 2.413 180)
 			(layer "F.SilkS")
@@ -4865,6 +7082,298 @@
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "b8bfbd17-eac8-4740-919a-f90de96ef8ef")
+		)
+	)
+	(gr_circle
+		(center 129.002703 169.756974)
+		(end 130.652703 169.756974)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "0782dbba-2aa0-4ff3-aaa6-3a5d7bb5dad2")
+	)
+	(gr_circle
+		(center 109.01 172.968075)
+		(end 110.66 172.968075)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "241f5f54-2ad6-4064-bdb7-87b909ae1360")
+	)
+	(gr_circle
+		(center 130.51 28.98)
+		(end 133.56 28.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "27acad6e-bf78-4c1f-b610-41fbc9e570c2")
+	)
+	(gr_circle
+		(center 109.01 149.434687)
+		(end 112.06 149.434687)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2e5a21bc-1cb6-47ec-892c-e1dfba878c8d")
+	)
+	(gr_circle
+		(center 80.51 28.98)
+		(end 83.56 28.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "3942ea03-ef66-4d1f-a5d1-bf01570843a1")
+	)
+	(gr_circle
+		(center 80.51 28.98)
+		(end 82.16 28.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "40148c65-26fd-4873-b4ba-77316c9a5495")
+	)
+	(gr_circle
+		(center 109.01 172.968075)
+		(end 112.06 172.968075)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "48193608-af45-4014-9a30-b998f127972c")
+	)
+	(gr_circle
+		(center 26.51 132.98)
+		(end 28.16 132.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "48624052-f88d-4467-a283-5cf30a476824")
+	)
+	(gr_circle
+		(center 26.51 82.98)
+		(end 29.56 82.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "49517650-0b5a-4e18-97ed-6f24c9f8047c")
+	)
+	(gr_circle
+		(center 26.51 132.98)
+		(end 29.56 132.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "5145e746-c9fd-4802-8a14-6a1ef85024d2")
+	)
+	(gr_circle
+		(center 184.51 82.98)
+		(end 187.56 82.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "57886280-77cc-4d31-a311-131f3b788464")
+	)
+	(gr_circle
+		(center 82.017297 169.756974)
+		(end 85.067297 169.756974)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "5c4b699d-c4ce-45a7-b825-44aa71885f0b")
+	)
+	(gr_circle
+		(center 184.51 82.98)
+		(end 186.16 82.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "63c31357-2a5a-40f9-b564-66881173b681")
+	)
+	(gr_circle
+		(center 130.51 28.98)
+		(end 132.16 28.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "670dd870-87e9-4e75-8ee3-1091478af48c")
+	)
+	(gr_circle
+		(center 184.51 132.98)
+		(end 186.16 132.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "73e9154e-66d2-4398-99a3-ca87b957fc2c")
+	)
+	(gr_circle
+		(center 102.01 172.968075)
+		(end 103.66 172.968075)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "7a4acc43-4a67-48fb-acb4-937232cfc429")
+	)
+	(gr_circle
+		(center 129.002703 169.756974)
+		(end 132.052703 169.756974)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "7a65f643-d558-4fb4-ad20-78de876a593d")
+	)
+	(gr_circle
+		(center 105.51 107.98)
+		(end 194.51 107.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "842a6e89-a688-4daf-869a-bf29187b03f8")
+	)
+	(gr_circle
+		(center 102.01 172.968075)
+		(end 105.06 172.968075)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "92120c70-06a6-48ac-a801-10c684e7a9b2")
+	)
+	(gr_circle
+		(center 102.01 149.434687)
+		(end 103.66 149.434687)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "acb644a9-8dfb-41f5-a812-30048a8a0f3c")
+	)
+	(gr_circle
+		(center 26.51 82.98)
+		(end 28.16 82.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "c117ded5-1ee5-4168-85c7-a4b51828b00a")
+	)
+	(gr_circle
+		(center 184.51 132.98)
+		(end 187.56 132.98)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "c516a0d1-5522-44bc-afe0-6b562e205206")
+	)
+	(gr_circle
+		(center 109.01 149.434687)
+		(end 110.66 149.434687)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "cfa91393-4f11-4a18-a253-2c199eed708b")
+	)
+	(gr_circle
+		(center 82.017297 169.756974)
+		(end 83.667297 169.756974)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "e3fe3b39-4cc1-4d6f-87e3-18dc132077d1")
+	)
+	(gr_circle
+		(center 102.01 149.434687)
+		(end 105.06 149.434687)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "ef448ebd-1977-4b8f-9e66-b2bee51f3c53")
+	)
+	(group ""
+		(uuid "a1764bb3-ba52-44bd-a1ac-e6f25340516e")
+		(members "0782dbba-2aa0-4ff3-aaa6-3a5d7bb5dad2" "241f5f54-2ad6-4064-bdb7-87b909ae1360"
+			"27acad6e-bf78-4c1f-b610-41fbc9e570c2" "2e5a21bc-1cb6-47ec-892c-e1dfba878c8d"
+			"3942ea03-ef66-4d1f-a5d1-bf01570843a1" "40148c65-26fd-4873-b4ba-77316c9a5495"
+			"48193608-af45-4014-9a30-b998f127972c" "48624052-f88d-4467-a283-5cf30a476824"
+			"49517650-0b5a-4e18-97ed-6f24c9f8047c" "5145e746-c9fd-4802-8a14-6a1ef85024d2"
+			"57886280-77cc-4d31-a311-131f3b788464" "5c4b699d-c4ce-45a7-b825-44aa71885f0b"
+			"63c31357-2a5a-40f9-b564-66881173b681" "670dd870-87e9-4e75-8ee3-1091478af48c"
+			"73e9154e-66d2-4398-99a3-ca87b957fc2c" "7a4acc43-4a67-48fb-acb4-937232cfc429"
+			"7a65f643-d558-4fb4-ad20-78de876a593d" "842a6e89-a688-4daf-869a-bf29187b03f8"
+			"92120c70-06a6-48ac-a801-10c684e7a9b2" "acb644a9-8dfb-41f5-a812-30048a8a0f3c"
+			"c117ded5-1ee5-4168-85c7-a4b51828b00a" "c516a0d1-5522-44bc-afe0-6b562e205206"
+			"cfa91393-4f11-4a18-a253-2c199eed708b" "e3fe3b39-4cc1-4d6f-87e3-18dc132077d1"
+			"ef448ebd-1977-4b8f-9e66-b2bee51f3c53"
 		)
 	)
 )
