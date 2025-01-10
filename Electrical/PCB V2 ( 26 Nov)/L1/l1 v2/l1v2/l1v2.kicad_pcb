@@ -860,7 +860,7 @@
 		)
 		(fp_arc
 			(start 8.800012 9.000008)
-			(mid 7.977244 10.068136)
+			(mid 7.977245 10.06814)
 			(end 6.700004 10.500001)
 			(stroke
 				(width 0.12)
@@ -41100,6 +41100,18 @@
 			)
 		)
 	)
+	(gr_arc
+		(start 155.03 65.039999)
+		(mid 151.889578 64.295934)
+		(end 152.099717 61.075418)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "b19fbe8c-5ee8-4e78-ae6d-7201b89fbaf9")
+	)
 	(gr_rect
 		(start -33.05 5.11)
 		(end 303.07 215.95)
@@ -43085,6 +43097,18 @@
 		)
 	)
 	(gr_text "\n2-Chairs"
+		(at 194.88 107.77 90)
+		(layer "F.SilkS")
+		(uuid "4fd51ce9-da01-4fb4-85d4-4a64c624d8a6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "\n2-Chairs"
 		(at 117.4 173.66 0)
 		(layer "F.SilkS")
 		(uuid "a2dd5ed0-2df9-4920-8594-8bffd2806ff5")
@@ -43106,6 +43130,18 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "\n2-Chairs"
+		(at 40.65 108.76 -90)
+		(layer "F.SilkS")
+		(uuid "ce8dd05f-5f07-4b4a-b474-00f9d501f571")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
 		)
 	)
 	(gr_text "GND"
@@ -46057,14 +46093,6 @@
 		(uuid "554b1173-10b5-4589-8dfa-6d83e834e350")
 	)
 	(segment
-		(start 148.27 57.21)
-		(end 155.55 64.49)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 37)
-		(uuid "5a24670f-0d46-4bfd-8658-2bdfa1d048e2")
-	)
-	(segment
 		(start 58.98 94.54)
 		(end 60.89 92.63)
 		(width 0.2)
@@ -46247,6 +46275,14 @@
 		(layer "F.Cu")
 		(net 37)
 		(uuid "c078ce06-e3d1-4212-8414-0887d619ea98")
+	)
+	(segment
+		(start 148.27 57.21)
+		(end 153.75 62.69)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "c23d102e-bfd7-4e81-809a-7936f78174bf")
 	)
 	(segment
 		(start 169.66 138.04)
