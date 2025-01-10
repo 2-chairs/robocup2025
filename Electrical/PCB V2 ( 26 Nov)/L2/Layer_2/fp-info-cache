@@ -1,4 +1,4 @@
-24737705396723450
+24798475360707220
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -67017,6 +67017,13 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+Motor Controller
+LM2596ADJ
+
+
+0
+6
+6
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf
@@ -91755,6 +91762,237 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+Sen Robo
+8-DFN (5x6)
+
+
+0
+9
+9
+Sen Robo
+12x12x6
+PTS125SM73SMTR21M LFS-1
+Switch
+0
+4
+4
+Sen Robo
+14 AWG
+
+
+0
+1
+1
+Sen Robo
+18 AWG
+
+
+0
+1
+1
+Sen Robo
+0630 One Piece Inductor
+
+
+0
+2
+2
+Sen Robo
+680uCap
+
+
+0
+2
+2
+Sen Robo
+1040 One Piece Inductor
+
+
+0
+2
+2
+Sen Robo
+ALS-PT19
+
+
+0
+2
+2
+Sen Robo
+AMASS_XT30-F
+Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Sen Robo
+AMASS_XT30PW-F
+
+
+0
+4
+4
+Sen Robo
+AMASS_XT60-M
+
+
+0
+2
+2
+Sen Robo
+AMASS_XT60PW-M
+
+
+0
+4
+4
+Sen Robo
+B340
+
+
+0
+2
+2
+Sen Robo
+CP_Radial_D8.0mm_P3.50mm
+CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+Sen Robo
+EIA-7343-D
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Sen Robo
+IPD050N10N5ATMA1
+IPD050N10N5ATMA1-2
+MOSFET (N-Channel)
+0
+3
+3
+Sen Robo
+Micro Logo
+
+
+0
+0
+0
+Sen Robo
+SEN Logo Mini
+
+
+0
+1
+1
+Sen Robo
+SEN Logo Pad (Invert)
+
+
+0
+1
+1
+Sen Robo
+SMA (DO-214AC)
+SMA (DO-214AC)
+Schottky Diode
+0
+2
+2
+Sen Robo
+SS12D00G3
+SS12D00G3-1
+Switch
+0
+3
+3
+Sen Robo
+SW_PUSH_SPST
+
+
+0
+2
+2
+Sen Robo
+TI_SO-PowerPAD-8
+8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf
+HTSOP 1.27
+0
+21
+9
+Sen Robo
+TO170P1435X465-6N
+KTT0005B
+Integrated Circuit
+0
+55
+6
+Sen Robo
+TO255P1040X460X2890-3
+
+
+0
+3
+3
+Sen Robo
+Teensy 4.0
+
+
+0
+28
+28
+Sen Robo
+Test Pad
+
+
+0
+1
+1
+Sen Robo
+VNH5019A-E
+VNH5019A-E
+Integrated Circuit
+0
+61
+33
+Sen Robo
+ZIp Tie
+
+
+0
+0
+0
+Sen Robo
+cap0603
+
+
+0
+2
+2
+Sen Robo
+led0603
+
+
+0
+2
+2
+Sen Robo
+res0603
+
+
+0
+2
+2
+Sen Robo
+xiao-esp32c3
+
+
+0
+14
+14
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99854,6 +100092,13 @@ Varistor VF
 0
 2
 2
+buck converter
+LM2596ADJ
+
+
+0
+6
+6
 esp32 dev kit
 MODULE_ESP32-S3-DEVKITM-1-N8
 
