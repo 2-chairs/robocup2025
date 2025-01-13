@@ -1,5 +1,5 @@
 
-(footprint IC_VNH5019ATR-E (layer F.Cu) (tedit 677F8337)
+(footprint IC_VNH5019ATR-E (layer F.Cu) (tedit 6784B8A6)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -4.45297 -9.79651 0) (layer F.SilkS)
