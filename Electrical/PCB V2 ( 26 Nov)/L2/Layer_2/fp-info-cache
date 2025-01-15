@@ -1,4 +1,4 @@
-24798475360707220
+24803685795231967
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -93673,6 +93673,13 @@ Logo WEEE
 0
 0
 0
+Teensy
+MODULE_DEV-15583
+
+
+0
+33
+33
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -100141,6 +100148,13 @@ XDCR_ALS-PT19-315C_L177_TR8
 0
 2
 2
+vhn5019
+IC_VNH5019ATR-E
+
+
+0
+33
+33
 xiao_seed
 MODULE_102010428
 
@@ -100150,6 +100164,13 @@ MODULE_102010428
 14
 xt30
 XT30UPB-M
+
+
+0
+2
+2
+xt60-m
+AMASS_XT60-M
 
 
 0
