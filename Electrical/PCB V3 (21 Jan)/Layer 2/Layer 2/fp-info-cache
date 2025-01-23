@@ -1,4 +1,4 @@
-24800234000806038
+24803709243994490
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -66744,6 +66744,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+idk 2.0
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -100141,6 +100148,13 @@ twoSSM-114-L-SV placed on Teensy<br><a href="http://suddendocs.samtec.com/catalo
 0
 28
 28
+layer2v3
+VREG_LM5017MR_NOPB
+
+
+0
+17
+17
 layer2v3
 XT30UPB-M
 
