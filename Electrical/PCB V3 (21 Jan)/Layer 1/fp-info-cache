@@ -1,4 +1,4 @@
-24974007006980075
+24979213429709635
 Arduino
 Arduino_Micro
 Arduino Micro
@@ -2610,6 +2610,13 @@ speaker CUI
 0
 2
 2
+CD74HC4067SM96G4
+SOP65P780X200-24N
+
+
+0
+24
+24
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -67031,6 +67038,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Layer1_Symbol_Footprints
+XiaoSeeedStudioEsp32
+
+
+0
+14
+14
 Library
 C_0402_1005Metric
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -100701,3 +100715,10 @@ splinky
 0
 0
 0
+photoresistor
+XDCR_ALS-PT19-315C_L177_TR8
+
+
+0
+2
+2
