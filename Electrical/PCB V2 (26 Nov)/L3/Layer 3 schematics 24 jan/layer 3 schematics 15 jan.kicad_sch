@@ -420,7 +420,214 @@
 				)
 			)
 		)
-		(symbol "Openmv_M7_1"
+		(symbol "XT30UPB-M:XT30UPB-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT30UPB-M"
+				(at -2.54 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XT30UPB-M:XT30UPB-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "amass"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XT30UPB-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XT30UPB-M_0_0"
+				(rectangle
+					(start -2.54 -2.54)
+					(end 3.81 5.08)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "openmv m7:Openmv_M7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -467,7 +674,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Openmv_M7_1_0_1"
+			(symbol "Openmv_M7_0_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 26.67 -45.085)
@@ -480,7 +687,15 @@
 					)
 				)
 			)
-			(symbol "Openmv_M7_1_1_1"
+			(symbol "Openmv_M7_1_1"
+				(text "OPENMVM7\n"
+					(at 11.43 5.334 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -3.81 -41.91 0)
 					(length 2.54)
@@ -771,213 +986,6 @@
 				)
 			)
 		)
-		(symbol "XT30UPB-M:XT30UPB-M"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "XT30UPB-M"
-				(at -2.54 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "XT30UPB-M:XT30UPB-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "amass"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "XT30UPB-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "XT30UPB-M_0_0"
-				(rectangle
-					(start -2.54 -2.54)
-					(end 3.81 5.08)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P$2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(rectangle
 		(start 203.835 31.115)
@@ -1178,6 +1186,116 @@
 		(uuid "f94e6ba1-624b-44e3-b98d-7015e362a503")
 	)
 	(symbol
+		(lib_id "openmv m7:Openmv_M7")
+		(at 28.575 36.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1623fdb5-a477-4ed0-9b02-e18e16216306")
+		(property "Reference" "U2"
+			(at 41.275 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.275 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.575 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.575 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 28.575 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d3f69e6b-28b6-49b7-a81a-967bc22b8659")
+		)
+		(pin ""
+			(uuid "e7af1896-4e7d-4a38-aad4-5b91857cf0a1")
+		)
+		(pin ""
+			(uuid "87e076f8-83ad-425d-a25a-8c7b3b4e0629")
+		)
+		(pin ""
+			(uuid "0f826f65-57fa-4870-bbcc-1be57c623957")
+		)
+		(pin ""
+			(uuid "eeb62641-bd80-4faf-b92e-dddc2e84801d")
+		)
+		(pin ""
+			(uuid "b16998e0-d18f-46df-b7ba-c30eef4511ab")
+		)
+		(pin ""
+			(uuid "59dd61fb-b6cc-44b8-bdfd-69acab40229d")
+		)
+		(pin ""
+			(uuid "f0bd097c-5214-4ae2-9f64-d732eab430cb")
+		)
+		(pin ""
+			(uuid "3a27821f-730b-4814-9216-8f4a2a23714f")
+		)
+		(pin ""
+			(uuid "b10a0cda-15e3-41e6-b0e7-49d82c0d349b")
+		)
+		(pin ""
+			(uuid "8bb85a12-7e64-4e3f-a805-8dd859dddce4")
+		)
+		(pin ""
+			(uuid "33b89adf-e89b-4447-8364-5d16449394aa")
+		)
+		(pin ""
+			(uuid "30670143-11ad-4d70-b1bd-ee437f5d4687")
+		)
+		(pin ""
+			(uuid "69e7b27e-d550-4787-ac5e-adcde8d3deed")
+		)
+		(pin ""
+			(uuid "7108306a-bdd2-4daa-9389-18752a2e387a")
+		)
+		(pin ""
+			(uuid "9c71f4fa-bb14-45cc-a6c2-d2f2aeb32f6a")
+		)
+		(instances
+			(project ""
+				(path "/57f1100f-740d-436e-b0f2-293fa451aa3e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 257.81 55.88 0)
 		(unit 1)
@@ -1322,117 +1440,6 @@
 			(project ""
 				(path "/57f1100f-740d-436e-b0f2-293fa451aa3e"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Openmv_M7_1")
-		(lib_id "openmv m7:Openmv_M7")
-		(at 28.575 36.195 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e023e4c0-ac79-4e97-b454-2e452418cce5")
-		(property "Reference" "U4"
-			(at 41.275 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 41.275 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 28.575 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 28.575 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 28.575 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "041f4b79-bde0-4687-9198-dc10e420671c")
-		)
-		(pin ""
-			(uuid "7b9247a5-15a8-4521-b237-cf28d9888e4f")
-		)
-		(pin ""
-			(uuid "007d5bda-d725-47ef-a2d2-361555b02442")
-		)
-		(pin ""
-			(uuid "287a0bb4-dcf5-4339-a10d-cc6570b06545")
-		)
-		(pin ""
-			(uuid "9dbba818-0b6f-4299-a1fb-5785447199e2")
-		)
-		(pin ""
-			(uuid "d9e0ccb4-c261-45ff-a6c9-7ca255ef9a3e")
-		)
-		(pin ""
-			(uuid "5f11e605-c2b4-410d-a596-9eef8b88bfbc")
-		)
-		(pin ""
-			(uuid "68bc5345-7cfa-4bdb-9064-a8b66f22f077")
-		)
-		(pin ""
-			(uuid "4b26da91-b351-40b8-ad12-2b52007e73d1")
-		)
-		(pin ""
-			(uuid "3bb84de5-b903-40cc-8501-1325163f80c1")
-		)
-		(pin ""
-			(uuid "6391ab2c-e6d0-43d4-a7a7-9f4f8fca28fc")
-		)
-		(pin ""
-			(uuid "ce3a7f1b-4e63-4af8-9955-7de27a11b50f")
-		)
-		(pin ""
-			(uuid "cd9b89fb-e036-4b51-bc43-27d60b00a0c9")
-		)
-		(pin ""
-			(uuid "6efedd96-1a3a-4997-9591-12118a97343a")
-		)
-		(pin ""
-			(uuid "2f768030-ec90-4b09-86e9-544fb1191d0e")
-		)
-		(pin ""
-			(uuid "79a1c6fc-1ddc-4133-ac11-21debbe2df21")
-		)
-		(instances
-			(project ""
-				(path "/57f1100f-740d-436e-b0f2-293fa451aa3e"
-					(reference "U4")
 					(unit 1)
 				)
 			)
