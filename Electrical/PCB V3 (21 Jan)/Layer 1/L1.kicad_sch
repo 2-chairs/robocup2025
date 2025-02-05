@@ -5618,7 +5618,7 @@
 		(uuid "0f42cd3d-2a11-4f54-8572-ccf6b8c24785")
 	)
 	(label "Mux Com (17-32)"
-		(at 175.26 175.26 270)
+		(at 245.11 176.53 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5678,7 +5678,7 @@
 		(uuid "5bf13e3a-716b-4102-97d9-2b9bd44e94de")
 	)
 	(label "Mux Com (17-32)"
-		(at 209.55 215.9 180)
+		(at 209.55 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5698,7 +5698,7 @@
 		(uuid "673d60bb-4d91-4d4e-9014-47d54242bcfc")
 	)
 	(label "Mux Com (1-16)"
-		(at 209.55 213.36 180)
+		(at 209.55 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5828,7 +5828,7 @@
 		(uuid "e454c85d-7e00-4b77-88cc-aad65180b0bd")
 	)
 	(label "Mux Com (1-16)"
-		(at 245.11 176.53 270)
+		(at 175.26 175.26 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12821,7 +12821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.658 179.07 90)
 			(effects
 				(font
@@ -16568,7 +16568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 104.14 53.34 0)
 			(effects
 				(font
@@ -19606,7 +19606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.508 180.34 90)
 			(effects
 				(font
@@ -19674,7 +19674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 360.68 196.85 0)
 			(effects
 				(font
@@ -19742,7 +19742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 360.68 173.99 0)
 			(effects
 				(font
