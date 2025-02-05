@@ -4307,12 +4307,6 @@
 		(uuid "0b76dba8-bd4c-4f25-9fd6-c17bcf7825cf")
 	)
 	(junction
-		(at 180.34 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c0827e4-e594-48cb-b09a-3578acd6b74c")
-	)
-	(junction
 		(at 369.57 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4347,6 +4341,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1681a716-ba82-4f6d-9c24-dc1874e41a98")
+	)
+	(junction
+		(at 287.02 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a9c1ae2-4113-40b0-9c96-ece1b2af5b61")
 	)
 	(junction
 		(at 320.04 130.81)
@@ -4421,12 +4421,6 @@
 		(uuid "64d81095-2699-4c80-855e-b42aa1905ee1")
 	)
 	(junction
-		(at 83.82 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69efa482-2df8-4d51-80eb-6bbfbafe2975")
-	)
-	(junction
 		(at 273.05 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4469,6 +4463,12 @@
 		(uuid "903861ba-ae7e-4e1e-b69a-d8cc4dd7ba36")
 	)
 	(junction
+		(at 190.5 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975f71ac-ab83-43f3-b0ee-c5c9de76cec4")
+	)
+	(junction
 		(at 33.02 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4499,12 +4499,6 @@
 		(uuid "bdf28532-e7de-4bf9-8430-35200940791b")
 	)
 	(junction
-		(at 276.86 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c09da8fc-fd55-426e-9965-8884c54fe5c8")
-	)
-	(junction
 		(at 127 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4517,16 +4511,22 @@
 		(uuid "c9fcb913-c116-41d5-9147-7fc12e7661d9")
 	)
 	(junction
-		(at 373.38 137.16)
+		(at 93.98 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce4f8fd3-9db6-43e8-b78e-35d42b922eb5")
+		(uuid "ca18666b-7cbe-4216-9109-6c98900b506d")
 	)
 	(junction
 		(at 80.01 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc7a00bc-d64f-475a-b899-af0d1e60fa21")
+	)
+	(junction
+		(at 383.54 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebe3a890-bf02-4e53-acf4-1189f2a0dfd3")
 	)
 	(junction
 		(at 33.02 162.56)
@@ -4634,7 +4634,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 137.16) (xy 373.38 139.7)
+			(xy 383.54 137.16) (xy 383.54 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4791,16 +4791,6 @@
 			(type default)
 		)
 		(uuid "0d39e871-dad7-4adf-8f8d-9ec0b04ede89")
-	)
-	(wire
-		(pts
-			(xy 180.34 137.16) (xy 190.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f782f4f-77f1-4d33-b5aa-2a8d53a8fa76")
 	)
 	(wire
 		(pts
@@ -5134,7 +5124,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 137.16) (xy 180.34 137.16)
+			(xy 176.53 137.16) (xy 190.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5284,7 +5274,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 137.16) (xy 276.86 137.16)
+			(xy 273.05 137.16) (xy 287.02 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5374,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 137.16) (xy 83.82 137.16)
+			(xy 80.01 137.16) (xy 93.98 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 137.16) (xy 180.34 139.7)
+			(xy 190.5 137.16) (xy 190.5 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5544,16 +5534,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 137.16) (xy 83.82 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c0a97e3-12ae-4292-8766-cb1242faf48f")
-	)
-	(wire
-		(pts
 			(xy 68.58 55.88) (xy 68.58 57.15)
 		)
 		(stroke
@@ -5584,13 +5564,13 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 137.16) (xy 287.02 137.16)
+			(xy 93.98 132.08) (xy 93.98 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eb5860f-4df6-432e-b94c-c987e8921128")
+		(uuid "902eaef5-0306-4334-bc30-8d447eb6baad")
 	)
 	(wire
 		(pts
@@ -5824,7 +5804,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 137.16) (xy 373.38 137.16)
+			(xy 369.57 137.16) (xy 383.54 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6104,26 +6084,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 137.16) (xy 93.98 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec333adc-30ea-453e-9aa5-0c1cb54b1153")
-	)
-	(wire
-		(pts
-			(xy 373.38 137.16) (xy 383.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eccf7f96-736d-44d2-8108-10139805fa73")
-	)
-	(wire
-		(pts
 			(xy 33.02 162.56) (xy 36.83 162.56)
 		)
 		(stroke
@@ -6254,7 +6214,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 137.16) (xy 276.86 139.7)
+			(xy 287.02 137.16) (xy 287.02 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6546,6 +6506,28 @@
 		)
 		(uuid "118b6ca5-6e35-4ea0-92b9-cc7220311b09")
 	)
+	(label "Motor 2 Out A"
+		(at 176.53 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "147c1eaf-3686-4efe-ac8e-5b8994170460")
+	)
+	(label "Motor 4 Out B"
+		(at 369.57 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15c9bed1-1213-4e17-8ec9-128af2f4e0d7")
+	)
 	(label "Motor 2 EN B"
 		(at 156.21 63.5 0)
 		(fields_autoplaced yes)
@@ -6611,6 +6593,17 @@
 			(justify right bottom)
 		)
 		(uuid "4f0ded83-21f1-46a8-859f-c43e9b49102c")
+	)
+	(label "Motor 4 Motor B"
+		(at 369.57 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50f244e4-145d-41f9-8588-f95a5981a5f7")
 	)
 	(label "Motor Driver"
 		(at 222.25 144.78 180)
@@ -6700,6 +6693,17 @@
 		)
 		(uuid "85bb7833-0711-4170-85b5-bf799b7e66f4")
 	)
+	(label "Motor 1 Out A"
+		(at 80.01 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95faa88a-2509-4e01-81d8-963a7b3f1b99")
+	)
 	(label "Motor Driver"
 		(at 30.48 227.33 180)
 		(fields_autoplaced yes)
@@ -6733,6 +6737,17 @@
 		)
 		(uuid "b0f018f2-7eec-4f30-8cdb-36bf82b021d3")
 	)
+	(label "Motor 3 Out B"
+		(at 273.05 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b21573fa-0e91-497b-a5c1-d7dd300db868")
+	)
 	(label "Motor 1 EN B"
 		(at 156.21 68.58 0)
 		(fields_autoplaced yes)
@@ -6755,6 +6770,17 @@
 		)
 		(uuid "bac0bbde-220a-4201-84b2-62f72f52d1ca")
 	)
+	(label "Motor 2 BOut "
+		(at 176.53 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf120e8b-52fa-4b23-85a6-0eb4b16224e0")
+	)
 	(label "Motor 4 EN A"
 		(at 156.21 55.88 0)
 		(fields_autoplaced yes)
@@ -6765,6 +6791,17 @@
 			(justify left bottom)
 		)
 		(uuid "bf3e9924-5622-46d8-abf3-ab4bf3e7d1f7")
+	)
+	(label "Motor 3 Out A"
+		(at 273.05 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0aec6b3-0ce5-4a19-a921-3bee27f0d474")
 	)
 	(label "GND"
 		(at 80.01 175.26 0)
@@ -6787,6 +6824,17 @@
 			(justify left bottom)
 		)
 		(uuid "c8486bc6-b5fd-45aa-8fbd-543f2b26cbf9")
+	)
+	(label "Motor 2 Out B"
+		(at 80.01 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb6cfebb-ce0b-4a2a-b05c-55529c7f5082")
 	)
 	(label "Motor 1 EN B"
 		(at 29.21 154.94 180)
@@ -6842,150 +6890,6 @@
 			(justify left bottom)
 		)
 		(uuid "feb0d609-3da1-45f7-9b07-26961277c940")
-	)
-	(hierarchical_label "Motor 2 Out B"
-		(shape input)
-		(at 176.53 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ae78ffc-9762-4d3b-af56-d25f14e5fc7d")
-	)
-	(hierarchical_label "Motor 4 Out A"
-		(shape input)
-		(at 369.57 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22636165-01b2-4e81-9ab2-a5bef65bc547")
-	)
-	(hierarchical_label "Motor 2 Out A"
-		(shape input)
-		(at 176.53 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25a419a6-5ab3-4fd9-bef4-f7e9e7f331ca")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 276.86 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2c48c985-b863-4599-9cc1-0f476bc7372d")
-	)
-	(hierarchical_label "Motor 1 Out A"
-		(shape input)
-		(at 80.01 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "330b3db3-b5e2-4954-8467-680a8241a10b")
-	)
-	(hierarchical_label "Motor 1 Out B"
-		(shape input)
-		(at 80.01 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f271357-45ec-455b-a2ad-821b26efe9df")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 373.38 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "657e6b7c-a92b-40d3-b18a-72194c117e0e")
-	)
-	(hierarchical_label "Motor 3 Out A"
-		(shape input)
-		(at 273.05 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6632f911-ecd9-43ea-a952-784f86405af6")
-	)
-	(hierarchical_label "Motor 4 Out B"
-		(shape input)
-		(at 369.57 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d292f76-6271-4f22-bc14-7a117daadb64")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 180.34 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d210aab8-6377-4012-a0f9-2d317da68b60")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 83.82 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de746d18-d681-458e-bd27-983df69f9c32")
-	)
-	(hierarchical_label "Motor 3 Out B"
-		(shape input)
-		(at 273.05 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0e27229-313e-4dad-a89f-88d5ec39787a")
 	)
 	(symbol
 		(lib_id "Teensy 4.0:DEV-15583")
@@ -9436,6 +9340,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 383.54 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "473b4b84-1914-4eb1-a40b-223cc107ff21")
+		(property "Reference" "#PWR038"
+			(at 383.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 383.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 383.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "538df65a-8327-4b03-8e17-c28c69cd17cc")
+		)
+		(instances
+			(project ""
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 96.52 165.1 0)
 		(unit 1)
@@ -10736,6 +10706,72 @@
 			(project "Layer 2"
 				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 93.98 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d01a2be-67c0-4bdb-9073-ac58bf322781")
+		(property "Reference" "#PWR035"
+			(at 93.98 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f3e99fc-682a-419c-8fff-40b982c5baf8")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13235,6 +13271,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 287.02 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5b7f912-6f8d-4085-b8ff-ceab99d24555")
+		(property "Reference" "#PWR037"
+			(at 287.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 287.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b411ce-6520-44d9-9fd0-d973ca05c73a")
+		)
+		(instances
+			(project ""
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "vincent:AON6354")
 		(at 182.88 142.24 0)
 		(mirror x)
@@ -13321,6 +13423,72 @@
 			(project "Layer 2"
 				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 190.5 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb34a638-7de4-45d6-ac54-80458fd68c74")
+		(property "Reference" "#PWR036"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 190.5 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82146f95-eebd-41ad-b66d-b6d9636a120e")
+		)
+		(instances
+			(project ""
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
