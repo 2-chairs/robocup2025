@@ -2943,12 +2943,6 @@
 		(uuid "3fe80b2e-44d4-4313-a1f9-6d327af18d8a")
 	)
 	(junction
-		(at 90.17 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40b8c382-f467-4f45-bd65-f7733046235f")
-	)
-	(junction
 		(at 191.77 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3295,6 +3289,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f6cf107-081c-4369-a12c-de44dfc0b0a0")
+	)
+	(junction
+		(at 72.39 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8a4d21-6ae2-4fc5-bc35-130e4d41538b")
 	)
 	(junction
 		(at 283.21 142.24)
@@ -3649,10 +3649,6 @@
 		(uuid "04252b7a-e823-4874-ad46-023b66151417")
 	)
 	(no_connect
-		(at 80.01 50.8)
-		(uuid "7a6c24cb-407d-4a1c-b647-fe5f58c35551")
-	)
-	(no_connect
 		(at 210.82 175.26)
 		(uuid "8d841228-6a91-4278-a510-d2102946ece5")
 	)
@@ -3663,6 +3659,10 @@
 	(no_connect
 		(at 245.11 218.44)
 		(uuid "a99db6b6-1f67-4e78-9d42-3d54bfe59bd7")
+	)
+	(no_connect
+		(at 372.11 142.24)
+		(uuid "b03ab9a3-aaa7-4907-a351-1da6337278fa")
 	)
 	(wire
 		(pts
@@ -4236,26 +4236,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 90.17 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "482e6e07-7f8d-4c80-a5db-2ac6d746369f")
-	)
-	(wire
-		(pts
-			(xy 99.06 53.34) (xy 90.17 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4abf40-e158-4bdb-9597-dc3cf0e63edd")
-	)
-	(wire
-		(pts
 			(xy 120.65 69.85) (xy 125.73 69.85)
 		)
 		(stroke
@@ -4516,16 +4496,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 90.17 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e99c86c-78db-4afe-a21a-c72253cbd2ec")
-	)
-	(wire
-		(pts
 			(xy 88.9 100.33) (xy 96.52 100.33)
 		)
 		(stroke
@@ -4636,7 +4606,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 72.39 62.23)
+			(xy 72.39 53.34) (xy 72.39 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5136,6 +5106,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a0e83c-8c9e-42c8-b233-883811e2a631")
+	)
+	(wire
+		(pts
 			(xy 335.28 100.33) (xy 336.55 100.33)
 		)
 		(stroke
@@ -5413,16 +5393,6 @@
 			(type default)
 		)
 		(uuid "f1543134-0ec0-49d2-9a64-5371f0e90b61")
-	)
-	(wire
-		(pts
-			(xy 77.47 55.88) (xy 80.01 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36b04ab-0724-4d95-a515-ce50ed570905")
 	)
 	(wire
 		(pts
@@ -10002,6 +9972,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 377.19 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c69d63-e54d-4cfd-9e98-d6db16cc974d")
+		(property "Reference" "SW1"
+			(at 377.19 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 377.19 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 377.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 377.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "540dc46c-0168-4928-bbd5-cf422c9764e6")
+		)
+		(pin "1"
+			(uuid "a04f9e4e-9144-4589-8514-ab8e2870669e")
+		)
+		(pin "3"
+			(uuid "74a8774e-4b85-49c9-b72d-4861bce6d78f")
+		)
+		(instances
+			(project "L1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Photo")
 		(at 180.34 146.05 0)
 		(unit 1)
@@ -11114,7 +11155,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 372.11 147.32 270)
+		(at 382.27 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11123,7 +11164,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c51f710-d9a6-4a19-b8db-e5657a0d470f")
 		(property "Reference" "#PWR03"
-			(at 368.3 147.32 0)
+			(at 382.27 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +11173,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 375.92 147.3199 90)
+			(at 384.81 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,7 +11182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 147.32 0)
+			(at 382.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,7 +11191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 147.32 0)
+			(at 382.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,7 +11200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 372.11 147.32 0)
+			(at 382.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12894,7 +12935,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 372.11 149.86 90)
+		(at 372.11 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12903,7 +12944,7 @@
 		(fields_autoplaced yes)
 		(uuid "7582d5d7-1a7d-4d32-b1d3-8f88a3068b2b")
 		(property "Reference" "#PWR04"
-			(at 378.46 149.86 0)
+			(at 372.11 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,12 +12953,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 375.92 149.8599 90)
+			(at 374.65 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13713,77 +13754,6 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 85.09 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86a373fc-9230-4672-80de-7ba878a0cffb")
-		(property "Reference" "SW1"
-			(at 85.09 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 85.09 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 85.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ddee160-9da0-4eb8-a9e7-89e944a50eea")
-		)
-		(pin "1"
-			(uuid "8de6dace-521c-48d1-93ab-809e15688ace")
-		)
-		(pin "3"
-			(uuid "38e80c72-a383-44fd-ac4d-b6f8859c398a")
-		)
-		(instances
-			(project "l1 v1"
-				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17464,16 +17434,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 77.47 55.88 90)
+		(at 72.39 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c202442a-19a5-4e99-a01e-0bb9076ac546")
 		(property "Reference" "#PWR09"
-			(at 81.28 55.88 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17482,15 +17451,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 76.2 53.34 90)
+			(at 69.85 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 55.88 0)
+			(at 72.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17499,7 +17469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 55.88 0)
+			(at 72.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17508,7 +17478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 55.88 0)
+			(at 72.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
