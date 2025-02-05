@@ -6279,18 +6279,6 @@
 		(uuid 5b0f4e25-c8b6-4047-9e71-b6e24476c458)
 	)
 	(rectangle
-		(start 16.51 248.92)
-		(end 72.39 264.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 988a9ed5-044a-44a5-90af-b1236812024f)
-	)
-	(rectangle
 		(start 15.0454 182.8351)
 		(end 123.19 201.8851)
 		(stroke
@@ -6301,6 +6289,18 @@
 			(type none)
 		)
 		(uuid a2ae3601-5599-4561-b537-ab674745f09b)
+	)
+	(rectangle
+		(start 49.53 245.11)
+		(end 129.54 274.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c66d3787-7070-4711-8ad5-f13d1891cfaf)
 	)
 	(rectangle
 		(start 148.59 31.75)
@@ -8866,7 +8866,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 55.88 260.35 270)
+		(at 67.31 259.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8875,7 +8875,7 @@
 		(fields_autoplaced yes)
 		(uuid "33c8053a-8b1c-4484-93e8-e30a7543b9a6")
 		(property "Reference" "#PWR07"
-			(at 52.07 260.35 0)
+			(at 71.12 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +8884,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 59.69 260.3499 90)
+			(at 63.5 259.0801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +8893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 260.35 0)
+			(at 67.31 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 260.35 0)
+			(at 67.31 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +8911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 55.88 260.35 0)
+			(at 67.31 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,6 +8926,155 @@
 			(project "Layer 2"
 				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amass xt 30:XT30UPB-M")
+		(at 116.481 258.7755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370a0c8d-0015-4ec7-8718-43f96923a977")
+		(property "Reference" "U11"
+			(at 117.116 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pinhead 2"
+			(at 117.116 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "amass"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT30UPB-M"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+			(at 116.481 258.7755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "230c3d21-fe85-4359-8ea1-c4a8814fdec6")
+		)
+		(pin "P$1"
+			(uuid "7410225d-fbf0-4220-b14a-754ca747d203")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -10051,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:IC_VNH5019ATR-E"
+		(property "Footprint" "layer2v3:fixed -onenew"
 			(at 351.79 152.4 0)
 			(effects
 				(font
@@ -10936,7 +11085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -11049,6 +11198,155 @@
 		)
 	)
 	(symbol
+		(lib_id "amass xt 30:XT30UPB-M")
+		(at 99.06 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "741d3abb-6266-4e10-8dd6-77a0ca70ad0c")
+		(property "Reference" "U10"
+			(at 99.695 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pinhead1"
+			(at 99.695 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "amass"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT30UPB-M"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "693ee516-e8c2-4864-8d5a-2860ce786c10")
+		)
+		(pin "P$1"
+			(uuid "59f2533e-03a5-480e-9c2b-7c0c58a8c08f")
+		)
+		(instances
+			(project ""
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 137.16 154.94 90)
 		(unit 1)
@@ -11117,7 +11415,7 @@
 	)
 	(symbol
 		(lib_id "amass xt 30:XT30UPB-M")
-		(at 48.26 260.35 0)
+		(at 74.93 259.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11126,7 +11424,7 @@
 		(fields_autoplaced yes)
 		(uuid "761e644e-605c-47a9-9630-ab41e716b563")
 		(property "Reference" "U9"
-			(at 48.895 250.19 0)
+			(at 74.295 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +11432,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 48.895 252.73 0)
+			(at 74.295 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11440,7 @@
 			)
 		)
 		(property "Footprint" "layer2v3:AMASS_XT60-M"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +11450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,7 +11468,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,7 +11478,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11190,7 +11488,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11200,7 +11498,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11508,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11220,7 +11518,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +11528,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11240,7 +11538,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 48.26 260.35 0)
+			(at 74.93 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,7 +13210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:IC_VNH5019ATR-E"
+		(property "Footprint" "layer2v3:fixed -onenew"
 			(at 158.75 152.4 0)
 			(effects
 				(font
@@ -14024,7 +14322,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 257.81 90)
+		(at 67.31 261.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14033,7 +14331,7 @@
 		(fields_autoplaced yes)
 		(uuid "ced4aedb-13a3-49cf-9506-4ea55b184c2d")
 		(property "Reference" "#PWR06"
-			(at 62.23 257.81 0)
+			(at 60.96 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14042,7 +14340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 257.8099 90)
+			(at 63.5 261.6201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14051,7 +14349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 257.81 0)
+			(at 67.31 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14060,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 257.81 0)
+			(at 67.31 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14069,7 +14367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 257.81 0)
+			(at 67.31 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14248,7 +14546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:IC_VNH5019ATR-E"
+		(property "Footprint" "layer2v3:fixed -onenew"
 			(at 62.23 152.4 0)
 			(effects
 				(font
@@ -15607,7 +15905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:IC_VNH5019ATR-E"
+		(property "Footprint" "layer2v3:fixed -onenew"
 			(at 255.27 152.4 0)
 			(effects
 				(font
