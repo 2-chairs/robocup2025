@@ -10200,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew"
+		(property "Footprint" "layer2v3:fixed -onenew-newer"
 			(at 351.79 152.4 0)
 			(effects
 				(font
@@ -13210,7 +13210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew"
+		(property "Footprint" "layer2v3:fixed -onenew-newer"
 			(at 158.75 152.4 0)
 			(effects
 				(font
@@ -14546,7 +14546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew"
+		(property "Footprint" "layer2v3:fixed -onenew-newer"
 			(at 62.23 152.4 0)
 			(effects
 				(font
@@ -15905,7 +15905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew"
+		(property "Footprint" "layer2v3:fixed -onenew-newer"
 			(at 255.27 152.4 0)
 			(effects
 				(font

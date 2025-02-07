@@ -1,4 +1,4 @@
-24807186736274979
+24808925578626064
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -100174,8 +100174,15 @@ fixed -onenew
 
 
 0
-65
-34
+66
+33
+layer2v3
+fixed -onenew-newer
+
+
+0
+70
+33
 mux thingy
 SOP65P780X200-24N
 
