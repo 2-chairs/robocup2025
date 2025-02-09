@@ -1,5 +1,5 @@
 # robocup2024
-# Team 2-Chairs - RoboCup Singapore Open Soccer Junior
+# Team 2-Chairs - RoboCup Singapore Soccer Open Junior 
 
 *Repository for the official electronic, mechanical, and software files of Team 2-Chairs.*
 
