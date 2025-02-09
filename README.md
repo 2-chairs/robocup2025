@@ -22,7 +22,7 @@ This work © 2025 by Ng Chen-Xuan, Euston Tan, Chen YiKai is licensed under Crea
 
 ---
 
-\*"Two chairs, twice the betterness"\*
+**"Two chairs, twice the betterness"**
 
-*Written by ChatGPT*
+*Written by ChatGPT, Edited by human*
 
