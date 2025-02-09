@@ -16,6 +16,9 @@ This repository is for **Team 2-Chairs**, a Singapore RoboCup Open Soccer Junior
 - **Code/** *(Not started)* - Firmware and control software for the robot.
 - **Logo/** - Official team branding and design assets.
 
+## Credits 
+In the grand tapestry of our design endeavor, we owe a debt of profound gratitude to the esteemed teams of Sentinels Robotics, ducc. & Dynamo, whose brilliant schematics and designs (and potentially code) have guided our efforts.
+
 ## License & Copyright
 
 © 2025 Team 2-Chairs. All rights reserved, except where otherwise stated. 
