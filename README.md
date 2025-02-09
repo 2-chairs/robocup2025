@@ -1,6 +1,8 @@
 # robocup2024
 # Team 2-Chairs - RoboCup Singapore Soccer Open Junior 
 
+[Team 2-Chairs Logo](https://github.com/2-chairs/robocup2025/blob/main/zLogo/v3/logo%20render%20v3.png)
+
 *Repository for the official electronic, mechanical, and software files of Team 2-Chairs.*
 
 ## About
