@@ -8002,7 +8002,7 @@
 		(uuid eb00457e-c98e-4e84-8077-c5483e7c7aa9)
 	)
 	(rectangle
-		(start 146.05 201.93)
+		(start 138.43 201.93)
 		(end 184.15 232.41)
 		(stroke
 			(width 0)
@@ -8286,8 +8286,8 @@
 		)
 		(uuid "26af4d36-cff1-4d51-90fa-475c83125e6c")
 	)
-	(label "TX1"
-		(at 158.75 218.44 180)
+	(label " TX (L3 ESP 32)"
+		(at 158.75 215.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8418,14 +8418,14 @@
 		)
 		(uuid "536f30e5-a0a4-4413-8998-5eefe0aed387")
 	)
-	(label "RX2"
-		(at 158.75 220.98 180)
+	(label "RX (IMU)"
+		(at 171.45 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "53ff80e0-50a3-4d86-952e-04f5165458ce")
 	)
@@ -8693,7 +8693,7 @@
 		)
 		(uuid "c2c1c68f-47e8-4886-844f-0b40efc9e04a")
 	)
-	(label "TX3"
+	(label "TX (IMU)"
 		(at 171.45 218.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8715,8 +8715,8 @@
 		)
 		(uuid "c8486bc6-b5fd-45aa-8fbd-543f2b26cbf9")
 	)
-	(label "RX1"
-		(at 158.75 215.9 180)
+	(label " RX (L3 ESP 32)"
+		(at 158.75 218.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8726,7 +8726,7 @@
 		)
 		(uuid "c94a22c7-59bb-432e-be9e-e7731fc0138a")
 	)
-	(label "TX2"
+	(label "TX (CAM)"
 		(at 171.45 213.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8770,7 +8770,7 @@
 		)
 		(uuid "d1077ef8-182e-4600-a8f2-08109b828b68")
 	)
-	(label "RX3"
+	(label "RX (CAM)"
 		(at 171.45 215.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12657,7 +12657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 220.98 90)
+		(at 158.75 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12666,7 +12666,7 @@
 		(fields_autoplaced yes)
 		(uuid "59c45018-65af-4fdf-9e63-86f6f9efc265")
 		(property "Reference" "#PWR013"
-			(at 177.8 220.98 0)
+			(at 158.75 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12675,16 +12675,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 220.9799 90)
+			(at 161.29 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 220.98 0)
+			(at 158.75 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12693,7 +12693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 220.98 0)
+			(at 158.75 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12702,7 +12702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 220.98 0)
+			(at 158.75 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,7 +15169,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 158.75 213.36 90)
+		(at 158.75 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15178,7 +15178,7 @@
 		(fields_autoplaced yes)
 		(uuid "9844fa35-0c9f-454c-98ae-7def97f01f18")
 		(property "Reference" "#PWR012"
-			(at 162.56 213.36 0)
+			(at 158.75 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15187,7 +15187,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 154.94 213.3599 90)
+			(at 161.29 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16223,7 +16223,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2eefb29-29b7-4c49-96b7-2d64b919be2c")
 		(property "Reference" "J2"
 			(at 165.1 207.01 0)
@@ -16234,7 +16233,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 165.1 209.55 0)
+			(at 164.338 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
