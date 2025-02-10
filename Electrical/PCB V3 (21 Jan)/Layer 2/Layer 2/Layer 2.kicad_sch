@@ -7942,6 +7942,18 @@
 		(uuid c66d3787-7070-4711-8ad5-f13d1891cfaf)
 	)
 	(rectangle
+		(start 100.33 245.11)
+		(end 142.24 274.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid caff9b1c-a1bb-43bc-b22c-56f75f4f2542)
+	)
+	(rectangle
 		(start 148.59 31.75)
 		(end 218.44 99.06)
 		(stroke
@@ -8092,6 +8104,16 @@
 			)
 		)
 		(uuid "5e83498e-63cf-4537-81b5-8468b1e8b2ff")
+	)
+	(text "Solenoid"
+		(exclude_from_sim no)
+		(at 120.142 241.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d86ad92-66c1-4541-9797-80827be90b29")
 	)
 	(text "Motor 2 Driver"
 		(exclude_from_sim no)
@@ -10498,7 +10520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:cap0603"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 50.4952 52.07 0)
 			(effects
 				(font
@@ -10980,7 +11002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sen Robo:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 387.0452 170.18 0)
 			(effects
 				(font
@@ -11313,7 +11335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.5"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 282.9052 71.12 0)
 			(effects
 				(font
@@ -11679,7 +11701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Sen Robo:res0603"
 			(at 291.592 72.39 90)
 			(effects
 				(font
@@ -12026,7 +12048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sen Robo:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 97.4852 168.91 0)
 			(effects
 				(font
@@ -12105,7 +12127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Sen Robo:res0603"
 			(at 351.028 76.2 90)
 			(effects
 				(font
@@ -12390,7 +12412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:EIA-7343-D"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 64.4652 87.63 0)
 			(effects
 				(font
@@ -12427,6 +12449,73 @@
 			(project "Layer 2"
 				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 261.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5335fd74-de34-448c-9a94-f6e796a7189e")
+		(property "Reference" "#PWR041"
+			(at 133.35 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 261.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45d2b3fe-f763-49b0-a949-f66cc9aeb191")
+		)
+		(instances
+			(project ""
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13191,7 +13280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cap0603"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 91.44 39.6748 0)
 			(effects
 				(font
@@ -13261,7 +13350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 270.2052 71.12 0)
 			(effects
 				(font
@@ -13880,7 +13969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:EIA-7343-D"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 113.9952 48.26 0)
 			(effects
 				(font
@@ -14179,7 +14268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:res0603"
+		(property "Footprint" "Sen Robo:res0603"
 			(at 122.682 45.72 90)
 			(effects
 				(font
@@ -14381,7 +14470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 371.8052 71.12 0)
 			(effects
 				(font
@@ -14586,6 +14675,155 @@
 			(project "Layer 2"
 				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amass xt 30:XT30UPB-M")
+		(at 119.38 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "903ffe4e-ad11-47b9-a8fa-4bbeef610bbb")
+		(property "Reference" "U1"
+			(at 120.015 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30UPB-M"
+			(at 120.015 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "layer2v3:XT30UPB-M"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "amass"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT30UPB-M"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
+			(at 119.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "7149707a-b66f-4891-8509-8923a620ef40")
+		)
+		(pin "P$1"
+			(uuid "0701f673-fb14-460d-827b-85b4f291b9d3")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14878,7 +15116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sen Robo:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 194.0052 168.91 0)
 			(effects
 				(font
@@ -16155,7 +16393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 359.1052 71.12 0)
 			(effects
 				(font
@@ -16458,7 +16696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:res0603"
+		(property "Footprint" "Sen Robo:res0603"
 			(at 351.028 59.69 90)
 			(effects
 				(font
@@ -16671,7 +16909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2024l2:cap0603"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 294.3352 83.82 0)
 			(effects
 				(font
@@ -17912,7 +18150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sen Robo:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 290.5252 168.91 0)
 			(effects
 				(font
@@ -17958,6 +18196,73 @@
 			(project "Layer 2"
 				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 127 259.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e6d831-4278-45c8-b4cf-ae2301ea5457")
+		(property "Reference" "#PWR040"
+			(at 123.19 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 130.81 259.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 127 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97595840-3aef-4a5f-9f34-71bf351c64ba")
+		)
+		(instances
+			(project ""
+				(path "/eaab9490-3eeb-461d-a2fe-b2bb6ab4c0e3"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18531,7 +18836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:res0603"
+		(property "Footprint" "Sen Robo:res0603"
 			(at 122.682 57.15 90)
 			(effects
 				(font
@@ -18601,7 +18906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:EIA-7343-D"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 125.4252 92.71 0)
 			(effects
 				(font
