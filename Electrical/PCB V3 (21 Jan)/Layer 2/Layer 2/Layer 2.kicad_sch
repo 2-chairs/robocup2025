@@ -13743,7 +13743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DIOM5025X220N"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 93.345 44.45 0)
 			(effects
 				(font
@@ -18188,7 +18188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2024l2:SMA (DO-214AC)"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 340.36 50.8 0)
 			(effects
 				(font
@@ -19422,7 +19422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DIOM5025X220N"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 109.855 88.9 0)
 			(effects
 				(font
