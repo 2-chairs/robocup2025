@@ -5840,24 +5840,16 @@
 		(uuid "2bcb923a-debd-47fc-b022-bd4e8e5c8560")
 	)
 	(no_connect
-		(at 205.74 71.12)
-		(uuid "2d3bfe4e-0373-439a-affc-d35a54fb3394")
-	)
-	(no_connect
 		(at 369.57 160.02)
 		(uuid "301320bf-9ef1-4c81-b1c2-12b4a882bb6f")
-	)
-	(no_connect
-		(at 170.18 76.2)
-		(uuid "42673f8b-88f4-42ab-b10a-d54831cde64b")
 	)
 	(no_connect
 		(at 334.01 160.02)
 		(uuid "65a2338e-79f7-43ae-94e6-3da5be4a33e4")
 	)
 	(no_connect
-		(at 170.18 73.66)
-		(uuid "850481c5-f721-47d0-8201-c19a57edf6af")
+		(at 205.74 71.12)
+		(uuid "73ade00f-69a5-461f-944d-5f9ae2de45cf")
 	)
 	(no_connect
 		(at 273.05 160.02)
@@ -8254,13 +8246,13 @@
 		(uuid "15c9bed1-1213-4e17-8ec9-128af2f4e0d7")
 	)
 	(label "Motor 2 EN B"
-		(at 205.74 63.5 0)
+		(at 170.18 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1f55c90f-ccde-4073-b73e-c865736f0a47")
 	)
@@ -8352,7 +8344,7 @@
 		)
 		(uuid "37f21c77-f66c-40ff-8cdf-d426b59b8718")
 	)
-	(label "TX1"
+	(label "TX (CAM)"
 		(at 170.18 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8363,7 +8355,7 @@
 		)
 		(uuid "386f85f3-a96d-4247-b9d0-4bfda2e2f5fd")
 	)
-	(label "TX1"
+	(label " TX (L3 ESP 32)"
 		(at 170.18 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8485,13 +8477,13 @@
 		(uuid "6bb529ff-73ea-4f4e-b017-c15c37841f1f")
 	)
 	(label "Motor 3 EN A"
-		(at 205.74 60.96 0)
+		(at 170.18 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6c960379-e43b-4508-9853-826335f41984")
 	)
@@ -8528,7 +8520,7 @@
 		)
 		(uuid "85bb7833-0711-4170-85b5-bf799b7e66f4")
 	)
-	(label "RX3"
+	(label " RX (L3 ESP 32)"
 		(at 170.18 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8561,7 +8553,7 @@
 		)
 		(uuid "989eb569-09b8-4d7e-a92c-044ca234e48c")
 	)
-	(label "TX2"
+	(label "TX (IMU)"
 		(at 170.18 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8572,7 +8564,7 @@
 		)
 		(uuid "9b33c1a9-35c9-4035-ab2c-4f55a8b90442")
 	)
-	(label "RX1"
+	(label "RX (CAM)"
 		(at 170.18 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8626,6 +8618,17 @@
 			(justify left bottom)
 		)
 		(uuid "b3f3ef82-96ab-4d5d-b5e4-51115ae43b82")
+	)
+	(label "L1 TX"
+		(at 205.74 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b888e99c-3ba0-4a62-8dfe-3604f833e7af")
 	)
 	(label "Motor 1 EN B"
 		(at 205.74 68.58 0)
@@ -8781,6 +8784,17 @@
 		)
 		(uuid "e1b49cf4-7244-45c9-9437-b9f98d9cd1a1")
 	)
+	(label "L1 RX"
+		(at 205.74 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7dad4f7-0e90-4389-bb91-69379304b639")
+	)
 	(label "Motor 1 Out B"
 		(at 236.22 223.52 0)
 		(fields_autoplaced yes)
@@ -8803,7 +8817,7 @@
 		)
 		(uuid "f512b005-47a7-4630-9ff6-0a064c9cd826")
 	)
-	(label "RX2"
+	(label "RX (IMU)"
 		(at 170.18 58.42 180)
 		(fields_autoplaced yes)
 		(effects
