@@ -1,4 +1,4 @@
-24808926957574028
+24810667617923737
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -100155,6 +100155,13 @@ VREG_LM5017MR_NOPB
 0
 17
 17
+layer2v3
+VREG_TPS79625KTTR
+
+
+0
+6
+6
 layer2v3
 XT30UPB-M
 
