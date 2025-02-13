@@ -8169,7 +8169,7 @@
 		(uuid "00956659-f2dd-4e37-b09a-8a8f4ac8d7fa")
 	)
 	(label "Motor 1 EN B"
-		(at 191.77 72.39 0)
+		(at 191.77 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8213,18 +8213,18 @@
 		(uuid "1834cc03-4439-4470-a4d9-08c79217d1a0")
 	)
 	(label "Motor 2 EN B"
-		(at 156.21 77.47 180)
+		(at 191.77 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1e819d68-4134-484d-978a-bd101dc4d727")
 	)
 	(label "Motor 4 EN A"
-		(at 191.77 59.69 0)
+		(at 191.77 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8510,13 +8510,13 @@
 		(uuid "8ef45847-6bc1-4fd2-924f-d8f038ecf8ed")
 	)
 	(label "Motor 3 EN B"
-		(at 191.77 62.23 0)
+		(at 156.21 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "911b253a-7e48-4e6a-bb40-587b29dbb0ae")
 	)
@@ -8543,7 +8543,7 @@
 		(uuid "97d9bdef-cf6b-410f-ad16-3f2a2a489daa")
 	)
 	(label "Motor 2 EN A"
-		(at 191.77 69.85 0)
+		(at 191.77 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8565,7 +8565,7 @@
 		(uuid "98d49000-4e86-4b47-b01c-ff0dfce09f2b")
 	)
 	(label "Motor 4 EN B"
-		(at 191.77 57.15 0)
+		(at 191.77 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8675,7 +8675,7 @@
 		(uuid "b3e3e07f-1462-4e11-aa04-585e1ae9874d")
 	)
 	(label "Motor 3 EN A"
-		(at 156.21 80.01 180)
+		(at 156.21 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15400,7 +15400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.645 88.9 0)
 			(effects
 				(font
@@ -15943,7 +15943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 326.39 50.8 0)
 			(effects
 				(font
@@ -18786,7 +18786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.135 44.45 0)
 			(effects
 				(font
