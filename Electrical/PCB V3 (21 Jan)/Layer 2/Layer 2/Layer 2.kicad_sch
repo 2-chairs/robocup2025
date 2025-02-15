@@ -7436,7 +7436,7 @@
 		(uuid "a11ea8c5-1bc3-4e74-9d78-be26e1e399b4")
 	)
 	(label "L1 TX"
-		(at 134.62 264.16 0)
+		(at 134.62 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10575,7 +10575,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 134.62 266.7 270)
+		(at 134.62 264.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10584,7 +10584,7 @@
 		(fields_autoplaced yes)
 		(uuid "438bc0d1-b188-4529-9172-ad3d0d3cc9d9")
 		(property "Reference" "#PWR034"
-			(at 130.81 266.7 0)
+			(at 130.81 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +10593,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 138.43 266.6999 90)
+			(at 138.43 264.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 266.7 0)
+			(at 134.62 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10611,7 +10611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 266.7 0)
+			(at 134.62 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10620,7 +10620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 134.62 266.7 0)
+			(at 134.62 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
