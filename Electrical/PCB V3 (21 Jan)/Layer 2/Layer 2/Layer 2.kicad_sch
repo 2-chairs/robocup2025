@@ -5,6 +5,134 @@
 	(uuid "73bb99ca-959f-40cf-90f8-36d6928b007b")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -6831,6 +6959,18 @@
 		(uuid 9c57d8b1-2f1d-48c4-8cae-50587dcef899)
 	)
 	(rectangle
+		(start 214.63 241.3)
+		(end 254 269.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc2ee7fc-3f1b-46f7-b1a1-6f2fe01414fc)
+	)
+	(rectangle
 		(start 15.24 25.4)
 		(end 115.57 110.49)
 		(stroke
@@ -6964,6 +7104,7 @@
 	)
 	(label "Motor Driver"
 		(at 327.66 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6974,6 +7115,7 @@
 	)
 	(label "Motor 1 EN B"
 		(at 191.77 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6984,6 +7126,7 @@
 	)
 	(label "GND"
 		(at 81.28 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6994,6 +7137,7 @@
 	)
 	(label "Motor 3 Out B"
 		(at 170.18 270.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7004,6 +7148,7 @@
 	)
 	(label "L1 RX"
 		(at 134.62 261.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7014,6 +7159,7 @@
 	)
 	(label "Motor 2 EN B"
 		(at 191.77 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7024,6 +7170,7 @@
 	)
 	(label "Motor 4 EN A"
 		(at 191.77 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7034,6 +7181,7 @@
 	)
 	(label "Motor 1 EN A"
 		(at 26.67 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7044,6 +7192,7 @@
 	)
 	(label "PWM Motor 4"
 		(at 191.77 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7054,6 +7203,7 @@
 	)
 	(label "PWM Motor 2"
 		(at 127 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7064,6 +7214,7 @@
 	)
 	(label "Motor 2 EN B"
 		(at 121.92 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7074,6 +7225,7 @@
 	)
 	(label "Motor Driver"
 		(at 134.62 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7084,6 +7236,7 @@
 	)
 	(label "Motor 2 Out A"
 		(at 195.58 250.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7094,6 +7247,7 @@
 	)
 	(label "Motor 2 EN A"
 		(at 121.92 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7104,6 +7258,7 @@
 	)
 	(label "Motor 1 Out B"
 		(at 81.28 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7114,6 +7269,7 @@
 	)
 	(label "GND"
 		(at 191.77 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7124,6 +7280,7 @@
 	)
 	(label "L1 RX"
 		(at 191.77 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7134,6 +7291,7 @@
 	)
 	(label "RX (IMU)"
 		(at 156.21 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7144,6 +7302,7 @@
 	)
 	(label "Motor 2 Out A"
 		(at 177.8 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7154,6 +7313,7 @@
 	)
 	(label " RX (L3 ESP 32)"
 		(at 95.25 232.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7164,6 +7324,7 @@
 	)
 	(label "PWM Motor 2"
 		(at 191.77 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7174,6 +7335,7 @@
 	)
 	(label "Motor 4 Out A"
 		(at 370.84 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7184,6 +7346,7 @@
 	)
 	(label "Motor 1 Out A"
 		(at 81.28 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7194,6 +7357,7 @@
 	)
 	(label "RX (CAM)"
 		(at 107.95 229.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7204,6 +7368,7 @@
 	)
 	(label " TX (L3 ESP 32)"
 		(at 156.21 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7214,6 +7379,7 @@
 	)
 	(label "Motor 2 Out B"
 		(at 177.8 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7224,6 +7390,7 @@
 	)
 	(label "Motor 1 Out B"
 		(at 170.18 254 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7234,6 +7401,7 @@
 	)
 	(label "TX (IMU)"
 		(at 156.21 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7244,6 +7412,7 @@
 	)
 	(label "Motor 4 Out B"
 		(at 196.85 269.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7254,6 +7423,7 @@
 	)
 	(label "Motor Driver"
 		(at 231.14 146.05 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7264,6 +7434,7 @@
 	)
 	(label "RX (CAM)"
 		(at 156.21 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7272,8 +7443,20 @@
 		)
 		(uuid "77791dca-99be-43c9-93a9-d448cad34eab")
 	)
+	(label "Test Point 12V :(From XT60)"
+		(at 223.52 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "843ce2d1-4f4f-410f-8344-ce8d893e5ef9")
+	)
 	(label "Motor 1 EN A"
 		(at 191.77 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7284,6 +7467,7 @@
 	)
 	(label "Motor 3 EN B"
 		(at 156.21 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7294,6 +7478,7 @@
 	)
 	(label "PWM Motor 3"
 		(at 191.77 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7304,6 +7489,7 @@
 	)
 	(label "RX (IMU)"
 		(at 107.95 234.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7314,6 +7500,7 @@
 	)
 	(label "Motor 2 EN A"
 		(at 191.77 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7324,6 +7511,7 @@
 	)
 	(label " RX (L3 ESP 32)"
 		(at 156.21 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7334,6 +7522,7 @@
 	)
 	(label "Motor 4 EN B"
 		(at 191.77 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7344,6 +7533,7 @@
 	)
 	(label "Motor Driver"
 		(at 31.75 231.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7354,6 +7544,7 @@
 	)
 	(label "PWM Motor 3"
 		(at 223.52 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7364,6 +7555,7 @@
 	)
 	(label "Motor 3 EN B"
 		(at 229.87 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7374,6 +7566,7 @@
 	)
 	(label "Motor 1 Out A"
 		(at 170.18 251.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7384,6 +7577,7 @@
 	)
 	(label "Motor 3 Out A"
 		(at 274.32 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7394,6 +7588,7 @@
 	)
 	(label "L1 TX"
 		(at 134.62 266.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7404,6 +7599,7 @@
 	)
 	(label "TX (IMU)"
 		(at 107.95 232.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7414,6 +7610,7 @@
 	)
 	(label "Motor 4 EN B"
 		(at 320.04 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7424,6 +7621,7 @@
 	)
 	(label "Motor 4 Out B"
 		(at 370.84 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7434,6 +7632,7 @@
 	)
 	(label "Motor 3 EN A"
 		(at 156.21 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7444,6 +7643,7 @@
 	)
 	(label " TX (L3 ESP 32)"
 		(at 95.25 229.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7454,6 +7654,7 @@
 	)
 	(label "Motor 2 Out B"
 		(at 195.58 252.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7464,6 +7665,7 @@
 	)
 	(label "Motor Driver"
 		(at 38.1 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7474,6 +7676,7 @@
 	)
 	(label "TX (CAM)"
 		(at 156.21 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7484,6 +7687,7 @@
 	)
 	(label "Motor 3 EN A"
 		(at 217.17 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7494,6 +7698,7 @@
 	)
 	(label "PWM Motor 4"
 		(at 320.04 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7504,6 +7709,7 @@
 	)
 	(label "L1 TX"
 		(at 191.77 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7514,6 +7720,7 @@
 	)
 	(label "Motor 3 Out B"
 		(at 274.32 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7524,6 +7731,7 @@
 	)
 	(label "Motor 4 EN A"
 		(at 320.04 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7534,6 +7742,7 @@
 	)
 	(label "Motor 1 EN B"
 		(at 25.4 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7544,6 +7753,7 @@
 	)
 	(label "Motor 4 Out A"
 		(at 196.85 266.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7554,6 +7764,7 @@
 	)
 	(label "TX (CAM)"
 		(at 107.95 227.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7564,6 +7775,7 @@
 	)
 	(label "PWM Motor 1"
 		(at 30.48 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7574,6 +7786,7 @@
 	)
 	(label "PWM Motor 1"
 		(at 191.77 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7584,6 +7797,7 @@
 	)
 	(label "Motor 3 Out A"
 		(at 170.18 267.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8437,6 +8651,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 234.95 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc8bb2d-e15f-41ed-9ee7-b5e7e1662e72")
+		(property "Reference" "TP1"
+			(at 234.95 246.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 234.95 249.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 234.95 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 234.95 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7becd082-f83a-44ca-bf9b-19deddc8c7b5")
+		)
+		(pin "2"
+			(uuid "967af2c8-5f17-4f9f-aa55-83df83d3b42e")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 23.9354 201.8851 90)
 		(unit 1)
@@ -8642,6 +8923,73 @@
 			(project "Layer 2"
 				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 229.87 252.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12a2f886-f37b-457a-86ee-523581014207")
+		(property "Reference" "#PWR022"
+			(at 233.68 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 226.06 252.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 229.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b835f621-be1f-4ba7-a34d-bce0bcb6f6da")
+		)
+		(instances
+			(project ""
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11215,6 +11563,73 @@
 			(project "Layer 2"
 				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 252.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ad65dc5-bc42-4854-ad4f-912f04ecd4a6")
+		(property "Reference" "#PWR023"
+			(at 246.38 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 252.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e24ae3e-751d-43fb-9fa1-ce5420385810")
+		)
+		(instances
+			(project ""
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

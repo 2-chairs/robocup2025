@@ -7014,6 +7014,18 @@
 		)
 		(uuid e86cd0c0-35be-40bf-985a-638825896f4b)
 	)
+	(rectangle
+		(start 461.01 115.57)
+		(end 510.54 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fbddaf3c-261f-41d5-97f1-b65086c83139)
+	)
 	(text_box "Mounting Holes"
 		(exclude_from_sim no)
 		(at 26.67 116.84 0)
@@ -8742,6 +8754,73 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 481.33 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0de14a46-43dd-488e-91a7-bc2361b5d619")
+		(property "Reference" "#PWR024"
+			(at 485.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 477.52 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 481.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 481.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 481.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04bb0cfa-b45d-4b8d-a03a-18e12b5429c6")
+		)
+		(instances
+			(project ""
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13625,6 +13704,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 486.41 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fa3ba60-932d-470e-9c21-9d534296bcd5")
+		(property "Reference" "TP2"
+			(at 486.41 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 486.41 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 486.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 486.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 486.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "238eaeac-e392-4e6b-ba70-772b9a9ff0ff")
+		)
+		(pin "2"
+			(uuid "8aa6fe23-b6d0-42b1-94fb-0ebabdfba7a6")
+		)
+		(instances
+			(project "L1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pspice:INDUCTOR")
 		(at 176.53 86.36 90)
 		(unit 1)
@@ -14714,6 +14860,73 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 491.49 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f74df69-d0dd-4de7-b7b0-d51fbf2641f9")
+		(property "Reference" "#PWR025"
+			(at 487.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 495.3 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 491.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8918843c-9f8a-497e-b23e-20f5dc498a82")
+		)
+		(instances
+			(project ""
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
