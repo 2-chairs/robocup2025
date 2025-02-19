@@ -5938,6 +5938,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 40.64) (xy 54.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5005ca71-0052-476f-b68f-a95c7d400bd8")
+	)
+	(wire
+		(pts
 			(xy 231.14 146.05) (xy 231.14 148.59)
 		)
 		(stroke
@@ -6238,7 +6248,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 40.64) (xy 54.61 36.83)
+			(xy 55.88 40.64) (xy 55.88 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6295,16 +6305,6 @@
 			(type default)
 		)
 		(uuid "916869f1-9ffd-480a-b252-a3e54f9f4fce")
-	)
-	(wire
-		(pts
-			(xy 54.61 36.83) (xy 55.88 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b87ed1-d143-43d0-ac18-0d1c50c38b31")
 	)
 	(wire
 		(pts
@@ -10402,7 +10402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:VREG_TPS79625KTTR"
+		(property "Footprint" "layer2v3:TI_SO-PowerPAD-8"
 			(at 40.64 48.26 0)
 			(effects
 				(font
