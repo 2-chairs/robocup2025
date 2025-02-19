@@ -8,7 +8,7 @@ null	Sourced	Placed	References	Value	Footprint	Quantity
 7			R3, R10, R14, R22, R31	10K	res0603	5
 8			R11	3K24	res0603	1
 9			L1	15uH	L_0603_1608Metric_Pad1.05x0.95mm_HandSolder	1
-10			L2	L	PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right	1
+10			L2	L	L_0603_1608Metric_Pad1.05x0.95mm_HandSolder	1
 11			D1, D2	SS54	C_0603_1608Metric	2
 12			U1, U5, U9, U12	VNH5019ATR-E	fixed -onenew-newer	4
 13			U6, U7, U8, U10	XT30UPB-M	XT30UPB-M	4
