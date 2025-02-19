@@ -1,0 +1,23 @@
+null	Sourced	Placed	References	Value	Footprint	Quantity
+1			C4, C7, C10, C14	470u	CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal	4
+2			C2, C5, C6	220u	CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal	3
+3			C1	10u	CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal	1
+4			C3	10n	CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal	1
+5			R4, R5, R6, R7, R8, R9, R15, R16, R17, R18, R19, R23, R24, R25, R26, R27, R32, R33, R34, R35, R36	1K	res0603	21
+6			R1, R2, R12, R13, R20, R21, R29, R30	3K3	res0603	8
+7			R3, R10, R14, R22, R31	10K	res0603	5
+8			R11	3K24	res0603	1
+9			L1	15uH	L_0603_1608Metric_Pad1.05x0.95mm_HandSolder	1
+10			L2	L	PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right	1
+11			D1, D2	SS54	C_0603_1608Metric	2
+12			U1, U5, U9, U12	VNH5019ATR-E	fixed -onenew-newer	4
+13			U6, U7, U8, U10	XT30UPB-M	XT30UPB-M	4
+14			U2	TPS5430DDAG4	VREG_TPS79625KTTR	1
+15			U3	LM2596S-3.3	TO-263-5_TabPin3	1
+16			SW1	SW_Nidec_CAS-120A1	PinHeader_1x03_P1.00mm_Vertical	1
+17			A1	TEENSY_4.0	MODULE_DEV-15583	1
+18			Q1, Q2, Q3, Q4	AON6354	8-DFN (5x6)	4
+19			TP1	TestPoint_2Pole	PinHeader_1x02_P2.54mm_Vertical	1
+20			J1	XT60-M	AMASS_XT60-M	1
+21			J2	Conn_01x05	JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical	1
+22			J3	Conn_02x04_Counter_Clockwise	JST_PHD_B8B-PHDSS_2x04_P2.00mm_Vertical	1
