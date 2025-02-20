@@ -55,6 +55,7 @@
       "drc_exclusions": [
         "courtyards_overlap|209192801|59885001|4918ccb3-69e0-41b6-97ca-3c1751e54a25|d7122de2-bac8-4b41-9a21-1c3105c0419c",
         "courtyards_overlap|211732801|59885001|4918ccb3-69e0-41b6-97ca-3c1751e54a25|4dd9bae8-7875-4df5-ba5f-7cd2abc7cd28",
+        "lib_footprint_issues|172985001|65954100|6b61e9fd-0eec-499b-be93-634e0c71b4e0|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|195960001|102239000|17169ad3-16cd-4174-a878-db6cfbac0846|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|199560001|123589000|17169ad3-16cd-4174-a878-db6cfbac0846|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|227920001|102239000|17169ad3-16cd-4174-a878-db6cfbac0846|00000000-0000-0000-0000-000000000000",
@@ -118,7 +119,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -130,8 +131,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
