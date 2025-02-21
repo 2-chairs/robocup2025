@@ -1,4 +1,4 @@
-24810669952410456
+24812406360990685
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -100148,6 +100148,13 @@ twoSSM-114-L-SV placed on Teensy<br><a href="http://suddendocs.samtec.com/catalo
 0
 28
 28
+layer2v3
+TI_SO-PowerPAD-8
+8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf
+HTSOP 1.27
+0
+21
+9
 layer2v3
 VREG_LM5017MR_NOPB
 
