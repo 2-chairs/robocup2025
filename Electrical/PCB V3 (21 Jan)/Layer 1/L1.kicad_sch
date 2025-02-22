@@ -9651,7 +9651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 482.6 48.895 0)
 			(effects
 				(font
@@ -11593,7 +11593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 513.08 179.07 0)
 			(effects
 				(font
@@ -13094,7 +13094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 402.2852 77.47 0)
 			(effects
 				(font
@@ -13103,7 +13103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Nichicon/UPL1H101MPH?qs=46TSnLWiWr6vwJWSAA6xeQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Nichicon/UPS1H101MPD1TD?qs=I4WtNW3K5bKJX9mnjMCynA%3D%3D"
 			(at 401.32 73.66 0)
 			(effects
 				(font
@@ -14075,7 +14075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:VREG_LM5017MR_NOPB"
+		(property "Footprint" "LM2587S-ADJ:VREG_TPS79625KTTR"
 			(at 450.85 72.39 0)
 			(effects
 				(font
@@ -14512,7 +14512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 516.89 176.53 0)
 			(effects
 				(font
@@ -17647,7 +17647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 426.4152 92.71 0)
 			(effects
 				(font
@@ -17656,7 +17656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.sg/ProductDetail/Vishay-Vitramon/VJ0603AR68BXACW1BC?qs=RVW9LZWsH%252BhTCb7z9MQClQ%3D%3D"
 			(at 425.45 88.9 0)
 			(effects
 				(font
@@ -22572,7 +22572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 416.2552 77.47 0)
 			(effects
 				(font
