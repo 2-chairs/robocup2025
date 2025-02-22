@@ -5162,10 +5162,6 @@
 		(uuid "0148e37d-3c65-48df-845b-7d0bbb949b7d")
 	)
 	(no_connect
-		(at 48.26 233.68)
-		(uuid "02df218c-b7cd-4793-a0fa-9d978f0fc0a8")
-	)
-	(no_connect
 		(at 142.24 163.83)
 		(uuid "0ed2a8da-e9c6-4987-94c1-02641ebf1dfe")
 	)
@@ -9540,6 +9536,73 @@
 			(project "Layer 2"
 				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20cf4104-7cf6-4083-86a1-aa5c7c516093")
+		(property "Reference" "#PWR037"
+			(at 62.23 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 233.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffef1023-550e-4e92-9b46-cf17ee778fa5")
+		)
+		(instances
+			(project ""
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15622,6 +15685,73 @@
 			(project "Layer 2"
 				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb647e58-6b6f-48c9-9a69-e53bcf8d5e95")
+		(property "Reference" "R38"
+			(at 52.07 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 52.07 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sen Robo:res0603"
+			(at 52.07 235.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f2daa5-3bdb-4361-9d32-bf16949fca25")
+		)
+		(pin "2"
+			(uuid "dde1132f-e33e-428a-b9a3-e5433ad9ff88")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "R38")
 					(unit 1)
 				)
 			)
