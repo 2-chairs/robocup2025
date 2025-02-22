@@ -1,4 +1,4 @@
-24659264806648565
+24661005052141235
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65895,7 +65895,7 @@ VREG_TPS79625KTTR
 
 
 0
-6
+54
 6
 Module
 A20_OLINUXINO_LIME2
@@ -99427,3 +99427,10 @@ MODULE_113991054
 0
 14
 14
+inductors
+L_APV_APH1040
+Inductor, APV, APH1040, 10.8x10.0x3.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf), generated with kicad-footprint-generator gen_inductor.py
+Inductor molded power shielded
+0
+62
+3
