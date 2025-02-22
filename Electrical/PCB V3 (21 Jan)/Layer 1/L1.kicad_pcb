@@ -1006,6 +1006,7 @@
 		(property "Value" "1000uF"
 			(at 3.75 9.25 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a8032484-b263-4a98-aac5-3a54a4941d2a")
 			(effects
 				(font
@@ -7757,6 +7758,7 @@
 		(property "Reference" "C39"
 			(at 3.75 -9.25 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f4b86a4f-62f3-46ce-bba1-6acd8206d139")
 			(effects
 				(font
@@ -18204,6 +18206,7 @@
 		(property "Value" "NMOS"
 			(at 2.54 2.5 360)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "51e6dc3d-6ed0-47a3-a989-22cd0b3fe575")
 			(effects
 				(font
@@ -18548,6 +18551,7 @@
 		(property "Value" "D"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "387bca15-fe24-43df-9b54-35e54d8f1652")
 			(effects
 				(font
@@ -24628,6 +24632,17 @@
 				"bf971611-22bd-4479-a94e-9ff9ae6ce0a4" "d034a5d6-089f-42b5-bb8a-f2eb0b88842f"
 				"d459d962-8f1e-40ec-bb1b-ae2a93ae491d" "daf7e3cd-cf0a-4058-9371-e6cdb6c28d8d"
 				"e94ffbcc-ef61-41fe-8058-746abceb1933" "ef3e0787-5dd0-4b48-84fe-423e22485f1d"
+			)
+		)
+		(model "${KIPRJMOD}/Sub-References/LM2587S-ADJ.pretty/LM2587S-ADJ.step"
+			(offset
+				(xyz -3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
