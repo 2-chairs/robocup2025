@@ -8809,7 +8809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Custom Testpointverycool:testpoint_2pad_2-chairs."
 			(at 234.95 252.73 0)
 			(effects
 				(font
