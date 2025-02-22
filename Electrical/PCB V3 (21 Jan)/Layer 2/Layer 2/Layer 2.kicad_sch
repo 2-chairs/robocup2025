@@ -8809,7 +8809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Custom Testpointverycool:testpoint_2pad_2-chairs."
 			(at 234.95 252.73 0)
 			(effects
 				(font
