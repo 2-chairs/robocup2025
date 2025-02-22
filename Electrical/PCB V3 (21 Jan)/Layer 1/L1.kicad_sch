@@ -15579,7 +15579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "customTps-2-Chairs:testpoint_2pad_2-chairs."
 			(at 361.95 200.66 0)
 			(effects
 				(font
@@ -21264,7 +21264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "customTps-2-Chairs.:testpoint_2pad_2-chairs."
+		(property "Footprint" "customTps-2-Chairs:testpoint_2pad_2-chairs."
 			(at 87.63 52.07 0)
 			(effects
 				(font
