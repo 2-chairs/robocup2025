@@ -10892,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 535.6352 77.47 0)
 			(effects
 				(font
@@ -11692,7 +11692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 520.3952 77.47 0)
 			(effects
 				(font
@@ -12195,7 +12195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 505.1552 77.47 0)
 			(effects
 				(font
@@ -13858,7 +13858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 512.7752 77.47 0)
 			(effects
 				(font
@@ -15579,7 +15579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 361.95 200.66 0)
 			(effects
 				(font
@@ -16191,7 +16191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 497.5352 77.47 0)
 			(effects
 				(font
@@ -16876,7 +16876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 528.0152 77.47 0)
 			(effects
 				(font
@@ -21264,7 +21264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "customTps-2-Chairs.:testpoint_2pad_2-chairs."
 			(at 87.63 52.07 0)
 			(effects
 				(font

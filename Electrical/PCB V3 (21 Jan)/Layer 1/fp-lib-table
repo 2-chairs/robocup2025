@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "customTps-2-Chairs.")(type "KiCad")(uri "${KIPRJMOD}/customTps-2-Chairs..pretty")(options "")(descr ""))
+)
