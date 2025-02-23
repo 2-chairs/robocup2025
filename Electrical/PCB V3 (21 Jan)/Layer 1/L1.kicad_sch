@@ -4629,6 +4629,12 @@
 		(uuid "54dcc60e-1eb3-4076-86ba-c9ac8cc426f0")
 	)
 	(junction
+		(at 510.54 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55aa5336-6e98-41e9-9d12-f76b37b38dcb")
+	)
+	(junction
 		(at 124.46 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4789,12 +4795,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7617e299-e97f-4ca1-a06e-cb4ac2defbe9")
-	)
-	(junction
-		(at 516.89 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "766ad6b4-f6c7-4446-bdf3-c7a532d4ea8a")
 	)
 	(junction
 		(at 166.37 162.56)
@@ -4995,12 +4995,6 @@
 		(uuid "a6db41d1-19d9-4d95-a73a-5ffb4fe0ec22")
 	)
 	(junction
-		(at 510.54 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6e13360-8e23-4940-af32-f3e4cf756b5a")
-	)
-	(junction
 		(at 287.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5011,6 +5005,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a88bbda0-1bd1-435f-91a6-139b48514326")
+	)
+	(junction
+		(at 510.54 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8bf3261-9eab-4f19-80e5-0a92a2dab443")
 	)
 	(junction
 		(at 250.19 142.24)
@@ -5504,16 +5504,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 187.96) (xy 509.27 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6362b3-4c37-4ae7-85a3-ce821831a0e8")
-	)
-	(wire
-		(pts
 			(xy 231.14 95.25) (xy 238.76 95.25)
 		)
 		(stroke
@@ -5644,16 +5634,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 190.5) (xy 509.27 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c6ac9d-cd59-4468-9e9c-58f5b7278aff")
-	)
-	(wire
-		(pts
 			(xy 119.38 95.25) (xy 128.27 95.25)
 		)
 		(stroke
@@ -5671,16 +5651,6 @@
 			(type default)
 		)
 		(uuid "1881d15e-e13d-439e-84b5-27318d854beb")
-	)
-	(wire
-		(pts
-			(xy 510.54 170.18) (xy 516.89 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a140875-3ac9-4a96-b5ee-49c6cc891135")
 	)
 	(wire
 		(pts
@@ -5881,6 +5851,16 @@
 			(type default)
 		)
 		(uuid "271e7110-a187-40e3-9081-43bc0312df9f")
+	)
+	(wire
+		(pts
+			(xy 508 193.04) (xy 510.54 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285f4b61-da34-45bb-8067-db435a41d745")
 	)
 	(wire
 		(pts
@@ -6104,16 +6084,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 180.34) (xy 516.89 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c994448-85cf-44e3-bf01-45bd0c7b5b0b")
-	)
-	(wire
-		(pts
 			(xy 262.89 231.14) (xy 245.11 231.14)
 		)
 		(stroke
@@ -6131,6 +6101,16 @@
 			(type default)
 		)
 		(uuid "3e469649-4532-4e80-8c68-4ddc33eac3b4")
+	)
+	(wire
+		(pts
+			(xy 508 193.04) (xy 508 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa2fcf7-70ec-4882-8f92-4bbf935db7db")
 	)
 	(wire
 		(pts
@@ -6294,7 +6274,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 196.85) (xy 516.89 198.12)
+			(xy 510.54 196.85) (xy 510.54 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6374,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 181.61) (xy 510.54 187.96)
+			(xy 510.54 181.61) (xy 510.54 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6784,6 +6764,16 @@
 	)
 	(wire
 		(pts
+			(xy 510.54 193.04) (xy 513.08 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ae1a1c-d938-4171-8505-3e9f35af064e")
+	)
+	(wire
+		(pts
 			(xy 257.81 142.24) (xy 260.35 142.24)
 		)
 		(stroke
@@ -6821,6 +6811,16 @@
 			(type default)
 		)
 		(uuid "84f0cc84-18dd-4aa9-a61d-1e47f7dab6c5")
+	)
+	(wire
+		(pts
+			(xy 510.54 185.42) (xy 513.08 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f50d69-ef9f-406b-8945-06c13fc81654")
 	)
 	(wire
 		(pts
@@ -6945,16 +6945,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 196.85) (xy 516.89 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f5b8c7f-6cbb-499e-9ead-1cc9518fef40")
-	)
-	(wire
-		(pts
 			(xy 519.43 77.47) (xy 519.43 93.98)
 		)
 		(stroke
@@ -6982,6 +6972,16 @@
 			(type default)
 		)
 		(uuid "921e4b14-14ea-419f-8922-1994515e50c9")
+	)
+	(wire
+		(pts
+			(xy 508 185.42) (xy 510.54 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923c68ec-9594-48e1-b56c-b653e7b58f0a")
 	)
 	(wire
 		(pts
@@ -7212,6 +7212,16 @@
 			(type default)
 		)
 		(uuid "a2a40d7f-be84-4998-a63e-16211a730c62")
+	)
+	(wire
+		(pts
+			(xy 508 185.42) (xy 508 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d7eade-baef-4213-b321-dbfbdf933009")
 	)
 	(wire
 		(pts
@@ -7585,16 +7595,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 170.18) (xy 516.89 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b7b434-ec49-462f-b89c-53938ccff2e3")
-	)
-	(wire
-		(pts
 			(xy 461.01 196.85) (xy 483.87 196.85)
 		)
 		(stroke
@@ -7725,7 +7725,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 196.85) (xy 510.54 190.5)
+			(xy 510.54 196.85) (xy 510.54 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8322,7 +8322,6 @@
 	)
 	(label "S3"
 		(at 198.12 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8333,7 +8332,6 @@
 	)
 	(label "Mux Com (17-32)"
 		(at 247.65 176.53 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8344,7 +8342,6 @@
 	)
 	(label "S0"
 		(at 190.5 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8355,7 +8352,6 @@
 	)
 	(label "S2"
 		(at 270.51 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8366,7 +8362,6 @@
 	)
 	(label "S1"
 		(at 193.04 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8377,7 +8372,6 @@
 	)
 	(label "S0"
 		(at 265.43 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8388,7 +8382,6 @@
 	)
 	(label "Mux Com (17-32)"
 		(at 191.77 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8399,7 +8392,6 @@
 	)
 	(label "Mux Com (1-16)"
 		(at 191.77 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8410,7 +8402,6 @@
 	)
 	(label "L1 RX"
 		(at 264.16 215.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8421,7 +8412,6 @@
 	)
 	(label "Solenoid Activation"
 		(at 264.16 218.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8432,7 +8422,6 @@
 	)
 	(label "Solenoid Activation"
 		(at 462.28 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8443,7 +8432,6 @@
 	)
 	(label "S1"
 		(at 191.77 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8454,7 +8442,6 @@
 	)
 	(label "S0"
 		(at 191.77 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8465,7 +8452,6 @@
 	)
 	(label "S3"
 		(at 264.16 220.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8476,7 +8462,6 @@
 	)
 	(label "S3"
 		(at 273.05 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8487,7 +8472,6 @@
 	)
 	(label "L1 TX"
 		(at 370.84 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8498,7 +8482,6 @@
 	)
 	(label "S1"
 		(at 267.97 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8509,7 +8492,6 @@
 	)
 	(label "S2"
 		(at 264.16 223.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8520,7 +8502,6 @@
 	)
 	(label "S2"
 		(at 195.58 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8531,7 +8512,6 @@
 	)
 	(label "L1 RX"
 		(at 370.84 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8542,7 +8522,6 @@
 	)
 	(label "Mux Com (1-16)"
 		(at 172.72 175.26 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8553,7 +8532,6 @@
 	)
 	(label "L1 TX"
 		(at 264.16 213.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11907,7 +11885,7 @@
 	)
 	(symbol
 		(lib_id "amass xt 30:XT30UPB-M")
-		(at 501.65 190.5 0)
+		(at 500.38 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11915,7 +11893,7 @@
 		(dnp no)
 		(uuid "2a326ab2-4388-4810-9ac4-9b27222a18d7")
 		(property "Reference" "U4"
-			(at 502.158 184.15 0)
+			(at 500.888 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +11901,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 497.586 188.722 90)
+			(at 496.316 188.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11931,7 +11909,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 500.634 196.85 0)
+			(at 499.364 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +11919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 501.65 190.5 0)
+			(at 500.38 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,7 +11928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 501.65 190.5 0)
+			(at 500.38 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,7 +11937,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 501.396 196.596 0)
+			(at 500.126 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11969,7 +11947,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 500.634 196.85 0)
+			(at 499.364 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11979,7 +11957,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 501.904 195.834 0)
+			(at 500.634 195.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +11967,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 501.65 196.596 0)
+			(at 500.38 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +11977,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 501.396 196.596 0)
+			(at 500.126 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +11987,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 500.634 196.85 0)
+			(at 499.364 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12019,7 +11997,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 501.142 195.58 0)
+			(at 499.872 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12029,7 +12007,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 501.142 196.088 0)
+			(at 499.872 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,16 +14489,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 516.89 176.53 90)
+		(at 513.08 189.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52e73109-3880-4556-858e-978ecd0c083f")
 		(property "Reference" "D1"
-			(at 519.43 175.2599 90)
+			(at 517.652 189.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14529,7 +14506,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 519.43 177.7999 90)
+			(at 516.382 188.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14538,7 +14515,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 516.89 176.53 0)
+			(at 513.08 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14547,7 +14524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 516.89 176.53 0)
+			(at 513.08 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14556,7 +14533,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 516.89 176.53 0)
+			(at 513.08 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +14542,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 516.89 176.53 0)
+			(at 513.08 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14574,7 +14551,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 516.89 176.53 0)
+			(at 513.08 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21207,7 +21184,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 516.89 198.12 0)
+		(at 510.54 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21215,7 +21192,7 @@
 		(dnp no)
 		(uuid "ae0daa25-9da0-4a74-86d1-3e8df3b20396")
 		(property "Reference" "#PWR023"
-			(at 516.89 204.47 0)
+			(at 510.54 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21224,7 +21201,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 516.89 201.676 0)
+			(at 510.54 201.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21232,7 +21209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 516.89 198.12 0)
+			(at 510.54 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21241,7 +21218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 516.89 198.12 0)
+			(at 510.54 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21250,7 +21227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 516.89 198.12 0)
+			(at 510.54 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
