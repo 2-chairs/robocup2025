@@ -3067,26 +3067,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 5.588 0)
+			(property "Reference" "U4"
+				(at 0.508 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "XT30UPB-M"
-				(at -2.54 -4.826 0)
+				(at -4.064 1.778 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "XT30UPB-M:XT30UPB-M"
-				(at 0 0 0)
+			(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+				(at -1.016 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3114,7 +3112,7 @@
 				)
 			)
 			(property "MF" "amass"
-				(at 0 0 0)
+				(at -0.254 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3124,7 +3122,7 @@
 				)
 			)
 			(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-				(at 0 0 0)
+				(at -1.016 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3134,7 +3132,7 @@
 				)
 			)
 			(property "Package" "None"
-				(at 0 0 0)
+				(at 0.254 -5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3144,7 +3142,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at 0 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3154,7 +3152,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-				(at 0 0 0)
+				(at -0.254 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3164,7 +3162,7 @@
 				)
 			)
 			(property "MP" "XT30UPB-M"
-				(at 0 0 0)
+				(at -1.016 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3174,7 +3172,7 @@
 				)
 			)
 			(property "Availability" "Not in stock"
-				(at 0 0 0)
+				(at -0.508 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3184,7 +3182,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-				(at 0 0 0)
+				(at -0.508 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3229,6 +3227,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "XT30UPB-M_1_0"
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 5.08)
@@ -3239,7 +3239,7 @@
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3257,7 +3257,7 @@
 							)
 						)
 					)
-					(number "P$2"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8210,16 +8210,6 @@
 		)
 		(uuid "a142ada2-72e7-4a43-b7f7-2a2830ace21c")
 	)
-	(text "12V/24V TP"
-		(exclude_from_sim no)
-		(at 362.204 190.754 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "a450eaad-c080-41bb-8c0a-d2370d902651")
-	)
 	(text "Boost & Capactiors"
 		(exclude_from_sim no)
 		(at 471.932 29.464 0)
@@ -9828,73 +9818,6 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "L8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 356.87 200.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0de14a46-43dd-488e-91a7-bc2361b5d619")
-		(property "Reference" "#PWR024"
-			(at 360.68 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 353.06 200.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 356.87 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04bb0cfa-b45d-4b8d-a03a-18e12b5429c6")
-		)
-		(instances
-			(project ""
-				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11905,8 +11828,8 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:XT30UPB-M"
-			(at 501.65 190.5 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 500.634 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +11857,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 501.65 190.5 0)
+			(at 501.396 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,7 +11867,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V\n                        \n"
-			(at 501.65 190.5 0)
+			(at 500.634 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11954,7 +11877,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 501.65 190.5 0)
+			(at 501.904 195.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,7 +11887,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 501.65 190.5 0)
+			(at 501.65 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +11897,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 501.65 190.5 0)
+			(at 501.396 196.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11984,7 +11907,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 501.65 190.5 0)
+			(at 500.634 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11994,7 +11917,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 501.65 190.5 0)
+			(at 501.142 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,7 +11927,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 501.65 190.5 0)
+			(at 501.142 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,10 +11936,10 @@
 				(hide yes)
 			)
 		)
-		(pin "P$2"
+		(pin "2"
 			(uuid "8a14eaa4-26a1-40a1-9f07-61ba7464c74c")
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "7a11609e-16d7-45c3-9d90-a76d19d5a192")
 		)
 		(instances
@@ -15555,73 +15478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 361.95 200.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5fa3ba60-932d-470e-9c21-9d534296bcd5")
-		(property "Reference" "TP2"
-			(at 361.95 194.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 361.95 197.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "customTps-2-Chairs:testpoint_2pad_2-chairs."
-			(at 361.95 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 361.95 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 361.95 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "238eaeac-e392-4e6b-ba70-772b9a9ff0ff")
-		)
-		(pin "2"
-			(uuid "8aa6fe23-b6d0-42b1-94fb-0ebabdfba7a6")
-		)
-		(instances
-			(project "L1"
-				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pspice:INDUCTOR")
 		(at 160.02 81.28 90)
 		(unit 1)
@@ -16922,73 +16778,6 @@
 			(project "L1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 367.03 200.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f74df69-d0dd-4de7-b7b0-d51fbf2641f9")
-		(property "Reference" "#PWR025"
-			(at 363.22 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 370.84 200.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 367.03 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8918843c-9f8a-497e-b23e-20f5dc498a82")
-		)
-		(instances
-			(project ""
-				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -22232,7 +22021,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
