@@ -7724,17 +7724,6 @@
 			(uuid "9026240b-e8dd-4bb3-9ffa-0830c621d0b3")
 		)
 	)
-	(gr_rect
-		(start 130.510001 15.510001)
-		(end 282.110001 163.210001)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Cu")
-		(uuid "d28b6d7d-3ae7-4de8-9e14-c4f609c47f6c")
-	)
 	(gr_poly
 		(pts
 			(xy 261.218296 86.459599) (xy 261.219044 86.442056) (xy 261.220504 86.424925) (xy 261.222675 86.408174)
