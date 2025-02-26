@@ -3,4 +3,5 @@
   (lib (name "OPENMV M7")(type "KiCad")(uri "${KIPRJMOD}/OPENMV M7.pretty")(options "")(descr ""))
   (lib (name "IMU")(type "KiCad")(uri "${KIPRJMOD}/Sub-References/IMU.pretty")(options "")(descr ""))
   (lib (name "OPENMVM7V2")(type "KiCad")(uri "${KIPRJMOD}/Sub-References/OPENMVM7V2.pretty")(options "")(descr ""))
+  (lib (name "testpoints_2-chairs")(type "KiCad")(uri "C:/Users/Chen-Xuan/Documents/Robotics/robocup2025/Electrical/PCB V3 (21 Jan)/Master references/testpoints_2-chairs.pretty")(options "")(descr ""))
 )
