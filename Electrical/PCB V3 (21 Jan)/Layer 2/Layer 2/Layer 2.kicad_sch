@@ -1701,188 +1701,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
-			(pin_names
-				(offset 1) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0) hide)
@@ -9915,73 +9733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20cf4104-7cf6-4083-86a1-aa5c7c516093")
-		(property "Reference" "#PWR037"
-			(at 62.23 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 233.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffef1023-550e-4e92-9b46-cf17ee778fa5")
-		)
-		(instances
-			(project ""
-				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 172.72 0)
 		(unit 1)
@@ -15111,7 +14862,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 228.6 90)
+		(at 52.07 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15119,14 +14870,6 @@
 		(dnp no)
 		(uuid "913baeb8-fdb2-4c1a-bff5-5da2a5d9f1f9")
 		(property "Reference" "R9"
-			(at 52.07 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
 			(at 52.07 228.6 90)
 			(effects
 				(font
@@ -15134,8 +14877,16 @@
 				)
 			)
 		)
+		(property "Value" "1K"
+			(at 52.07 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Sen Robo:res0603"
-			(at 52.07 230.378 90)
+			(at 52.07 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15144,7 +14895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 228.6 0)
+			(at 52.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,7 +14904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 228.6 0)
+			(at 52.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16470,73 +16221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 52.07 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb647e58-6b6f-48c9-9a69-e53bcf8d5e95")
-		(property "Reference" "R38"
-			(at 52.07 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 52.07 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Sen Robo:res0603"
-			(at 52.07 235.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91f2daa5-3bdb-4361-9d32-bf16949fca25")
-		)
-		(pin "2"
-			(uuid "dde1132f-e33e-428a-b9a3-e5433ad9ff88")
-		)
-		(instances
-			(project "Layer 2"
-				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 274.32 214.63 180)
 		(unit 1)
@@ -17273,6 +16957,74 @@
 			(project "Layer 2"
 				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 43.18 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb0461cc-1afc-48d1-8276-bc7b686426e7")
+		(property "Reference" "SW3"
+			(at 43.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 43.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 43.18 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 43.18 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5bcb765-2cd4-4afa-9694-ce1ba23f8e8a")
+		)
+		(pin "2"
+			(uuid "18fde8cc-9f2c-46ee-8301-920fb33cdf08")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -18082,77 +17834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 43.18 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3b7b7d6-7e16-4c94-b3fe-3301b134c216")
-		(property "Reference" "SW1"
-			(at 43.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 43.18 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
-			(at 43.18 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 43.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 43.18 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69eca4d6-bb05-451e-837b-b356bc52275c")
-		)
-		(pin "3"
-			(uuid "d9e5230e-925a-4442-8763-fb566c76860a")
-		)
-		(pin "1"
-			(uuid "d03cd0f8-ec80-466f-a5a3-4c03eeab4dc4")
-		)
-		(instances
-			(project "Layer 2"
-				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 90.17 201.93 90)
 		(unit 1)
@@ -18282,7 +17963,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 55.88 228.6 270)
+		(at 55.88 231.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18291,7 +17972,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef2922e8-54d2-410c-9a7a-e0c40be34f49")
 		(property "Reference" "#PWR05"
-			(at 52.07 228.6 0)
+			(at 52.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18300,7 +17981,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 59.69 228.5999 90)
+			(at 59.69 231.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18309,7 +17990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 228.6 0)
+			(at 55.88 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18318,7 +17999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 228.6 0)
+			(at 55.88 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18327,7 +18008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 228.6 0)
+			(at 55.88 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

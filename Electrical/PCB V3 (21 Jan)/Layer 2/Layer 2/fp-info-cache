@@ -1,4 +1,4 @@
-24812408950081052
+24815889720959699
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -55012,6 +55012,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom Testpointverycool
+testpoint_2pad_2-chairs.
+Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+CONN DEV
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -100196,6 +100203,13 @@ fixed -onenew-newer
 
 0
 70
+33
+layer2v3
+fixed -onenew-newer-newest
+
+
+0
+53
 33
 mux thingy
 SOP65P780X200-24N
