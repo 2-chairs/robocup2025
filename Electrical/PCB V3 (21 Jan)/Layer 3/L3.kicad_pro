@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "L3.step",
+      "step": "../../../Mechanical/PCB Layers/L3.step",
       "svg": "",
       "vrml": ""
     },
