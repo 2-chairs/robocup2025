@@ -5310,6 +5310,12 @@
 		(uuid "b680e828-2c43-49f2-8d32-16b653773b4b")
 	)
 	(junction
+		(at 97.79 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8674caf-a1fb-4637-a7bb-00b354903078")
+	)
+	(junction
 		(at 227.33 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5338,12 +5344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e900697f-c221-4358-9ec2-b93b18a213c5")
-	)
-	(junction
-		(at 97.79 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea1c9bc0-1845-4e9e-8dd4-619e18d1b019")
 	)
 	(junction
 		(at 191.77 140.97)
@@ -6088,16 +6088,6 @@
 			(type default)
 		)
 		(uuid "5ee8abb1-3d20-4b44-b450-2d1cb9fad85e")
-	)
-	(wire
-		(pts
-			(xy 97.79 81.28) (xy 99.06 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef57016-1708-417f-afad-6071e2ca0c10")
 	)
 	(wire
 		(pts
@@ -7225,7 +7215,7 @@
 	)
 	(rectangle
 		(start 15.24 25.4)
-		(end 115.57 110.49)
+		(end 120.65 110.49)
 		(stroke
 			(width 0)
 			(type default)
@@ -8180,7 +8170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew-newer"
+		(property "Footprint" "layer2v3:fixed -onenew-newer-newest"
 			(at 256.54 156.21 0)
 			(effects
 				(font
@@ -8864,7 +8854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew-newer"
+		(property "Footprint" "layer2v3:fixed -onenew-newer-newest"
 			(at 160.02 156.21 0)
 			(effects
 				(font
@@ -11510,7 +11500,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 105.41 40.64 270)
+		(at 106.68 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11519,7 +11509,7 @@
 		(fields_autoplaced yes)
 		(uuid "47552eb8-1ff5-484d-bd7a-11860ab29458")
 		(property "Reference" "#PWR020"
-			(at 101.6 40.64 0)
+			(at 102.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11518,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 109.22 41.275 90)
+			(at 110.49 41.275 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +11527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 40.64 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11546,7 +11536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 40.64 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +11545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 40.64 0)
+			(at 106.68 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11858,6 +11848,73 @@
 			(project "Layer 2"
 				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 102.87 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4df55ad8-9681-4079-b0dd-b7ccbfc4f935")
+		(property "Reference" "TP3"
+			(at 102.87 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 102.87 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom Testpointverycool:testpoint_2pad_2-chairs."
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e162f2e2-6b7f-4bca-aa79-2c39a7eac947")
+		)
+		(pin "2"
+			(uuid "c20d2a60-6a69-4510-9179-f6ff379e625f")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -13653,7 +13710,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 100.33 40.64 0)
+		(at 101.6 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13661,7 +13718,7 @@
 		(dnp no)
 		(uuid "7836e6c9-1712-4fa6-8da9-91787b759808")
 		(property "Reference" "TP2"
-			(at 100.33 34.798 0)
+			(at 101.6 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13669,7 +13726,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 100.33 37.338 0)
+			(at 101.6 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13677,7 +13734,7 @@
 			)
 		)
 		(property "Footprint" "Custom Testpointverycool:testpoint_2pad_2-chairs."
-			(at 100.33 40.64 0)
+			(at 101.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13686,7 +13743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 40.64 0)
+			(at 101.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,7 +13752,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 100.33 40.64 0)
+			(at 101.6 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15667,7 +15724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew-newer"
+		(property "Footprint" "layer2v3:fixed -onenew-newer-newest"
 			(at 63.5 156.21 0)
 			(effects
 				(font
@@ -16184,7 +16241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:fixed -onenew-newer"
+		(property "Footprint" "layer2v3:fixed -onenew-newer-newest"
 			(at 353.06 156.21 0)
 			(effects
 				(font
@@ -17688,7 +17745,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 99.06 81.28 270)
+		(at 107.95 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17697,7 +17754,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9134c3b-c7e8-4a50-8f1d-1fb723f7f49b")
 		(property "Reference" "#PWR019"
-			(at 95.25 81.28 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17706,7 +17763,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 102.87 81.2799 90)
+			(at 111.76 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17715,7 +17772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 81.28 0)
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17724,7 +17781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 81.28 0)
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,7 +17790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 81.28 0)
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
