@@ -5104,7 +5104,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
+		(property "Value" "Conn_02x08_Odd_Even"
 			(at 242.316 103.378 0)
 			(effects
 				(font

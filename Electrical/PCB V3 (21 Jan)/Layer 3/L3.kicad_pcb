@@ -7229,7 +7229,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
+		(property "Value" "Conn_02x08_Odd_Even"
 			(at 8.75 -3.4 90)
 			(layer "B.Fab")
 			(hide yes)
