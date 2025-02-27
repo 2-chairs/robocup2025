@@ -1,4 +1,4 @@
-24661005130092091
+24666227061414062
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99434,3 +99434,24 @@ Inductor molded power shielded
 0
 62
 3
+testpoints_2-chairs
+14 AWG Testpoint
+
+
+0
+2
+2
+testpoints_2-chairs
+14 AWG Testpoint (Compact)
+
+
+0
+2
+2
+testpoints_2-chairs
+14 AWG Testpoint (Vertical)
+
+
+0
+2
+2
