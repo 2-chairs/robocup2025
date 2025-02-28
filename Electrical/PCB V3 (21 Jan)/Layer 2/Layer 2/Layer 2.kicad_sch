@@ -7130,7 +7130,6 @@
 	)
 	(label "Motor Driver"
 		(at 325.12 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7141,7 +7140,6 @@
 	)
 	(label "Motor 1 EN B"
 		(at 171.45 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7152,7 +7150,6 @@
 	)
 	(label "GND"
 		(at 78.74 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7163,7 +7160,6 @@
 	)
 	(label "Motor 3 Out B"
 		(at 138.43 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7174,7 +7170,6 @@
 	)
 	(label "Motor 2 EN B"
 		(at 171.45 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7185,7 +7180,6 @@
 	)
 	(label "Motor 4 EN A"
 		(at 171.45 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7196,7 +7190,6 @@
 	)
 	(label "Motor 1 EN A"
 		(at 24.13 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7207,7 +7200,6 @@
 	)
 	(label "PWM Motor 4"
 		(at 171.45 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7218,7 +7210,6 @@
 	)
 	(label "PWM Motor 2"
 		(at 124.46 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7229,7 +7220,6 @@
 	)
 	(label "Motor 2 EN B"
 		(at 119.38 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7240,7 +7230,6 @@
 	)
 	(label "Motor Driver"
 		(at 132.08 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7251,7 +7240,6 @@
 	)
 	(label "Motor 2 Out A"
 		(at 163.83 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7262,7 +7250,6 @@
 	)
 	(label "Motor 2 EN A"
 		(at 119.38 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7273,7 +7260,6 @@
 	)
 	(label "Motor 1 Out B"
 		(at 78.74 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7284,7 +7270,6 @@
 	)
 	(label "GND"
 		(at 171.45 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7295,7 +7280,6 @@
 	)
 	(label "L1 RX"
 		(at 171.45 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7306,7 +7290,6 @@
 	)
 	(label "RX (IMU)"
 		(at 135.89 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7317,7 +7300,6 @@
 	)
 	(label "Motor 2 Out A"
 		(at 175.26 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7328,7 +7310,6 @@
 	)
 	(label "PWM Motor 2"
 		(at 171.45 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7339,7 +7320,6 @@
 	)
 	(label "Motor 4 Out A"
 		(at 368.3 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7350,7 +7330,6 @@
 	)
 	(label "Motor 1 Out A"
 		(at 78.74 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7361,7 +7340,6 @@
 	)
 	(label " TX (L3 ESP 32)"
 		(at 135.89 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7372,7 +7350,6 @@
 	)
 	(label "Motor 2 Out B"
 		(at 175.26 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7383,7 +7360,6 @@
 	)
 	(label "Motor 1 Out B"
 		(at 138.43 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7394,7 +7370,6 @@
 	)
 	(label "TX (IMU)"
 		(at 135.89 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7405,7 +7380,6 @@
 	)
 	(label "Motor 4 Out B"
 		(at 165.1 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7416,7 +7390,6 @@
 	)
 	(label "Motor Driver"
 		(at 228.6 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7427,7 +7400,6 @@
 	)
 	(label "RX (CAM)"
 		(at 135.89 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7438,7 +7410,6 @@
 	)
 	(label " TX (L3 ESP 32)"
 		(at 88.9 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,7 +7420,6 @@
 	)
 	(label "Motor 1 EN A"
 		(at 171.45 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7460,7 +7430,6 @@
 	)
 	(label "Motor 3 EN B"
 		(at 135.89 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7471,7 +7440,6 @@
 	)
 	(label "PWM Motor 3"
 		(at 171.45 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7482,7 +7450,6 @@
 	)
 	(label "Motor 2 EN A"
 		(at 171.45 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7493,7 +7460,6 @@
 	)
 	(label " RX (L3 ESP 32)"
 		(at 135.89 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7504,7 +7470,6 @@
 	)
 	(label "Motor 4 EN B"
 		(at 171.45 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7515,7 +7480,6 @@
 	)
 	(label "Motor Driver"
 		(at 26.67 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7526,7 +7490,6 @@
 	)
 	(label "PWM Motor 3"
 		(at 220.98 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7537,7 +7500,6 @@
 	)
 	(label "Motor 3 EN B"
 		(at 227.33 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7548,7 +7510,6 @@
 	)
 	(label "Motor 1 Out A"
 		(at 138.43 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7559,7 +7520,6 @@
 	)
 	(label "Motor 3 Out A"
 		(at 271.78 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7570,7 +7530,6 @@
 	)
 	(label "Motor 4 EN B"
 		(at 317.5 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7581,7 +7540,6 @@
 	)
 	(label "Motor 4 Out B"
 		(at 368.3 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7592,7 +7550,6 @@
 	)
 	(label "RX (IMU)"
 		(at 88.9 193.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7603,7 +7560,6 @@
 	)
 	(label "Motor 3 EN A"
 		(at 135.89 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7614,7 +7570,6 @@
 	)
 	(label " RX (L3 ESP 32)"
 		(at 88.9 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7625,7 +7580,6 @@
 	)
 	(label "Motor 2 Out B"
 		(at 163.83 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7636,7 +7590,6 @@
 	)
 	(label "Motor Driver"
 		(at 35.56 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7647,7 +7600,6 @@
 	)
 	(label "TX (CAM)"
 		(at 135.89 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7658,7 +7610,6 @@
 	)
 	(label "L1 TX"
 		(at 207.01 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7669,7 +7620,6 @@
 	)
 	(label "Motor 3 EN A"
 		(at 214.63 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7680,7 +7630,6 @@
 	)
 	(label "L1 RX"
 		(at 207.01 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7691,7 +7640,6 @@
 	)
 	(label "PWM Motor 4"
 		(at 317.5 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7702,7 +7650,6 @@
 	)
 	(label "L1 TX"
 		(at 171.45 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7713,7 +7660,6 @@
 	)
 	(label "Motor 3 Out B"
 		(at 271.78 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7724,7 +7670,6 @@
 	)
 	(label "TX (CAM)"
 		(at 88.9 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7735,7 +7680,6 @@
 	)
 	(label "Motor 4 EN A"
 		(at 317.5 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7746,7 +7690,6 @@
 	)
 	(label "TX (IMU)"
 		(at 88.9 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7757,7 +7700,6 @@
 	)
 	(label "Motor 1 EN B"
 		(at 22.86 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7768,7 +7710,6 @@
 	)
 	(label "Motor 4 Out A"
 		(at 165.1 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7779,7 +7720,6 @@
 	)
 	(label "RX (CAM)"
 		(at 88.9 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7790,7 +7730,6 @@
 	)
 	(label "PWM Motor 1"
 		(at 27.94 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7801,7 +7740,6 @@
 	)
 	(label "PWM Motor 1"
 		(at 171.45 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7812,7 +7750,6 @@
 	)
 	(label "Motor 3 Out A"
 		(at 138.43 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11467,7 +11404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B10B-XH-A_1x10_P2.50mm_Vertical"
 			(at 93.98 187.96 0)
 			(effects
 				(font
