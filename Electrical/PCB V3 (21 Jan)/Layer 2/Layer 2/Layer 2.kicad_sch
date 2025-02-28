@@ -13404,7 +13404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "layer2v3:SMA (DO-214AC)"
 			(at 66.675 74.93 0)
 			(effects
 				(font
@@ -17978,7 +17978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "layer2v3:SMA (DO-214AC)"
 			(at 62.865 34.29 0)
 			(effects
 				(font
