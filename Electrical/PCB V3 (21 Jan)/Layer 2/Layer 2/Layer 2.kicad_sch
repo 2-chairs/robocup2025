@@ -13541,7 +13541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom Testpointverycool:14 AWG Testpoint"
+		(property "Footprint" "Custom Testpointverycool:14 AWG Testpoint (Vertical)"
 			(at 260.35 189.23 0)
 			(effects
 				(font
