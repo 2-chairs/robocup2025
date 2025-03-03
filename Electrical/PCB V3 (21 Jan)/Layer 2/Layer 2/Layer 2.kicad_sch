@@ -5593,7 +5593,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 67.31) (xy 21.59 69.85)
+			(xy 21.59 67.31) (xy 21.59 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5963,7 +5963,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 77.47) (xy 21.59 87.63)
+			(xy 21.59 81.28) (xy 21.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6000,16 +6000,6 @@
 			(type default)
 		)
 		(uuid "7b060876-a5d7-46f6-8b49-73da14b54882")
-	)
-	(wire
-		(pts
-			(xy 43.18 173.99) (xy 50.8 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c90aa73-da0a-48c2-b5f9-38565f7c6511")
 	)
 	(wire
 		(pts
@@ -11477,7 +11467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B10B-XH-A_1x10_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical"
 			(at 93.98 187.96 0)
 			(effects
 				(font
@@ -12102,7 +12092,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 21.59 73.66 0)
+		(at 21.59 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12111,7 +12101,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dc9c16d-a29f-4788-affa-052c10664d3a")
 		(property "Reference" "C2"
-			(at 25.4 73.025 0)
+			(at 25.4 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12120,7 +12110,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 25.4 75.565 0)
+			(at 25.4 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,7 +12119,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 22.5552 77.47 0)
+			(at 22.5552 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 73.66 0)
+			(at 21.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,7 +12137,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 73.66 0)
+			(at 21.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,7 +13404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "layer2v3:SMA (DO-214AC)"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.675 74.93 0)
 			(effects
 				(font
@@ -13551,7 +13541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom Testpointverycool:14 AWG Testpoint (Vertical)"
+		(property "Footprint" "Custom Testpointverycool:14 AWG Testpoint"
 			(at 260.35 189.23 0)
 			(effects
 				(font
@@ -14084,7 +14074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:0630 One Piece Inductor"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -15055,6 +15045,73 @@
 			(project "Layer 2"
 				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "913baeb8-fdb2-4c1a-bff5-5da2a5d9f1f9")
+		(property "Reference" "R9"
+			(at 46.99 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 46.99 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sen Robo:res0603"
+			(at 46.99 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01ac5979-558b-4aa1-905c-ac8061e0dbac")
+		)
+		(pin "2"
+			(uuid "9d443752-610a-4211-a45f-f6cba32ff044")
+		)
+		(instances
+			(project "Layer 2"
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16124,7 +16181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "layer2v3:0630 One Piece Inductor"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 74.93 30.48 0)
 			(effects
 				(font
@@ -17921,7 +17978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "layer2v3:SMA (DO-214AC)"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.865 34.29 0)
 			(effects
 				(font
