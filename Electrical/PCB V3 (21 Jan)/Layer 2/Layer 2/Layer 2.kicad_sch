@@ -7944,7 +7944,6 @@
 	)
 	(label "Motor Driver"
 		(at 317.5 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7955,7 +7954,6 @@
 	)
 	(label "Motor 1 EN B"
 		(at 171.45 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7966,7 +7964,6 @@
 	)
 	(label "Motor 3 Out B"
 		(at 152.4 199.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7977,7 +7974,6 @@
 	)
 	(label "Motor 2 EN B"
 		(at 171.45 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7988,7 +7984,6 @@
 	)
 	(label "Motor 4 EN A"
 		(at 171.45 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7999,7 +7994,6 @@
 	)
 	(label "Motor 1 EN A"
 		(at 26.67 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8010,7 +8004,6 @@
 	)
 	(label "PWM Motor 4"
 		(at 171.45 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8021,7 +8014,6 @@
 	)
 	(label "PWM Motor 2"
 		(at 120.65 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8032,7 +8024,6 @@
 	)
 	(label "Motor 2 EN B"
 		(at 123.19 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8043,7 +8034,6 @@
 	)
 	(label "Motor Driver"
 		(at 123.19 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8054,7 +8044,6 @@
 	)
 	(label "Motor 2 Out A"
 		(at 177.8 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8065,7 +8054,6 @@
 	)
 	(label "Motor 2 EN A"
 		(at 123.19 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8076,7 +8064,6 @@
 	)
 	(label "Motor 1 Out B"
 		(at 96.52 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8087,7 +8074,6 @@
 	)
 	(label "GND"
 		(at 171.45 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8098,7 +8084,6 @@
 	)
 	(label "L1 RX"
 		(at 171.45 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8109,7 +8094,6 @@
 	)
 	(label "RX (IMU)"
 		(at 135.89 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8120,7 +8104,6 @@
 	)
 	(label "Motor 2 Out A"
 		(at 193.04 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8131,7 +8114,6 @@
 	)
 	(label "PWM Motor 2"
 		(at 171.45 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8142,7 +8124,6 @@
 	)
 	(label "Motor 4 Out A"
 		(at 387.35 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8153,7 +8134,6 @@
 	)
 	(label "Motor 1 Out A"
 		(at 96.52 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8164,7 +8144,6 @@
 	)
 	(label "TX (L3 ESP 32)"
 		(at 135.89 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8175,7 +8154,6 @@
 	)
 	(label "Motor 2 Out B"
 		(at 193.04 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8186,7 +8164,6 @@
 	)
 	(label "Motor 1 Out B"
 		(at 152.4 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8197,7 +8174,6 @@
 	)
 	(label "TX (IMU)"
 		(at 135.89 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8208,7 +8184,6 @@
 	)
 	(label "Motor 4 Out B"
 		(at 179.07 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8219,7 +8194,6 @@
 	)
 	(label "Motor Driver"
 		(at 218.44 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8230,7 +8204,6 @@
 	)
 	(label "RX (CAM)"
 		(at 135.89 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8241,7 +8214,6 @@
 	)
 	(label "TX (L3 ESP 32)"
 		(at 72.39 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8252,7 +8224,6 @@
 	)
 	(label "Motor 1 EN A"
 		(at 171.45 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8263,7 +8234,6 @@
 	)
 	(label "Motor 3 EN B"
 		(at 135.89 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8274,7 +8244,6 @@
 	)
 	(label "PWM Motor 3"
 		(at 171.45 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8285,7 +8254,6 @@
 	)
 	(label "Motor 2 EN A"
 		(at 171.45 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8296,7 +8264,6 @@
 	)
 	(label "RX (L3 ESP 32)"
 		(at 135.89 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8307,7 +8274,6 @@
 	)
 	(label "Motor 4 EN B"
 		(at 171.45 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8318,7 +8284,6 @@
 	)
 	(label "Motor Driver"
 		(at 16.51 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8329,7 +8294,6 @@
 	)
 	(label "PWM Motor 3"
 		(at 217.17 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8340,7 +8304,6 @@
 	)
 	(label "Motor 3 EN B"
 		(at 218.44 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8351,7 +8314,6 @@
 	)
 	(label "Motor 1 Out A"
 		(at 152.4 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8362,7 +8324,6 @@
 	)
 	(label "Motor 3 Out A"
 		(at 289.56 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8373,7 +8334,6 @@
 	)
 	(label "Motor 4 EN B"
 		(at 317.5 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8384,7 +8344,6 @@
 	)
 	(label "Motor 4 Out B"
 		(at 387.35 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8395,7 +8354,6 @@
 	)
 	(label "RX (IMU)"
 		(at 72.39 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8406,7 +8364,6 @@
 	)
 	(label "Motor 3 EN A"
 		(at 135.89 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8417,7 +8374,6 @@
 	)
 	(label "RX (L3 ESP 32)"
 		(at 72.39 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8428,7 +8384,6 @@
 	)
 	(label "Motor 2 Out B"
 		(at 177.8 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8439,7 +8394,6 @@
 	)
 	(label "Motor Driver"
 		(at 26.67 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8450,7 +8404,6 @@
 	)
 	(label "TX (CAM)"
 		(at 135.89 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8461,7 +8414,6 @@
 	)
 	(label "L1 TX"
 		(at 207.01 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8472,7 +8424,6 @@
 	)
 	(label "Motor 3 EN A"
 		(at 218.44 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8483,7 +8434,6 @@
 	)
 	(label "L1 RX"
 		(at 207.01 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8494,7 +8444,6 @@
 	)
 	(label "PWM Motor 4"
 		(at 314.96 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8505,7 +8454,6 @@
 	)
 	(label "L1 TX"
 		(at 171.45 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8516,7 +8464,6 @@
 	)
 	(label "Motor 3 Out B"
 		(at 289.56 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8527,7 +8474,6 @@
 	)
 	(label "TX (CAM)"
 		(at 72.39 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8538,7 +8484,6 @@
 	)
 	(label "Motor 4 EN A"
 		(at 317.5 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8549,7 +8494,6 @@
 	)
 	(label "TX (IMU)"
 		(at 72.39 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8560,7 +8504,6 @@
 	)
 	(label "Motor 1 EN B"
 		(at 26.67 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8571,7 +8514,6 @@
 	)
 	(label "Motor 4 Out A"
 		(at 179.07 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8582,7 +8524,6 @@
 	)
 	(label "RX (CAM)"
 		(at 72.39 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8593,7 +8534,6 @@
 	)
 	(label "PWM Motor 1"
 		(at 24.13 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8604,7 +8544,6 @@
 	)
 	(label "PWM Motor 1"
 		(at 171.45 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8615,7 +8554,6 @@
 	)
 	(label "Motor 3 Out A"
 		(at 152.4 196.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9832,7 +9770,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 204.47 39.37 180)
+		(at 207.01 39.37 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9841,7 +9779,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f247b98-fc99-4122-b5f6-958eb929779f")
 		(property "Reference" "H1"
-			(at 207.2046 38.0999 0)
+			(at 209.7446 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,7 +9788,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 207.2046 40.6399 0)
+			(at 209.7446 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +9797,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 204.47 39.37 0)
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9868,7 +9806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 39.37 0)
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +9815,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 204.47 39.37 0)
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +10198,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 204.47 44.45 270)
+		(at 207.01 44.45 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10269,7 +10207,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cfa26d1-e2b4-4d63-b6ad-bf18ede3aea5")
 		(property "Reference" "H2"
-			(at 207.01 43.1799 90)
+			(at 209.55 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10278,7 +10216,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 207.01 45.7199 90)
+			(at 209.55 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10225,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 204.47 44.45 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,7 +10234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 44.45 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10243,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 204.47 44.45 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13564,7 +13502,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 204.47 59.69 180)
+		(at 207.01 59.69 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13573,7 +13511,7 @@
 		(fields_autoplaced yes)
 		(uuid "7090f75d-ae29-40c6-aa0a-88fbbbdeebae")
 		(property "Reference" "H5"
-			(at 207.01 58.4199 0)
+			(at 209.55 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13582,7 +13520,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 207.01 60.9599 0)
+			(at 209.55 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13591,7 +13529,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 204.47 59.69 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13600,7 +13538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 59.69 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,7 +13547,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 204.47 59.69 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14041,6 +13979,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 227.33 64.77 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f2d635-4a1e-49ad-ac60-8a7976b745c6")
+		(property "Reference" "H12"
+			(at 229.87 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 229.87 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Layer 2"
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:B340")
 		(at 77.47 73.66 270)
 		(unit 1)
@@ -14249,7 +14251,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 44.45 180)
+		(at 227.33 39.37 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14258,7 +14260,7 @@
 		(fields_autoplaced yes)
 		(uuid "784aa9aa-7ce9-401e-9ee7-aba12c90edc8")
 		(property "Reference" "H7"
-			(at 227.5246 43.1799 0)
+			(at 230.0646 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,7 +14269,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 227.5246 45.7199 0)
+			(at 230.0646 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14276,7 +14278,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 224.79 44.45 0)
+			(at 227.33 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14285,7 +14287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 44.45 0)
+			(at 227.33 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14294,7 +14296,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 44.45 0)
+			(at 227.33 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15316,7 +15318,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 49.53 180)
+		(at 227.33 44.45 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -15325,7 +15327,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e9b4761-3fb5-487c-a10e-318471308541")
 		(property "Reference" "H8"
-			(at 227.33 48.2599 0)
+			(at 229.87 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15334,7 +15336,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 227.33 50.7999 0)
+			(at 229.87 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,7 +15345,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 224.79 49.53 0)
+			(at 227.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15352,7 +15354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 49.53 0)
+			(at 227.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,7 +15363,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 49.53 0)
+			(at 227.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16427,7 +16429,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 39.37 180)
+		(at 207.01 64.77 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -16436,7 +16438,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3419212-d4aa-4bc8-8cd0-a63a6d852551")
 		(property "Reference" "H6"
-			(at 227.33 38.0999 0)
+			(at 209.55 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +16447,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 227.33 40.6399 0)
+			(at 209.55 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,7 +16456,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 224.79 39.37 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,7 +16465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 39.37 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16474,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 39.37 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16953,6 +16955,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 227.33 59.69 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdf271f1-cdbe-456b-81c6-b2636109fbbf")
+		(property "Reference" "H11"
+			(at 229.87 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 229.87 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Layer 2"
+				(path "/73bb99ca-959f-40cf-90f8-36d6928b007b"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:GND")
 		(at 199.39 185.42 0)
 		(unit 1)
@@ -17425,7 +17491,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 204.47 54.61 180)
+		(at 207.01 54.61 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17434,7 +17500,7 @@
 		(fields_autoplaced yes)
 		(uuid "c39846cf-5f9a-4e75-8669-3a5c59b861e1")
 		(property "Reference" "H4"
-			(at 207.01 53.3399 0)
+			(at 209.55 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17443,7 +17509,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 207.01 55.8799 0)
+			(at 209.55 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17452,7 +17518,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 204.47 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17461,7 +17527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17470,7 +17536,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 204.47 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17825,7 +17891,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 59.69 180)
+		(at 227.33 54.61 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17834,7 +17900,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0fab300-8083-4c93-946e-f69f17cdf338")
 		(property "Reference" "H10"
-			(at 227.33 58.4199 0)
+			(at 229.87 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17843,7 +17909,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 227.33 60.9599 0)
+			(at 229.87 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17852,7 +17918,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 224.79 59.69 0)
+			(at 227.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17861,7 +17927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 59.69 0)
+			(at 227.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17870,7 +17936,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 59.69 0)
+			(at 227.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17956,7 +18022,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 54.61 180)
+		(at 227.33 49.53 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17965,7 +18031,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5817727-bca5-42cd-bea1-5172cb9a9a13")
 		(property "Reference" "H9"
-			(at 227.5246 53.3399 0)
+			(at 230.0646 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17974,7 +18040,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 227.5246 55.8799 0)
+			(at 230.0646 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17983,7 +18049,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 224.79 54.61 0)
+			(at 227.33 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17992,7 +18058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 54.61 0)
+			(at 227.33 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18001,7 +18067,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 54.61 0)
+			(at 227.33 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18556,7 +18622,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 204.47 49.53 180)
+		(at 207.01 49.53 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18565,7 +18631,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2068ac5-8b8f-4cd5-a275-7ff542a672fe")
 		(property "Reference" "H3"
-			(at 207.2046 48.2599 0)
+			(at 209.7446 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18574,7 +18640,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 207.2046 50.7999 0)
+			(at 209.7446 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18583,7 +18649,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 204.47 49.53 0)
+			(at 207.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18592,7 +18658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 49.53 0)
+			(at 207.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18601,7 +18667,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 204.47 49.53 0)
+			(at 207.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
