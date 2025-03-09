@@ -1,4 +1,4 @@
-24739085952019025
+24827673925431536
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65855,6 +65855,132 @@ Yellow 5381 Series LED
 0
 2
 2
+Layer 2V3
+0630 One Piece Inductor
+
+
+0
+2
+2
+Layer 2V3
+AMASS_XT60-M
+
+
+0
+2
+2
+Layer 2V3
+IC_VNH5019ATR-E
+
+
+0
+33
+33
+Layer 2V3
+LM2596ADJ
+
+
+0
+6
+6
+Layer 2V3
+MODULE_DEV-15583
+
+
+0
+33
+33
+Layer 2V3
+MODULE_ESP32-S3-DEVKITM-1-N8
+
+
+0
+44
+44
+Layer 2V3
+SMA (DO-214AC)
+SMA (DO-214AC)
+Schottky Diode
+0
+2
+2
+Layer 2V3
+SW_100SP1T1B4M2QE
+
+
+0
+3
+3
+Layer 2V3
+TEENSY_SHORT
+Teensy 3.2/4.0 Footprint<br><a href="https://www.pjrc.com/store/teensy32.html">Teensy 3.2</a><br><a href="https://www.pjrc.com/store/teensy40.html">Teensy 4.0</a><br><a href="https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf">Headers</a>
+
+0
+28
+28
+Layer 2V3
+TEENSY_SHORT_SSM
+twoSSM-114-L-SV placed on Teensy<br><a href="http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf">Datasheet</a><br><a href="http://suddendocs.samtec.com/prints/ssm-sv.pdf">Footprint</a><br><br>Teensy 3.2/4.0 Footprint<br><a href="https://www.pjrc.com/store/teensy32.html">Teensy 3.2</a><br><a href="https://www.pjrc.com/store/teensy40.html">Teensy 4.0</a><br><a href="https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf">Headers</a>
+
+0
+28
+28
+Layer 2V3
+TI_SO-PowerPAD-8
+8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf
+HTSOP 1.27
+0
+21
+9
+Layer 2V3
+VREG_LM5017MR_NOPB
+
+
+0
+17
+17
+Layer 2V3
+VREG_TPS79625KTTR
+
+
+0
+6
+6
+Layer 2V3
+XT30UPB-M
+
+
+0
+2
+2
+Layer 2V3
+fixed -one
+
+
+0
+65
+34
+Layer 2V3
+fixed -onenew
+
+
+0
+66
+33
+Layer 2V3
+fixed -onenew-newer
+
+
+0
+70
+33
+Layer 2V3
+fixed -onenew-newer-newest
+
+
+0
+53
+33
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91209,6 +91335,237 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SenRobo
+8-DFN (5x6)
+
+
+0
+9
+9
+SenRobo
+12x12x6
+PTS125SM73SMTR21M LFS-1
+Switch
+0
+4
+4
+SenRobo
+14 AWG
+
+
+0
+1
+1
+SenRobo
+18 AWG
+
+
+0
+1
+1
+SenRobo
+0630 One Piece Inductor
+
+
+0
+2
+2
+SenRobo
+680uCap
+
+
+0
+2
+2
+SenRobo
+1040 One Piece Inductor
+
+
+0
+2
+2
+SenRobo
+ALS-PT19
+
+
+0
+2
+2
+SenRobo
+AMASS_XT30-F
+Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+SenRobo
+AMASS_XT30PW-F
+
+
+0
+4
+4
+SenRobo
+AMASS_XT60-M
+
+
+0
+2
+2
+SenRobo
+AMASS_XT60PW-M
+
+
+0
+4
+4
+SenRobo
+B340
+
+
+0
+2
+2
+SenRobo
+CP_Radial_D8.0mm_P3.50mm
+CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+SenRobo
+EIA-7343-D
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+SenRobo
+IPD050N10N5ATMA1
+IPD050N10N5ATMA1-2
+MOSFET (N-Channel)
+0
+3
+3
+SenRobo
+Micro Logo
+
+
+0
+0
+0
+SenRobo
+SEN Logo Mini
+
+
+0
+1
+1
+SenRobo
+SEN Logo Pad (Invert)
+
+
+0
+1
+1
+SenRobo
+SMA (DO-214AC)
+SMA (DO-214AC)
+Schottky Diode
+0
+2
+2
+SenRobo
+SS12D00G3
+SS12D00G3-1
+Switch
+0
+3
+3
+SenRobo
+SW_PUSH_SPST
+
+
+0
+2
+2
+SenRobo
+TI_SO-PowerPAD-8
+8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf
+HTSOP 1.27
+0
+21
+9
+SenRobo
+TO170P1435X465-6N
+KTT0005B
+Integrated Circuit
+0
+55
+6
+SenRobo
+TO255P1040X460X2890-3
+
+
+0
+3
+3
+SenRobo
+Teensy 4.0
+
+
+0
+28
+28
+SenRobo
+Test Pad
+
+
+0
+1
+1
+SenRobo
+VNH5019A-E
+VNH5019A-E
+Integrated Circuit
+0
+61
+33
+SenRobo
+ZIp Tie
+
+
+0
+0
+0
+SenRobo
+cap0603
+
+
+0
+2
+2
+SenRobo
+led0603
+
+
+0
+2
+2
+SenRobo
+res0603
+
+
+0
+2
+2
+SenRobo
+xiao-esp32c3
+
+
+0
+14
+14
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
