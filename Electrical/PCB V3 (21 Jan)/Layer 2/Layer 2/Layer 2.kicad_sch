@@ -5883,16 +5883,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 180.34) (xy 255.27 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f9307a-6c35-4d80-9cfd-c0fff8eab44d")
-	)
-	(wire
-		(pts
 			(xy 27.94 80.01) (xy 27.94 91.44)
 		)
 		(stroke
@@ -7570,16 +7560,6 @@
 			(type default)
 		)
 		(uuid "fafaa73f-a59d-4ff0-a514-edd78d583a21")
-	)
-	(wire
-		(pts
-			(xy 266.7 180.34) (xy 265.43 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb07d33-777e-452c-8ed7-c5442a9e6b44")
 	)
 	(rectangle
 		(start 13.97 189.23)
