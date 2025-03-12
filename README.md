@@ -17,7 +17,7 @@ This repository is for **Team 2-Chairs**, a Singapore RoboCup Open Soccer Junior
 - **Logo/** - Official team branding and design assets.
 
 ## Credits 
-In the grand tapestry of our design endeavor, we owe a debt of profound gratitude to the esteemed teams of Sentinels Robotics, ducc. & Dynamo, whose brilliant schematics and designs (and potentially code) have guided our efforts.
+In the grand tapestry of our design endeavor, we owe a debt of profound gratitude to the esteemed teams of Sentinels Robotics, ducc. & Butter Chicken, whose brilliant schematics and designs (and potentially code) have guided our efforts.
 
 ## License & Copyright
 
