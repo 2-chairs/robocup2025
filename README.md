@@ -22,7 +22,7 @@ In the grand tapestry of our design endeavor, we owe a debt of profound gratitud
 ## License & Copyright
 
 © 2025 Team 2-Chairs. All rights reserved, except where otherwise stated. 
-<p>Niu Lechen has never held any rights to this work, nor will he at any point in the future, unless explictly stated otherwise by Ng Chen-Xuan, Euston Tan and Chen YiKai, in a majority based decision.</p>
+<p>Niu Lechen hath ne’er held claim nor right to this work, nor shall he at any time henceforth, save by express decree of Ng Chen-Xuan, Euston Tan, and Chen YiKai, whose will, by a majority’s voice, alone may grant such favor.</p>
 
 
 
