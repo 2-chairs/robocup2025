@@ -5838,14 +5838,6 @@
 		(uuid "04252b7a-e823-4874-ad46-023b66151417")
 	)
 	(no_connect
-		(at 208.28 175.26)
-		(uuid "8d841228-6a91-4278-a510-d2102946ece5")
-	)
-	(no_connect
-		(at 283.21 175.26)
-		(uuid "a50c24b3-c57d-4ccd-a44e-93762a47add5")
-	)
-	(no_connect
 		(at 209.55 223.52)
 		(uuid "e5f36746-29d2-48e3-9fc1-101708ff363c")
 	)
@@ -7005,6 +6997,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 184.15) (xy 283.21 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec86862-2a9a-41f3-8ae7-aa9260f9b55f")
+	)
+	(wire
+		(pts
 			(xy 55.88 52.07) (xy 55.88 57.15)
 		)
 		(stroke
@@ -7876,6 +7878,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 176.53) (xy 283.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b686d7-3c64-43c3-98a0-7da7e68ebb6b")
+	)
+	(wire
+		(pts
 			(xy 487.68 53.34) (xy 482.6 53.34)
 		)
 		(stroke
@@ -8466,6 +8478,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 176.53) (xy 208.28 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b5002c-2cab-4c60-8db7-3ba8ec8b953a")
+	)
+	(wire
+		(pts
 			(xy 223.52 82.55) (xy 231.14 82.55)
 		)
 		(stroke
@@ -8733,6 +8755,16 @@
 			(type default)
 		)
 		(uuid "f729bb6f-8e0a-4557-bf18-509a996f9178")
+	)
+	(wire
+		(pts
+			(xy 208.28 184.15) (xy 208.28 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7db051b-f30d-4bef-80d2-3ed013eedd27")
 	)
 	(wire
 		(pts
@@ -10699,6 +10731,73 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
+		(at 283.21 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a9312f-9854-4dd5-b5c4-1173fa086b82")
+		(property "Reference" "#PWR024"
+			(at 283.21 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.2099 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35fd1df4-8766-4aa2-987b-f45eec9e5c68")
+		)
+		(instances
+			(project "L1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND")
 		(at 262.89 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11172,6 +11271,73 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 283.21 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "192487dc-88d2-4c92-a8e8-6f832196884b")
+		(property "Reference" "R43"
+			(at 278.638 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 281.178 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 284.988 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 283.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a08fdfe-f385-4e44-bb84-a35bee16f737")
+		)
+		(pin "2"
+			(uuid "23e24f9b-baf2-4974-8281-b69afdeeb1a2")
+		)
+		(instances
+			(project "L1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -15682,6 +15848,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:GND")
+		(at 208.28 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63ee8cfd-9a7d-415f-ae76-43478e978b10")
+		(property "Reference" "#PWR023"
+			(at 208.28 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.2799 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee58d99-97e6-4c63-806e-102664bb53f6")
+		)
+		(instances
+			(project "L1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Photo")
 		(at 250.19 146.05 0)
 		(unit 1)
@@ -16502,6 +16735,73 @@
 			(project "l1 v1"
 				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
 					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740f387e-347c-439f-b1d2-a8e90f508e04")
+		(property "Reference" "R37"
+			(at 203.708 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 206.248 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.058 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60423bd6-6920-4220-9372-ddfa16e1cc65")
+		)
+		(pin "2"
+			(uuid "9553e84f-9be9-4cec-bdca-08f7f909259a")
+		)
+		(instances
+			(project "L1"
+				(path "/9e8a7821-ee65-4356-a785-1f444d794ef4"
+					(reference "R37")
 					(unit 1)
 				)
 			)
