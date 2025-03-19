@@ -11,8 +11,6 @@ void setupMux() {
     pinMode(S1, OUTPUT);
     pinMode(S2, OUTPUT);
     pinMode(S3, OUTPUT);
-
-    Serial.begin(115200);
     Serial.println("MUX Setup Completed... (by right)");
 }
 
@@ -96,15 +94,17 @@ void findLine() {
 }
 
 void setup() {
+    Serial.begin(115200);
     setupMux();
+    digitalWrite(S0, LOW);
+    digitalWrite(S1, LOW);
+    digitalWrite(S2, LOW);
+    digitalWrite(S3, LOW);
 }
 
 void loop() {
-    digitalWrite(S0, HIGH);
-    digitalWrite(S1, HIGH);
-    digitalWrite(S2, HIGH);
-    digitalWrite(S3, HIGH);
-    Serial.println(analogRead(M2));
+    Serial.println(analogRead(M1));
+    // Serial.println("should have sometihng here...");
     // for (int channel = 0; channel < 17; channel++) {
     //     readMux2Channels(channel);
     // }
