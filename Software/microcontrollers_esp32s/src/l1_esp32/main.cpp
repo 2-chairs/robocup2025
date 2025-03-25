@@ -4,6 +4,7 @@
 using namespace std;
 #define ll long long
 
+//Functional Functions
 void setupMux() {
     pinMode(M1, INPUT);
     pinMode(M2, INPUT);
@@ -93,6 +94,10 @@ void findLine() {
 
 }
 
+//Debugging Functions
+//...
+
+//Actual Code
 void setup() {
     Serial.begin(115200);
     setupMux();
