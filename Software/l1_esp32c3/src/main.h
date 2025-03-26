@@ -4,8 +4,8 @@
 #include <Arduino.h>
 
 // Pin Definitions
-#define M1 A1// Analog input for MUX1
-#define M2 A0  // Analog input for MUX2
+#define M1 A1 //Analog input for MUX1
+#define M2 A0 //Analog input for MUX2
 #define S0 D2
 #define S1 D3
 #define S2 D10

@@ -102,7 +102,7 @@ void setup() {
     Serial.begin(115200);
     setupMux();
     analogReadResolution(12);
-    digitalWrite(S0, LOW);
+    digitalWrite(S0, HIGH);
     digitalWrite(S1, LOW);
     digitalWrite(S2, LOW);
     digitalWrite(S3, LOW);
