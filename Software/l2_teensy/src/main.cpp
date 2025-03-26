@@ -55,5 +55,5 @@ void setup() {
 }
 
 void loop() {
-
+    test_MOTOR_1();
 }

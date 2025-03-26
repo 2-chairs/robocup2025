@@ -65,5 +65,5 @@ void setup() {
 }
 
 void loop() {
-
+    Serial.println("print sth");
 }

@@ -23,8 +23,6 @@
 #define MOTOR_4_IN_B 5
 #define MOTOR_4_PWM 0
 
-bool debugging;
-
 void setupMotors();
 void test_MOTOR_1();
 

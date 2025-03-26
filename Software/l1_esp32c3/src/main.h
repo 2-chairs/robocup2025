@@ -4,12 +4,12 @@
 #include <Arduino.h>
 
 // Pin Definitions
-#define M1 1// Analog input for MUX1
-#define M2 0  // Analog input for MUX2
-#define S0 2
-#define S1 3
-#define S2 10
-#define S3 9
+#define M1 A1// Analog input for MUX1
+#define M2 A0  // Analog input for MUX2
+#define S0 D2
+#define S1 D3
+#define S2 D10
+#define S3 D9
 
 // Function Prototypes
 void setupMux();
