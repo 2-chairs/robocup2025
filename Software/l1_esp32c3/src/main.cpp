@@ -1,8 +1,11 @@
-#include <utility>
 #include "main.h"
 
-using namespace std;
-#define ll long long
+#include <PacketSerial.h>
+#include <algorithm>
+#include <array>
+#include <vector>
+#include <array>
+#include <deque>
 
 //Functional Functions
 void setupMux() {
@@ -36,6 +39,34 @@ int readMux2Channel(int channel) {
     return ldr_value; 
 }
 
+// Clips an angle to the range (-180, 180]
+double clipAngleTo180(double angle) {
+    angle = fmod(angle, 360);
+    return angle > 180 ? angle - 360 : (angle < -180 ? angle + 360 : angle);
+}
+
+// Clips an angle to the range [0, 360)
+double clipAngleTo360(double angle) {
+    angle = fmod(angle, 360);
+    return angle < 0 ? angle + 360 : angle;
+}
+
+// Finds the difference between two angles, in the range [0, 360)
+double angleDifference(double leftAngle, double rightAngle) {
+    return clipAngleTo360(rightAngle - leftAngle);
+}
+
+// Finds the smaller difference between two angles, in the range [0, 180]
+double smallerAngleDifference(double leftAngle, double rightAngle) {
+    const auto angle = angleDifference(leftAngle, rightAngle);
+    return fmin(angle, 360 - angle);
+}
+
+// Finds the angle bisector between two angles, in the range [0, 360)
+double angleBisector(double leftAngle, double rightAngle) {
+    return clipAngleTo360(leftAngle + smallerAngleDifference(leftAngle, rightAngle) / 2);
+}
+
 void checkLightRing() {
     int ldr = 0;
 
@@ -43,11 +74,11 @@ void checkLightRing() {
     //if above treshhold, set ldr value in ldr_threshold_pass: set as true. else set as false
     for (int mux1 = 1; mux1 < 16+1; mux1++) {
         int ldrVal = readMux1Channel(mux1);
-        if (ldrVal >= ldr_treshhold) {
-            ldr_treshhold_pass[ldr] = true;
+        if (ldrVal >= ldr_threshold) {
+            ldr_threshold_pass[ldr] = true;
         }
         else {
-            ldr_treshhold_pass[ldr] = false;
+            ldr_threshold_pass[ldr] = false;
         }
         ldr++;
     }
@@ -55,64 +86,79 @@ void checkLightRing() {
     //cycle thru mux 2
     for (int mux2 = 1; mux2 < 16+1; mux2++) {
         int ldrVal = readMux2Channel(mux2);
-        if (ldrVal >= ldr_treshhold) {
-            ldr_treshhold_pass[ldr] = true;
+        if (ldrVal >= ldr_threshold) {
+            ldr_threshold_pass[ldr] = true;
         }
         else {
-            ldr_treshhold_pass[ldr] = false;
+            ldr_threshold_pass[ldr] = false;
         }
         ldr++;
     }
 }
 
-pair<int, int> getGreatestNonReflexAngle() {
-    int ldr1Final = -1, ldr2Final = -1; //begin by intitating to -1. if at the end of function still -1 for both: no line detected
-    int greatest_angle = -1; //begin by intitating to -1. variable represents the greatest non reflex angle found so far -> used to compare the led detecting line combinations to find largest non reflex angle
+pair<double, double> findLine() {
+    //from senrobo github code-int23
+    //adding ldrs detecting the line to vector matches
+    vector<uint8_t> matches;
+    matches.reserve(32);
+    for (int i = 0; i < 32; i++) {
+        if (ldr_threshold_pass[i]) matches.push_back(i);
+    }
 
-    //use nested loops to cycle thru all possibities of leds detecting line (Big-O: N^2, prob can optimise)
-    for (int ldr1 = 0; ldr1 < 32; ldr1++) { 
-        if (ldr_treshhold_pass[ldr1]) {
-            for (int ldr2 = ldr1+1; ldr2 < 32; ldr2++) {
-                if (ldr_treshhold_pass[ldr2]) {
-                    int angle = abs(ldr1*11.25 - ldr2*11.25); //calculate angle between the 2 leds found
-                    if (angle > 180) angle = 360-angle; // if its a reflex angle make it non reflex
-                    
-                    if (angle > greatest_angle) {
-                        greatest_angle = angle;
-                        ldr1Final = ldr1;
-                        ldr2Final = ldr2;
-                    }
-                }
+    //less than 2 matches detected, not on the line
+    if (matches.size() <= 1) return {NAN, NAN};
+
+    //find scope of the line
+
+    double lineStartAngle = NAN, lineEndAngle = NAN;
+    
+    //iterate thru all combinations of matching indices (cool work here) and find the pair furthest apart
+    
+    double maxAngleDifference = 0;
+    for (uint8_t i = 0; i < matches.size()-1; i++) {
+        for (uint8_t j = i+1; j < matches.size(); j++) {
+            //getting bearings of ldrs
+            const auto angleI = matches[i]*11.25;
+            const auto angleJ = matches[j]*11.25;
+            //current angle difference between ldr i and j
+            const auto angleDifference = smallerAngleDifference(angleI, angleJ);
+            if (angleDifference > maxAngleDifference) {
+                maxAngleDifference = angleDifference;
+                lineStartAngle = angleI;
+                lineEndAngle = angleJ;
             }
         }
     }
 
-    return {ldr1Final, ldr2Final};
-}
+    //This should not happen, but just in case (quoted)
+    if (isnan(lineStartAngle) || isnan(lineEndAngle)) return {NAN, NAN};
 
-void findLine() {
+    //Calculate the line angle bisector and size
+    if (lineEndAngle - lineStartAngle > 180) swap(lineStartAngle, lineEndAngle);
+    
+    const auto lineAngleBisector = angleBisector(lineStartAngle, lineEndAngle);
+    //Let line size be the ratio of the cluster size to 180°, so it's in [0, 1]
+    const auto lineSize = maxAngleDifference / 180.0;
 
+    return {lineAngleBisector, lineSize};
 }
 
 //Debugging Functions
-//...
-
-//Actual Code
-void setup() {
-    Serial.begin(115200);
-    setupMux();
-    analogReadResolution(12);
+void readLDR1() {
     digitalWrite(S0, HIGH);
     digitalWrite(S1, LOW);
     digitalWrite(S2, LOW);
     digitalWrite(S3, LOW);
+    Serial.println(analogRead(M1));
+}
+
+//Actual Code
+void setup() {
+    Serial.begin(115200);
+    analogReadResolution(12);
+    setupMux();
 }
 
 void loop() {
-    Serial.println(analogRead(M1));
-    // Serial.println("PRINT SOMETHING");
-    // Serial.println("should have sometihng here...");
-    // for (int channel = 0; channel < 17; channel++) {
-    //     readMux2Channels(channel);
-    // }
+
 }
