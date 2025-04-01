@@ -96,15 +96,23 @@ void checkLightRing() {
         }
         ldr++;
     }
+
+    int y = 0;
+    for (int x = 0; x < 16; x+=2) {
+        filtered_ldr_threshold_pass[x] = ldr_threshold_pass[y];
+        y+=2;
+    }
+
+
 }
 
 pair<double, double> findLine() {
     //from senrobo github code-int23
     //adding ldrs detecting the line to vector matches
     vector<uint8_t> matches;
-    matches.reserve(32);
-    for (int i = 0; i < 32; i++) {
-        if (ldr_threshold_pass[i]) matches.push_back(i);
+    matches.reserve(16);
+    for (int i = 0; i < 16; i++) {
+        if (filtered_ldr_threshold_pass[i]) matches.push_back(i);
     }
 
     //less than 2 matches detected, not on the line
@@ -120,8 +128,8 @@ pair<double, double> findLine() {
     for (uint8_t i = 0; i < matches.size()-1; i++) {
         for (uint8_t j = i+1; j < matches.size(); j++) {
             //getting bearings of ldrs
-            const auto angleI = matches[i]*11.25;
-            const auto angleJ = matches[j]*11.25;
+            const auto angleI = matches[i]*22.5;
+            const auto angleJ = matches[j]*22.5;
             //current angle difference between ldr i and j
             const auto angleDifference = smallerAngleDifference(angleI, angleJ);
             if (angleDifference > maxAngleDifference) {
@@ -158,7 +166,7 @@ void readLDRs() {
     checkLightRing();
     Serial.println();
     Serial.print("LDRs: ");
-    for (int i = 0; i < 32; i++) {
+    for (int i = 0; i < 16; i++) {
 
         // if (ldr_threshold_pass[i]) {
         //     Serial.print(1);
@@ -166,7 +174,7 @@ void readLDRs() {
         // else {
         //     Serial.print(0);
         // }
-        Serial.print(ldr_values[i]);
+        Serial.print(ldr_values[i*2]);
         Serial.print(" | ");
     }
 }
@@ -179,16 +187,16 @@ void setup() {
 }
 
 void loop() {
-    // checkLightRing();
-    // auto [angle, size] = findLine();
-    // if (isnan(angle) || isnan(size)) {
-    //     //not on line, continue doing whatever, no complains
-    //     ;
-    // }
-    // else {
-    //     //code on what to do if on line
-    // }
-    readLDRs();
+    checkLightRing();
+    auto [angle, size] = findLine();
+    if (isnan(angle) || isnan(size)) {
+        //not on line, continue doing whatever, no complains
+        ;
+    }
+    else {
+        //code on what to do if on line
+    }
+    // readLDRs();
     // Serial.println(readMux1Channel(1));
 
 }
