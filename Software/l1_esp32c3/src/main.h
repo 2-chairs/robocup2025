@@ -37,5 +37,6 @@ void readLDR1();
 
 int ldr_threshold = 10;
 bool ldr_threshold_pass[32] = {false};
+int ldr_values[32] = {0};
 
 #endif  // LIGHT_RING_H

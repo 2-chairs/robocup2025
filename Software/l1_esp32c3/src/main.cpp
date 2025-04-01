@@ -28,14 +28,14 @@ void selectMuxChannel(int channel) {
 int readMux1Channel(int channel) {
     selectMuxChannel(channel);
     int ldr_value = analogRead(M1);
-    Serial.println(ldr_value); 
+    // Serial.println(ldr_value); 
     return ldr_value; 
 }
 
 int readMux2Channel(int channel) {
     selectMuxChannel(channel);
     int ldr_value = analogRead(M2);
-    Serial.println(ldr_value); 
+    // Serial.println(ldr_value); 
     return ldr_value; 
 }
 
@@ -72,8 +72,9 @@ void checkLightRing() {
 
     //cycle thru mux 1 to check if ldr value above treshhold (treshhold set in light_ring.h)
     //if above treshhold, set ldr value in ldr_threshold_pass: set as true. else set as false
-    for (int mux1 = 1; mux1 < 16+1; mux1++) {
+    for (int mux1 = 0; mux1 < 16; mux1++) {
         int ldrVal = readMux1Channel(mux1);
+        ldr_values[ldr] = ldrVal;
         if (ldrVal >= ldr_threshold) {
             ldr_threshold_pass[ldr] = true;
         }
@@ -84,8 +85,9 @@ void checkLightRing() {
     }
 
     //cycle thru mux 2
-    for (int mux2 = 1; mux2 < 16+1; mux2++) {
+    for (int mux2 = 0; mux2 < 16; mux2++) {
         int ldrVal = readMux2Channel(mux2);
+        ldr_values[ldr] = ldrVal;
         if (ldrVal >= ldr_threshold) {
             ldr_threshold_pass[ldr] = true;
         }
@@ -152,6 +154,23 @@ void readLDR1() {
     Serial.println(analogRead(M1));
 }
 
+void readLDRs() {
+    checkLightRing();
+    Serial.println();
+    Serial.print("LDRs: ");
+    for (int i = 0; i < 32; i++) {
+
+        // if (ldr_threshold_pass[i]) {
+        //     Serial.print(1);
+        // }
+        // else {
+        //     Serial.print(0);
+        // }
+        Serial.print(ldr_values[i]);
+        Serial.print(" | ");
+    }
+}
+
 //Actual Code
 void setup() {
     Serial.begin(115200);
@@ -160,5 +179,16 @@ void setup() {
 }
 
 void loop() {
+    // checkLightRing();
+    // auto [angle, size] = findLine();
+    // if (isnan(angle) || isnan(size)) {
+    //     //not on line, continue doing whatever, no complains
+    //     ;
+    // }
+    // else {
+    //     //code on what to do if on line
+    // }
+    readLDRs();
+    // Serial.println(readMux1Channel(1));
 
 }
