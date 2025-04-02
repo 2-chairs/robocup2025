@@ -153,6 +153,12 @@ pair<double, double> findLine() {
     return {lineAngleBisector, lineSize};
 }
 
+void communicateSerial(double angle, double size) {
+    Serial_L1.print(angle);
+    Serial_L1.print(" ");
+    Serial_L1.println(size);
+}
+
 //Debugging Functions
 void readLDR1() {
     digitalWrite(S0, HIGH);
@@ -182,6 +188,7 @@ void readLDRs() {
 //Actual Code
 void setup() {
     Serial.begin(115200);
+    Serial_L1.begin(115200);
     analogReadResolution(12);
     setupMux();
 }
@@ -195,6 +202,8 @@ void loop() {
     }
     else {
         //code on what to do if on line
+        //just complain to teensy
+        communicateSerial(angle, size);
     }
     // readLDRs();
     // Serial.println(readMux1Channel(1));

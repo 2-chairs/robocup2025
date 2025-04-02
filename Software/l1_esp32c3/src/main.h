@@ -19,8 +19,8 @@ using namespace std;
 #define S2 D10
 #define S3 D9
 
-//Teensy Serial
-#define TeensySerial Serial1
+//Serial
+#define Serial_L1 Serial1 //Serial to L2 Teensy4.0
 
 //Functional Function Prototypes
 void onTeensyPacket(const byte *buf, size_t size);
@@ -31,6 +31,7 @@ int readMux2Channel(int channel);
 double smallerAngleDifference(double leftAngle, double rightAngle);
 void checkLightRing();
 pair<double, double> findLine();
+void communicateSerial(double angle, double size);
 
 //Debugging Function Prototypes
 void readLDR1();

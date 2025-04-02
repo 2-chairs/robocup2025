@@ -29,6 +29,29 @@ void setupMotors() {
     Serial.println("Motors pinModes defined (by right...)");
 }
 
+pair<double, double> getSerial_L1() {
+    String serial_L1_buffer = "";
+    while (Serial_L1.available()) {
+        char c = Serial_L1.read();
+        
+        if (c == '\r') continue; //to skip carriage return (chatgpt says must add, prob becuz Serial.println() end with "\r\n")
+        
+        if (c == 'n') {
+
+        }
+
+        serial_L1_buffer += c;
+
+        //should not happen, no clue how this would even happen
+        //cap buffer size to prevent overflow
+        if (serial_L1_buffer.length() > 32) {
+            Serial.println("HELP L1 SERIAL BUFFER EXCEEDED AHHH");
+            serial_L1_buffer = "";
+            return {NAN, NAN};
+        }
+    }
+}
+
 //Debugging Functions
 bool debugging = true;
 
@@ -44,6 +67,9 @@ void test_MOTOR_1() {
 //Actual code
 void setup() {
     Serial.begin(115200);
+    Serial_L1.begin(115200);
+    Serial_L3.begin(115200);
+    Serial_IMU.begin(115200);
     if (debugging) {
         Serial.println("Debugging");
     }
