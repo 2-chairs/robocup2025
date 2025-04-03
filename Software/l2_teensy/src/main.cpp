@@ -85,16 +85,16 @@ void setup() {
 
 void loop() {
     // test_MOTOR_1();
-    auto [angle, size] = getSerial_L1();
-    Serial.print(angle);
-    Serial.print(" | ");
-    Serial.println(size);
+    // auto [angle, size] = getSerial_L1();
+    // Serial.print(angle);
+    // Serial.print(" | ");
+    // Serial.println(size);
     // Serial.println("PRINTSTH");
-    // if (Serial_L1.available()) {
-    //     String received = Serial_L1.readStringUntil('\n');
-    //     Serial.print("Received from ESP32C3: ");
-    //     Serial.println(received);
-    // }   
+    if (Serial_L1.available()) {
+        String received = Serial_L1.readStringUntil('\n');
+        Serial.print("Received from ESP32C3: ");
+        Serial.println(received);
+    }   
     
     // Serial_L1.write("Hello from Teensy!\n");
     // Serial.println("test");

@@ -231,25 +231,25 @@ void setup() {
 }
 
 void loop() {
-    if (Serial_L1.available()) {
-        String received = Serial_L1.readStringUntil('\n');
-        Serial.print("Received from Teensy: ");
-        Serial.println(received);
-    }
-    Serial_L1.print("Hello from ESP32C3!\n");
+    // if (Serial_L1.available()) {
+    //     String received = Serial_L1.readStringUntil('\n');
+    //     Serial.print("Received from Teensy: ");
+    //     Serial.println(received);
+    // }
+    // Serial_L1.print("Hello from ESP32C3!\n");
     // Serial.print("test");
     // delay(10);
-    // checkLightRing();
-    // auto [angle, size] = findLine();
-    // if (isnan(angle) || isnan(size)) {
-    //     //not on line, continue doing whatever, no complains
-    //     Serial.println("NOT ON LINE");
-    // }
-    // else {
-    //     //code on what to do if on line
-    //     //just complain to teensy
-    //     communicateSerial(angle, size);
-    // }
+    checkLightRing();
+    auto [angle, size] = findLine();
+    if (isnan(angle) || isnan(size)) {
+        //not on line, continue doing whatever, no complains
+        Serial.println("NOT ON LINE");
+    }
+    else {
+        //code on what to do if on line
+        //just complain to teensy
+        communicateSerial(angle, size);
+    }
     // printLDRThreshold();
     // printLightRingCalibration();
     // readLDRs();
