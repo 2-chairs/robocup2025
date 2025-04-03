@@ -30,24 +30,31 @@ void setupMotors() {
 }
 
 pair<double, double> getSerial_L1() {
-    String serial_L1_buffer = "";
-    while (Serial_L1.available()) {
-        char c = Serial_L1.read();
+    if (Serial_L1.available()) {
+        String received = Serial_L1.readStringUntil('\n');
+        Serial.print("Received from ESP32C3: ");
+        Serial.println(received);
         
-        if (c == '\r') continue; //to skip carriage return (chatgpt says must add, prob becuz Serial.println() end with "\r\n")
-        
-        if (c == 'n') {
+        // Optional: Trim any trailing \r or whitespace
+        received.trim();
+        // Parse the line
+        int spaceIndex = received.indexOf(' ');
+        if (spaceIndex != -1) {
+            String angleStr = received.substring(0, spaceIndex);
+            String sizeStr = received.substring(spaceIndex + 1);
 
+            double angle = angleStr.toFloat();
+            double size = sizeStr.toFloat();
+
+            return {angle, size};
+            // Serial.print("Angle: ");
+            // Serial.println(angle);
+            // Serial.print("Size: ");
+            // Serial.println(size);
         }
-
-        serial_L1_buffer += c;
-
-        //should not happen, no clue how this would even happen
-        //cap buffer size to prevent overflow
-        if (serial_L1_buffer.length() > 32) {
-            Serial.println("HELP L1 SERIAL BUFFER EXCEEDED AHHH");
-            serial_L1_buffer = "";
-            return {NAN, NAN};  
+        else {
+            // Serial.println("Malformed line: missing space");
+            return {NAN, NAN};
         }
     }
 }
@@ -55,47 +62,47 @@ pair<double, double> getSerial_L1() {
 //Debugging Functions
 bool debugging = true;
 
-void test_MOTOR_1() {
+void test_MOTORs() {
     if (debugging) {
         digitalWrite(MOTOR_1_IN_A, LOW);
         digitalWrite(MOTOR_1_IN_B, HIGH);
         analogWrite(MOTOR_1_PWM, 255);
-        Serial.println("Motor 1 should spin...");
+        digitalWrite(MOTOR_2_IN_A, LOW);
+        digitalWrite(MOTOR_2_IN_B, HIGH);
+        analogWrite(MOTOR_2_PWM, 255);
+        digitalWrite(MOTOR_3_IN_A, LOW);
+        digitalWrite(MOTOR_3_IN_B, HIGH);
+        analogWrite(MOTOR_3_PWM, 255);
+        digitalWrite(MOTOR_4_IN_A, LOW);
+        digitalWrite(MOTOR_4_IN_B, HIGH);
+        analogWrite(MOTOR_4_PWM, 255);
+        Serial.println("Motors should spin...");
     }
 }
 
 //Actual code
 void setup() {
     Serial.begin(115200);
-    // Serial_L1.setRX(7);
-    // Serial_L1.setTX(8);
     Serial_L1.begin(9600);
-
-    // Serial_L3.begin(115200);
-    // Serial_IMU.begin(115200);
+    Serial_L3.begin(9600);
+    Serial_IMU.begin(115200);
     // if (debugging) {
     //     Serial.println("Debugging");
     // }
     // else {
     //     Serial.println("Not Debugging");
     // }
-    // setupMotors();
-    // // test_MOTOR_1();
+    setupMotors();
+    test_MOTORs();
 }
 
 void loop() {
-    // test_MOTOR_1();
+    test_MOTORs();
     // auto [angle, size] = getSerial_L1();
     // Serial.print(angle);
     // Serial.print(" | ");
     // Serial.println(size);
     // Serial.println("PRINTSTH");
-    if (Serial_L1.available()) {
-        String received = Serial_L1.readStringUntil('\n');
-        Serial.print("Received from ESP32C3: ");
-        Serial.println(received);
-    }   
-    
     // Serial_L1.write("Hello from Teensy!\n");
     // Serial.println("test");
 }

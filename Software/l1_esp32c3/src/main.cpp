@@ -184,6 +184,17 @@ void readLDRs() {
     }
 }
 
+void setupSolenoid() {
+    pinMode(Solenoid, OUTPUT);
+    digitalWrite(Solenoid, LOW);
+}
+
+void kickSolenoid() {
+    digitalWrite(Solenoid, HIGH);
+    delay(500);
+    digitalWrite(Solenoid, LOW);
+}
+
 // Run the calibration routine
 void printLightRingCalibration() {
     // min = green (field), max = white (line)
@@ -228,9 +239,11 @@ void setup() {
     Serial_L1.begin(9600, SERIAL_8N1, -1, -1);
     analogReadResolution(12);
     setupMux();
+    setupSolenoid();
 }
 
 void loop() {
+    digitalWrite(Solenoid, LOW);
     // if (Serial_L1.available()) {
     //     String received = Serial_L1.readStringUntil('\n');
     //     Serial.print("Received from Teensy: ");
@@ -239,17 +252,21 @@ void loop() {
     // Serial_L1.print("Hello from ESP32C3!\n");
     // Serial.print("test");
     // delay(10);
-    checkLightRing();
-    auto [angle, size] = findLine();
-    if (isnan(angle) || isnan(size)) {
-        //not on line, continue doing whatever, no complains
-        Serial.println("NOT ON LINE");
-    }
-    else {
-        //code on what to do if on line
-        //just complain to teensy
-        communicateSerial(angle, size);
-    }
+    // checkLightRing();
+    // auto [angle, size] = findLine();
+    // for testing communication, fabricated numbers
+    // double angle = 22.5;
+    // double size = 1.0;
+    // if (isnan(angle) || isnan(size)) {
+    //     //not on line, continue doing whatever, no complains
+    //     Serial.println("NOT ON LINE");
+    // }
+    // else {
+    //     //code on what to do if on line
+    //     //just complain to teensy
+    //     communicateSerial(angle, size);
+    //     Serial.println("ON LINE");
+    // }
     // printLDRThreshold();
     // printLightRingCalibration();
     // readLDRs();

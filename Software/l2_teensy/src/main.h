@@ -26,7 +26,7 @@
 //Serials
 #define Serial_L1 Serial2 //Serial to L1 Esp32c3
 #define Serial_L3 Serial5 //Serial to L3 Esp32c3
-// #define Serial_IMU Serial4 //Serial to IMU
+#define Serial_IMU Serial4 //Serial to IMU
 
 void setupMotors();
 void test_MOTOR_1();
