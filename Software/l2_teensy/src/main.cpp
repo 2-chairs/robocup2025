@@ -47,7 +47,7 @@ pair<double, double> getSerial_L1() {
         if (serial_L1_buffer.length() > 32) {
             Serial.println("HELP L1 SERIAL BUFFER EXCEEDED AHHH");
             serial_L1_buffer = "";
-            return {NAN, NAN};
+            return {NAN, NAN};  
         }
     }
 }
@@ -67,19 +67,35 @@ void test_MOTOR_1() {
 //Actual code
 void setup() {
     Serial.begin(115200);
-    Serial_L1.begin(115200);
-    Serial_L3.begin(115200);
-    Serial_IMU.begin(115200);
-    if (debugging) {
-        Serial.println("Debugging");
-    }
-    else {
-        Serial.println("Not Debugging");
-    }
-    setupMotors();
-    test_MOTOR_1();
+    // Serial_L1.setRX(7);
+    // Serial_L1.setTX(8);
+    Serial_L1.begin(9600);
+
+    // Serial_L3.begin(115200);
+    // Serial_IMU.begin(115200);
+    // if (debugging) {
+    //     Serial.println("Debugging");
+    // }
+    // else {
+    //     Serial.println("Not Debugging");
+    // }
+    // setupMotors();
+    // // test_MOTOR_1();
 }
 
 void loop() {
-    test_MOTOR_1();
+    // test_MOTOR_1();
+    auto [angle, size] = getSerial_L1();
+    Serial.print(angle);
+    Serial.print(" | ");
+    Serial.println(size);
+    // Serial.println("PRINTSTH");
+    // if (Serial_L1.available()) {
+    //     String received = Serial_L1.readStringUntil('\n');
+    //     Serial.print("Received from ESP32C3: ");
+    //     Serial.println(received);
+    // }   
+    
+    // Serial_L1.write("Hello from Teensy!\n");
+    // Serial.println("test");
 }

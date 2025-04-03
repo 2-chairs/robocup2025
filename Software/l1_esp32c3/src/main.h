@@ -2,12 +2,19 @@
 #define LIGHT_RING_H
 
 #include <Arduino.h>
+#include <HardwareSerial.h>
 #include <utility>
 #include <cmath>
 #include <stdint.h>
 
 using namespace std;
 #define ll long long
+
+HardwareSerial Serial_L1(0);
+
+//Serial_L1
+#define RX 6
+#define TX 7
 
 // Pin Definitions
 #define M1 A1 //Analog input for MUX1
@@ -20,7 +27,7 @@ using namespace std;
 #define S3 D9
 
 //Serial
-#define Serial_L1 Serial1 //Serial to L2 Teensy4.0
+// #define Serial_L1 Serial1 //Serial to L2 Teensy4.0
 
 //Functional Function Prototypes
 void onTeensyPacket(const byte *buf, size_t size);
@@ -36,9 +43,10 @@ void communicateSerial(double angle, double size);
 //Debugging Function Prototypes
 void readLDR1();
 
-int ldr_threshold = 10;
+int ldr_threshold = 2000;
 bool ldr_threshold_pass[32] = {false};
 bool filtered_ldr_threshold_pass[16] = {false};
 int ldr_values[32] = {0};
+int filtered_ldr_values[16] = {0};
 
 #endif  // LIGHT_RING_H

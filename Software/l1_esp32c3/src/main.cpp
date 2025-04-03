@@ -1,6 +1,5 @@
 #include "main.h"
 
-#include <PacketSerial.h>
 #include <algorithm>
 #include <array>
 #include <vector>
@@ -97,10 +96,9 @@ void checkLightRing() {
         ldr++;
     }
 
-    int y = 0;
-    for (int x = 0; x < 16; x+=2) {
-        filtered_ldr_threshold_pass[x] = ldr_threshold_pass[y];
-        y+=2;
+    for (int i = 0; i < 16; i++) {
+        filtered_ldr_threshold_pass[i] = ldr_threshold_pass[i*2];
+        filtered_ldr_values[i] = ldr_values[i*2];
     }
 
 
@@ -180,31 +178,80 @@ void readLDRs() {
         // else {
         //     Serial.print(0);
         // }
-        Serial.print(ldr_values[i*2]);
+        Serial.print(filtered_ldr_values[i]);
+        // Serial.print(ldr_values[i*2]);
         Serial.print(" | ");
     }
+}
+
+// Run the calibration routine
+void printLightRingCalibration() {
+    // min = green (field), max = white (line)
+    uint16_t min[16], max[16];
+    for (int i = 0; i < 16; ++i) {
+        min[i] = 0xFFFF;
+        max[i] = 0x0000;
+    }
+
+    const auto endTime = millis() + 1000;
+    while (millis() < endTime) {
+        for (uint8_t i = 0; i < 16; ++i) {
+            const auto value = filtered_ldr_values[i];
+            if (value < min[i]) min[i] = value;
+            if (value > max[i]) max[i] = value;
+        }
+    }
+
+    // Print the thresholds (averages of min and max)
+    Serial.printf("Thresholds: {");
+    for (uint8_t i = 0; i < 16; ++i) {
+        // TODO: Find a more accurate way to calculate the threshold
+        const auto threshold = (max[i] + min[i]) / 2;
+        Serial.printf("%d, ", (uint16_t)threshold);
+    }
+    Serial.printf("}\n");
+}
+
+//debug threshold
+void printLDRThreshold() {
+    checkLightRing();
+    for (int i = 0; i < 16; i++) {
+        Serial.print(filtered_ldr_threshold_pass[i]);
+        Serial.print(" | ");
+    }
+    Serial.println();
 }
 
 //Actual Code
 void setup() {
     Serial.begin(115200);
-    Serial_L1.begin(115200);
+    Serial_L1.begin(9600, SERIAL_8N1, -1, -1);
     analogReadResolution(12);
     setupMux();
 }
 
 void loop() {
-    checkLightRing();
-    auto [angle, size] = findLine();
-    if (isnan(angle) || isnan(size)) {
-        //not on line, continue doing whatever, no complains
-        ;
+    if (Serial_L1.available()) {
+        String received = Serial_L1.readStringUntil('\n');
+        Serial.print("Received from Teensy: ");
+        Serial.println(received);
     }
-    else {
-        //code on what to do if on line
-        //just complain to teensy
-        communicateSerial(angle, size);
-    }
+    Serial_L1.print("Hello from ESP32C3!\n");
+    // Serial.print("test");
+    // delay(10);
+    // checkLightRing();
+    // auto [angle, size] = findLine();
+    // if (isnan(angle) || isnan(size)) {
+    //     //not on line, continue doing whatever, no complains
+    //     Serial.println("NOT ON LINE");
+    // }
+    // else {
+    //     //code on what to do if on line
+    //     //just complain to teensy
+    //     communicateSerial(angle, size);
+    // }
+    // printLDRThreshold();
+    // printLightRingCalibration();
     // readLDRs();
     // Serial.println(readMux1Channel(1));
 
