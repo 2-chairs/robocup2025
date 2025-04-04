@@ -130,10 +130,10 @@ void test_MOTORs() {
 //Actual code
 void setup() {
     Serial.begin(115200);
-    while (!Serial) { ; } // Wait for serial connection
+    // while (!Serial) { ; } // Wait for serial connection
     Serial_L1.begin(9600);
-    Serial_L3.begin(9600);
-    Serial_IMU.begin(115200);
+    // Serial_L3.begin(9600);
+    // Serial_IMU.begin(115200);
     if (debugging) {
         Serial.println("Debugging");
     }
@@ -145,12 +145,23 @@ void setup() {
 }
 
 void loop() {
-    // test_MOTORs();
+    test_MOTORs();
     // auto [angle, size] = getSerial_L1();
     // Serial.print(angle);
     // Serial.print(" | ");
     // Serial.println(size);
     // Serial.println("PRINTSTH");
     // Serial_L1.write("Hello from Teensy!\n");
-    // Serial.println("test");
+    Serial.println("test");
 }
+// void setup() {
+//     pinMode(13, OUTPUT);
+//   }
+  
+//   void loop() {
+//     digitalWrite(13, HIGH);
+//     delay(1000);
+//     digitalWrite(13, LOW);
+//     delay(1000);
+//   }
+  

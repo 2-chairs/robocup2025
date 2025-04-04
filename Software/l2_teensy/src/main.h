@@ -14,8 +14,8 @@
 #define MOTOR_2_PWM 2
 
 //MOTOR 3
-#define MOTOR_3_IN_A 22
-#define MOTOR_3_IN_B 23
+#define MOTOR_3_IN_A 23
+#define MOTOR_3_IN_B 22
 #define MOTOR_3_PWM 1
 
 //MOTOR 4
