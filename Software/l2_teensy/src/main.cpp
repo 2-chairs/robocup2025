@@ -179,6 +179,8 @@ void setup() {
     Serial_L1.begin(9600);
     Serial_L3.begin(9600);
     Serial_IMU.begin(115200);
+    Serial_CAM.begin(115200);
+    Serial.println("UART Intialised... (by right)");
     if (debugging) {
         Serial.println("Debugging");
     }
@@ -199,7 +201,6 @@ void loop() {
     // Serial.println("PRINTSTH");
     // Serial_L1.write("Hello from Teensy!\n");
     if (Serial_CAM.available()) {
-        Serial.println("IDK");
         String received = Serial_CAM.readStringUntil('\n');
         Serial.print("Received from Teensy: ");
         Serial.println(received);
