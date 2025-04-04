@@ -1,4 +1,5 @@
 #include <utility>
+#include <Adafruit_BNO08x.h>
 #include "main.h"
 
 using namespace std;
@@ -62,6 +63,25 @@ pair<double, double> getSerial_L1() {
         }
     }
 }
+
+void setReports(void) {
+  Serial.println("Setting desired reports");
+  if (! bno08x.enableReport(SH2_GAME_ROTATION_VECTOR)) {
+    Serial.println("Could not enable game vector");
+  }
+}
+
+void setupIMU() {
+      if (!bno08x.begin_UART(&Serial_IMU)) {  // Requires a device with > 300 byte UART buffer!
+          while (1) {
+          Serial.println("Failed to find BNO08x chip");
+          }
+      }
+      Serial.println("BNO08x Found!");
+      setReports();
+}
+
+
 
 // Move the robot in any direction using your 34.4° X-drive setup.
 // angleDeg: movement direction in degrees (0° = forward, 90° = right)
@@ -132,8 +152,8 @@ void setup() {
     Serial.begin(115200);
     // while (!Serial) { ; } // Wait for serial connection
     Serial_L1.begin(9600);
-    // Serial_L3.begin(9600);
-    // Serial_IMU.begin(115200);
+    Serial_L3.begin(9600);
+    Serial_IMU.begin(115200);
     if (debugging) {
         Serial.println("Debugging");
     }
