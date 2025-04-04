@@ -1,5 +1,5 @@
 #include <utility>
-#include <Adafruit_BNO08x.h>
+// #include <Adafruit_BNO08x.h>
 #include "main.h"
 
 using namespace std;
@@ -64,24 +64,22 @@ pair<double, double> getSerial_L1() {
     }
 }
 
-void setReports(void) {
-  Serial.println("Setting desired reports");
-  if (! bno08x.enableReport(SH2_GAME_ROTATION_VECTOR)) {
-    Serial.println("Could not enable game vector");
-  }
-}
+// void setReports(void) {
+//   Serial.println("Setting desired reports");
+//   if (! bno08x.enableReport(SH2_GAME_ROTATION_VECTOR)) {
+//     Serial.println("Could not enable game vector");
+//   }
+// }
 
-void setupIMU() {
-      if (!bno08x.begin_UART(&Serial_IMU)) {  // Requires a device with > 300 byte UART buffer!
-          while (1) {
-          Serial.println("Failed to find BNO08x chip");
-          }
-      }
-      Serial.println("BNO08x Found!");
-      setReports();
-}
-
-
+// void setupIMU() {
+//       if (!bno08x.begin_UART(&Serial_IMU)) {  // Requires a device with > 300 byte UART buffer!
+//           while (1) {
+//           Serial.println("Failed to find BNO08x chip");
+//           }
+//       }
+//       Serial.println("BNO08x Found!");
+//       setReports();
+// }
 
 // Move the robot in any direction using your 34.4° X-drive setup.
 // angleDeg: movement direction in degrees (0° = forward, 90° = right)
@@ -147,6 +145,33 @@ void test_MOTORs() {
     }
 }
 
+void test_MOTOR_1() {
+    for (int x = 0; x < 255; x++) { 
+        digitalWrite(MOTOR_1_IN_A, LOW);
+        digitalWrite(MOTOR_1_IN_B, HIGH);
+        analogWrite(MOTOR_1_PWM, x);
+        delay(10);
+    }
+    for (int x = 255; x > 0; x--) { 
+        digitalWrite(MOTOR_1_IN_A, LOW);
+        digitalWrite(MOTOR_1_IN_B, HIGH);
+        analogWrite(MOTOR_1_PWM, x);
+        delay(1);
+    }
+    for (int x = 0; x < 255; x++) {
+        digitalWrite(MOTOR_1_IN_A, HIGH);
+        digitalWrite(MOTOR_1_IN_B, LOW);
+        analogWrite(MOTOR_1_PWM, x);
+        delay(1);
+    }
+    for (int x = 255; x > 0; x--) { 
+        digitalWrite(MOTOR_1_IN_A, HIGH);
+        digitalWrite(MOTOR_1_IN_B, LOW);
+        analogWrite(MOTOR_1_PWM, x);
+        delay(10);
+    }
+}
+
 //Actual code
 void setup() {
     Serial.begin(115200);
@@ -165,14 +190,21 @@ void setup() {
 }
 
 void loop() {
-    test_MOTORs();
+    // test_MOTORs();
+    // moveRobot(45, 2, 0);
     // auto [angle, size] = getSerial_L1();
     // Serial.print(angle);
     // Serial.print(" | ");
     // Serial.println(size);
     // Serial.println("PRINTSTH");
     // Serial_L1.write("Hello from Teensy!\n");
-    Serial.println("test");
+    if (Serial_CAM.available()) {
+        Serial.println("IDK");
+        String received = Serial_CAM.readStringUntil('\n');
+        Serial.print("Received from Teensy: ");
+        Serial.println(received);
+    }
+    // Serial.println("test");
 }
 // void setup() {
 //     pinMode(13, OUTPUT);

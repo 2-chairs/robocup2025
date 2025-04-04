@@ -170,7 +170,7 @@ void readLDRs() {
     checkLightRing();
     Serial.println();
     Serial.print("LDRs: ");
-    for (int i = 0; i < 16; i++) {
+    for (int i = 0; i < 32; i++) {
 
         // if (ldr_threshold_pass[i]) {
         //     Serial.print(1);
@@ -178,8 +178,8 @@ void readLDRs() {
         // else {
         //     Serial.print(0);
         // }
-        Serial.print(filtered_ldr_values[i]);
-        // Serial.print(ldr_values[i*2]);
+        // Serial.print(filtered_ldr_values[i]);
+        Serial.print(ldr_values[i]);
         Serial.print(" | ");
     }
 }
@@ -243,7 +243,7 @@ void setup() {
 }
 
 void loop() {
-    digitalWrite(Solenoid, LOW);
+    // digitalWrite(Solenoid, LOW);
     // if (Serial_L1.available()) {
     //     String received = Serial_L1.readStringUntil('\n');
     //     Serial.print("Received from Teensy: ");
@@ -269,7 +269,7 @@ void loop() {
     // }
     // printLDRThreshold();
     // printLightRingCalibration();
-    // readLDRs();
+    readLDRs();
     // Serial.println(readMux1Channel(1));
 
 }
