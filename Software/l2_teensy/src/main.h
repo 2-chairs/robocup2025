@@ -29,6 +29,23 @@
 #define Serial_CAM Serial3 // Serial to CAM
 #define Serial_IMU Serial4 // Serial to IMU
 
+//Cam
+double ballX = NAN;
+double ballY = NAN;
+double ballAngle = NAN;
+double ballDistance = NAN;
+
+double blueGoalX = NAN;
+double blueGoalY = NAN;
+double blueGoalAngle = NAN;
+double blueGoalDistance = NAN;
+
+double yellowGoalX = NAN;
+double yellowGoalY = NAN;
+double yellowGoalAngle = NAN;
+double yellowGoalDistance = NAN;
+
+//Functional Function Prototypes
 void setupMotors();
 void test_MOTOR_1();
 

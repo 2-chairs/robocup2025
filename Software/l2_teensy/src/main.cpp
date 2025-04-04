@@ -124,6 +124,63 @@ void moveRobot(double angleDeg, double speed, double omega) {
     setMotor(MOTOR_4_IN_A, MOTOR_4_IN_B, MOTOR_4_PWM, m4); // Front Right
 }
 
+void getCamData() {
+    if (Serial_CAM.available()) {
+        String received = Serial_CAM.readStringUntil('\n');
+        Serial.print("Received from Teensy: ");
+        Serial.println(received);
+        received.trim();
+        // Prepare 12 double variables
+        double values[12];
+
+        int index = 0;
+        int from = 0;
+
+        while (index < 12) {
+            int space = received.indexOf(' ', from);
+            if (space == -1) space = received.length();
+            String token = received.substring(from, space);
+            from = space + 1;
+
+            values[index] = (token == "none") ? NAN : token.toFloat(); // use nan for missing blobs
+            index++;
+        }
+
+        ballX = values[0];
+        ballY = values[1];
+        ballAngle = values[2];
+        ballDistance = values[3];
+
+        blueGoalX = values[4];
+        blueGoalY = values[5];
+        blueGoalAngle = values[6];
+        blueGoalDistance = values[7];
+
+        yellowGoalX = values[8];
+        yellowGoalY = values[9];
+        yellowGoalAngle = values[10];
+        yellowGoalDistance = values[11];
+
+        Serial.println("=== BALL DATA ===");
+        Serial.print("ballX: "); Serial.println(ballX);
+        Serial.print("ballY: "); Serial.println(ballY);
+        Serial.print("ballAngle: "); Serial.println(ballAngle);
+        Serial.print("ballDistance: "); Serial.println(ballDistance);
+
+        Serial.println("=== BLUE GOAL ===");
+        Serial.print("blueGoalX: "); Serial.println(blueGoalX);
+        Serial.print("blueGoalY: "); Serial.println(blueGoalY);
+        Serial.print("blueGoalAngle: "); Serial.println(blueGoalAngle);
+        Serial.print("blueGoalDistance: "); Serial.println(blueGoalDistance);
+
+        Serial.println("=== YELLOW GOAL ===");
+        Serial.print("yellowGoalX: "); Serial.println(yellowGoalX);
+        Serial.print("yellowGoalY: "); Serial.println(yellowGoalY);
+        Serial.print("yellowGoalAngle: "); Serial.println(yellowGoalAngle);
+        Serial.print("yellowGoalDistance: "); Serial.println(yellowGoalDistance);
+    }
+}
+
 //Debugging Functions
 bool debugging = true;
 
@@ -194,17 +251,21 @@ void setup() {
 void loop() {
     // test_MOTORs();
     // moveRobot(45, 2, 0);
-    // auto [angle, size] = getSerial_L1();
+    auto [angle, size] = getSerial_L1();
+    if (!isnan(angle) || !isnan(size)) {
+        //line detected
+        
+    }
+    else {
+        //line not detected
+
+    }
     // Serial.print(angle);
     // Serial.print(" | ");
     // Serial.println(size);
     // Serial.println("PRINTSTH");
     // Serial_L1.write("Hello from Teensy!\n");
-    if (Serial_CAM.available()) {
-        String received = Serial_CAM.readStringUntil('\n');
-        Serial.print("Received from Teensy: ");
-        Serial.println(received);
-    }
+    getCamData();
     // Serial.println("test");
 }
 // void setup() {

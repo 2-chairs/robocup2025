@@ -98,7 +98,7 @@
 #         time_values.append(current_time) #add time to array.
 
 #     time.sleep_ms(0)
-import sensor, image, time, math, machine
+import sensor, time, math, machine
 import array
 
 # Camera setup
@@ -114,14 +114,15 @@ red_thresholds = [(100, 0, 15, 127, 127, -128)]
 blue_thresholds = [(100, 0, 4, -128, -40, -10)]
 yellow_thresholds = [(100, 7, -103, 127, 127, 19)]
 
+# Image and mirror center setup
 x_mirror_center = 177
 y_mirror_center = 124
-
 image_width = 320
 image_height = 240
 image_center_x = image_width / 2
 image_center_y = image_height / 2
 
+# Normalize and reflect coordinates
 def reflect_coords(x_cam, y_cam, image_center_x, image_center_y, image_width, image_height):
     x_rel = x_cam - image_center_x
     y_rel = y_cam - image_center_y
@@ -134,6 +135,7 @@ def reflect_coords(x_cam, y_cam, image_center_x, image_center_y, image_width, im
     y_inverted = 255 - y_normalized
     return x_normalized, y_inverted
 
+# Calculate angle and distance
 def calculate_angle(x, y, cx, cy):
     dx = x - cx
     dy = y - cy
@@ -145,17 +147,19 @@ def calculate_distance(x, y, cx, cy):
     dy = y - cy
     return math.sqrt(dx**2 + dy**2)
 
+# UART setup
 uart_obj = machine.UART(1, 115200)
 
+# For tracking red blob motion
 x_values = array.array('i', [])
 time_values = array.array('i', [])
 start_time = time.ticks_ms()
 
 while True:
     img = sensor.snapshot()
-    frame_data = ""
+    output_list = []
 
-    # Color config list
+    # Color detection config: (Name, Threshold, Draw Color)
     color_configs = [
         ("RED", red_thresholds, (255, 0, 0)),
         ("BLUE", blue_thresholds, (0, 0, 255)),
@@ -175,28 +179,25 @@ while True:
             angle = calculate_angle(x_cam, y_cam, x_mirror_center, y_mirror_center)
             distance = calculate_distance(x_cam, y_cam, x_mirror_center, y_mirror_center)
 
-            frame_data += "{}_X:{},{}_Y:{},{}_ANGLE:{:.2f},{}_DIST:{:.2f} | ".format(
-                color_name, x_norm,
-                color_name, y_adj,
-                color_name, angle,
-                color_name, distance
-            )
+            output_list.extend([
+                str(x_norm),
+                str(y_adj),
+                "{:.2f}".format(angle),
+                "{:.2f}".format(distance)
+            ])
 
-            # Track red position for motion
             if color_name == "RED":
                 current_time = time.ticks_ms() - start_time
                 x_values.append(x_norm)
                 time_values.append(current_time)
         else:
-            # Fallback if no blob found
-            frame_data += "{}_X:None,{}_Y:None,{}_ANGLE:None,{}_DIST:None | ".format(
-                color_name, color_name, color_name, color_name
-            )
+            # If blob not found, append "none" for all four values
+            output_list.extend(["none", "none", "none", "none"])
 
-    # Final UART print per frame
-    if frame_data:
-        frame_data = frame_data.rstrip(" | ") + "\n"
-        uart_obj.write(frame_data.encode('utf-8'))
-        print(frame_data.strip())
+    # Send UART line as a space-separated flat list
+    uart_line = " ".join(output_list) + "\n"
+    uart_obj.write(uart_line.encode('utf-8'))
+    print(uart_line.strip())
 
     time.sleep_ms(0)
+
