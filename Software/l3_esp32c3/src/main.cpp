@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // // #include <utility>
 // // #include "main.h"
 
@@ -146,3 +147,139 @@ void loop() {
 
     delay(20);
 }
+=======
+#include <Wire.h>
+#include <VL53L0X.h>
+
+VL53L0X sensor;
+
+void setup() {
+  Serial.begin(115200);
+  Wire.begin();
+  
+  // Initialize the sensor
+  if (!sensor.init()) {
+    Serial.println("Failed to detect and initialize sensor!");
+    while (1);
+  }
+  
+  // Configure the sensor for better accuracy
+  sensor.setMeasurementTimingBudget(200000); // 200 ms timing budget
+  
+  Serial.println("VL53L0X ToF sensor initialized");
+}
+
+void loop() {
+  // Get distance measurement
+  int distance = sensor.readRangeSingleMillimeters();
+  
+  // Check for timeout
+  if (sensor.timeoutOccurred()) {
+    Serial.println("Sensor timeout!");
+  } else {
+    Serial.print("Distance: ");
+    Serial.print(distance);
+    Serial.println(" mm");
+  }
+  
+  delay(500); // Wait half a second between measurements
+}
+
+
+
+// #include <Arduino.h>
+// #include <Wire.h>
+// #include "VL53L0X.h"
+
+// // Define GPIO pins for XSHUT control
+// #define XSHUT1 0
+// #define XSHUT2 1
+// #define XSHUT3 2
+// #define XSHUT4 3
+
+// // Create VL53L0X objects
+// VL53L0X sensor1;
+// VL53L0X sensor2;
+// VL53L0X sensor3;
+
+// // Define I2C addresses for each sensor
+// #define SENSOR1_ADDRESS 0x30
+// #define SENSOR2_ADDRESS 0x31
+// #define SENSOR3_ADDRESS 0x32
+// void setup() {
+//   Serial.begin(115200);
+//   Wire.begin();
+//   Wire.setClock(400000);  // Set I2C clock to 400kHz for faster communication
+
+//   // Set XSHUT pins as outputs and turn all sensors off
+//   pinMode(XSHUT1, OUTPUT);
+//   pinMode(XSHUT2, OUTPUT);
+//   pinMode(XSHUT3, OUTPUT);
+//   digitalWrite(XSHUT1, LOW);
+//   digitalWrite(XSHUT2, LOW);
+//   digitalWrite(XSHUT3, LOW);
+//   delay(10);
+
+//   // Initialize each sensor one at a time
+//   // Sensor 1
+//   digitalWrite(XSHUT1, HIGH);
+//   delay(10);
+//   if (!sensor1.init()) {
+//     Serial.println("Failed to initialize Sensor 1");
+//     while (true) {
+//         Serial.println("poopy");
+//     }
+//     return;
+//   }
+//   sensor1.setAddress(SENSOR1_ADDRESS);
+//   sensor1.setTimeout(500);
+//   sensor1.startContinuous();
+
+//   // Sensor 2
+//   digitalWrite(XSHUT2, HIGH);
+//   delay(10);
+//   if (!sensor2.init()) {
+//     Serial.println("Failed to initialize Sensor 2");
+//     return;
+//   }
+//   sensor2.setAddress(SENSOR2_ADDRESS);
+//   sensor2.setTimeout(500);
+//   sensor2.startContinuous();
+
+//   // Sensor 3
+//   digitalWrite(XSHUT3, HIGH);
+//   delay(10);
+//   if (!sensor3.init()) {
+//     Serial.println("Failed to initialize Sensor 3");
+//     return;
+//   }
+//   sensor3.setAddress(SENSOR3_ADDRESS);
+//   sensor3.setTimeout(500);
+//   sensor3.startContinuous();
+
+//   Serial.println("Sensors initialized successfully.");
+// }
+
+// void loop() {
+//   // Read distances from each sensor
+//   uint16_t distance1 = sensor1.readRangeSingleMillimeters();
+//   uint16_t distance2 = sensor2.readRangeSingleMillimeters();
+//   uint16_t distance3 = sensor3.readRangeSingleMillimeters();
+
+//   // Check for any measurement errors
+//   if (sensor1.timeoutOccurred()) Serial.println("Sensor 1 timeout");
+//   if (sensor2.timeoutOccurred()) Serial.println("Sensor 2 timeout");
+//   if (sensor3.timeoutOccurred()) Serial.println("Sensor 3 timeout");
+
+//   // Print results
+//   Serial.print("S1: ");
+//   Serial.print(distance1);
+//   Serial.print("mm  S2: ");
+//   Serial.print(distance2);
+//   Serial.print("mm  S3: ");
+//   Serial.print(distance3);
+//   Serial.println("mm");
+
+//   delay(100);
+// }
+>>>>>>> Stashed changes
