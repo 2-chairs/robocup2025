@@ -71,37 +71,78 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <VL53L0X.h>
+#include "PacketSerial.h"
 
-VL53L0X sensor;
+// Serial for Packet Communication
+HardwareSerial MySerial0(0);
+PacketSerial lidarSerial;
+
+// Define XSHUT pins for sensors (front, right, back, left)
+const int xshutPins[4] = {16, 17, 18, 19};
+const byte sensorAddresses[4] = {0x30, 0x31, 0x32, 0x33};
+
+VL53L0X sensors[4];
+uint16_t distances[4];
+
+struct LidarData {
+    uint16_t distance[4];
+};
+
+LidarData esp32LidarData;
+
+typedef struct lidarTxPayload {
+    LidarData esp32LidarData;
+} lidarTxPayload;
 
 void setup() {
-    pinMode(D0, OUTPUT);
-    digitalWrite(D0, LOW);
-    delay(10);  // Ensure shutdown
-    digitalWrite(D0, HIGH);
-    delay(10);  // Allow it to wake up
     Serial.begin(115200);
-    Wire.begin(6,7); // ESP32 default: SDA = 21, SCL = 22
+    MySerial0.begin(115200, SERIAL_8N1, -1, -1);
+    lidarSerial.begin(&MySerial0);
 
-    if (!sensor.init()) {
-        Serial.println("Failed to initialize VL53L0X! Check connections.");
-        while (1) {
-          Serial.println("cannot initalise");
-        }; // Stop execution
+    Wire.begin(21, 22);
+
+    // Initialize XSHUT pins (disable all sensors initially)
+    for (int i = 0; i < 4; i++) {
+        pinMode(xshutPins[i], OUTPUT);
+        digitalWrite(xshutPins[i], LOW);
     }
 
-    sensor.setTimeout(500);
-    sensor.startContinuous();
-    Serial.println("VL53L0X Initialized!");
+    delay(10);
+
+    // Wake and initialize each sensor one by one
+    for (int i = 0; i < 4; i++) {
+        digitalWrite(xshutPins[i], HIGH);
+        delay(10);
+
+        if (!sensors[i].init()) {
+            Serial.print("Sensor init failed at position: ");
+            Serial.println(i);
+            while (1) delay(1000);
+        }
+
+        sensors[i].setTimeout(500);
+        sensors[i].setAddress(sensorAddresses[i]);
+        sensors[i].startContinuous();
+        Serial.print("Sensor initialized at address: 0x");
+        Serial.println(sensorAddresses[i], HEX);
+    }
 }
 
 void loop() {
-    Serial.print("Distance: ");
-    Serial.print(sensor.readRangeContinuousMillimeters());
-    if (sensor.timeoutOccurred()) {
-        Serial.print(" TIMEOUT");
-    }
-    Serial.println(" mm");
+    for (int i = 0; i < 4; i++) {
+        uint16_t distance = sensors[i].readRangeContinuousMillimeters();
 
-    delay(500);
+        if (!sensors[i].timeoutOccurred()) {
+            esp32LidarData.distance[i] = distance;
+        } else {
+            esp32LidarData.distance[i] = 0;  // Error or timeout
+        }
+    }
+
+    // Prepare and send data using PacketSerial
+    byte buf[sizeof(lidarTxPayload)];
+    memcpy(buf, &esp32LidarData, sizeof(esp32LidarData));
+    lidarSerial.send(buf, sizeof(buf));
+
+    delay(20);
 }
