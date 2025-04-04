@@ -14,8 +14,8 @@
 #define MOTOR_2_PWM 2
 
 //MOTOR 3
-#define MOTOR_3_IN_A 22
-#define MOTOR_3_IN_B 23
+#define MOTOR_3_IN_A 23
+#define MOTOR_3_IN_B 22
 #define MOTOR_3_PWM 1
 
 //MOTOR 4
@@ -24,9 +24,10 @@
 #define MOTOR_4_PWM 0
 
 //Serials
-#define Serial_L1 Serial2 //Serial to L1 Esp32c3
-#define Serial_L3 Serial5 //Serial to L3 Esp32c3
-#define Serial_IMU Serial4 //Serial to IMU
+#define Serial_L1 Serial2 // Serial to L1 Esp32c3
+#define Serial_L3 Serial5 // Serial to L3 Esp32c3
+#define Serial_CAM Serial3 // Serial to CAM
+#define Serial_IMU Serial4 // Serial to IMU
 
 void setupMotors();
 void test_MOTOR_1();
