@@ -264,51 +264,54 @@ void setup() {
 }
 
 void loop() {
-    if (Serial_CAM.available()) {
-        String received = Serial_CAM.readStringUntil('\n');
-        Serial.print("Received from Teensy: ");
-        Serial.println(received);
-    }
+    // if (Serial_CAM.available()) {
+    //     String received = Serial_CAM.readStringUntil('\n');
+    //     Serial.print("Received from Teensy: ");
+    //     Serial.println(received);
+    // }
+    // getCamData();
+    // moveRobot(lastballAngle, 2, 0);
+    // Serial.println("test");
     // test_MOTORs();
-    // moveRobot(90, 2, 0);
+    // moveRobot(0, 2, 0);
     // test_MOTORs();
     // moveRobot(45, 2, 0);
-    // auto [angle, size] = getSerial_L1();
-    // if (!isnan(angle) || !isnan(size)) {
-    //     //line detected
-    //     moveRobot(angle, 2, 0);
-    // }
-    // else {
-    //     //line not detected
-        // getCamData();
-    //     if (isnan(ballX) || isnan(ballY) || isnan(ballAngle) || isnan(ballDistance)) {
-    //         //ball not detected, run back towards own goal
-    //         if (ownGoal == "blue") {
-    //             moveRobot(lastblueGoalAngle, 2, 0);
-    //         }
-    //         else {
-    //             moveRobot(lastyellowGoalAngle, 2, 0);
-    //         }
-    //     }
-    //     else {
-    //         //ball detected, move towards ball
-    //         if (ballDistance > 20) {
-    //             //still not near ball -> move towards ball
-    //             moveRobot(ballAngle, 2, 0);
-    //         }
-    //         else {
-    //             //near ball, circle around ball
-    //             if (!(abs(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) - ballAngle) < 10)) {
-    //                 //not aligned, continue circling
-    //                 moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
-    //             }
-    //             else {
-    //                 //aligned, move towards goal
-    //                 moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
-    //             }
-    //         }
-    //     }
-    // }
+    auto [angle, size] = getSerial_L1();
+    if (!isnan(angle) || !isnan(size)) {
+        //line detected
+        moveRobot(angle, 2, 0);
+    }
+    else {
+        //line not detected
+        getCamData();
+        if (isnan(ballX) || isnan(ballY) || isnan(ballAngle) || isnan(ballDistance)) {
+            //ball not detected, run back towards own goal
+            if (ownGoal == "blue") {
+                moveRobot(lastblueGoalAngle, 2, 0);
+            }
+            else {
+                moveRobot(lastyellowGoalAngle, 2, 0);
+            }
+        }
+        else {
+            //ball detected, move towards ball
+            if (ballDistance > 20) {
+                //still not near ball -> move towards ball
+                moveRobot(ballAngle, 2, 0);
+            }
+            else {
+                //near ball, circle around ball
+                if (!(abs(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) - ballAngle) < 10)) {
+                    //not aligned, continue circling
+                    moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
+                }
+                else {
+                    //aligned, move towards goal
+                    moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
+                }
+            }
+        }
+    }
     // Serial.print(angle);
     // Serial.print(" | ");
     // Serial.println(size);
