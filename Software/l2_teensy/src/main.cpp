@@ -91,30 +91,32 @@ pair<double, double> getSerial_L1() {
 // speed:    how fast to move (0.0 to 1.0)
 // omega:    how fast to rotate (positive = clockwise)
 void moveRobot(double angleDeg, double speed, double omega) {
-    // --- Step 1: Convert direction + speed to x/y movement ---
-    double angleRad = angleDeg * DEG_TO_RAD; // degrees → radians
-    double vx = speed * sin(angleRad);       // x: rightward velocity
-    double vy = speed * cos(angleRad);       // y: forward velocity
+    // Convert movement direction to radians
+    double angleRad = angleDeg * DEG_TO_RAD;
 
-    // --- Step 2: Project that onto your 34.4°-mounted motors ---
-    constexpr double MOUNT_ANGLE_DEG = 34.4;
-    double cosA = cos(MOUNT_ANGLE_DEG * DEG_TO_RAD);
-    double sinA = sin(MOUNT_ANGLE_DEG * DEG_TO_RAD);
+    // X/Y velocity components
+    double vx = speed * cos(angleRad);  // Rightward
+    double vy = speed * sin(angleRad);  // Forward
 
-    // Motor mixing — match motor numbers to positions:
-    double m1 = vy * sinA + vx * cosA + omega;  // Motor 1 = front left
-    double m2 = vy * sinA - vx * cosA + omega;  // Motor 2 = back left
-    double m3 = vy * sinA - vx * cosA - omega;  // Motor 3 = back right
-    double m4 = vy * sinA + vx * cosA - omega;  // Motor 4 = front right
+    // Standard X-drive motor vector projection:
+    // M1 (Front Left)  = vy + vx + omega
+    // M2 (Back Left)   = vy - vx + omega
+    // M3 (Back Right)  = vy + vx - omega
+    // M4 (Front Right) = vy - vx - omega
 
-    // --- Step 3: Normalize motor speeds so none exceed ±1.0 ---
+    double m1 = vy + vx + omega; // Front Left
+    double m2 = vy - vx + omega; // Back Left
+    double m3 = vy + vx - omega; // Back Right
+    double m4 = vy - vx - omega; // Front Right
+
+    // Normalize if needed
     double maxMag = max({abs(m1), abs(m2), abs(m3), abs(m4), 1.0});
     m1 /= maxMag;
     m2 /= maxMag;
     m3 /= maxMag;
     m4 /= maxMag;
 
-    // --- Step 4: Convert [-1.0, 1.0] to PWM [0, 255] and set motor pins ---
+    // Apply motor outputs
     auto setMotor = [](int inA, int inB, int pwmPin, double power) {
         bool forward = (power >= 0);
         int pwmVal = abs(power * 255);
@@ -203,17 +205,17 @@ bool debugging = true;
 
 void test_MOTORs() {
     if (debugging) {
-        digitalWrite(MOTOR_1_IN_A, LOW);
-        digitalWrite(MOTOR_1_IN_B, HIGH);
+        digitalWrite(MOTOR_1_IN_A, HIGH);
+        digitalWrite(MOTOR_1_IN_B, LOW);
         analogWrite(MOTOR_1_PWM, 255);
-        digitalWrite(MOTOR_2_IN_A, LOW);
-        digitalWrite(MOTOR_2_IN_B, HIGH);
+        digitalWrite(MOTOR_2_IN_A, HIGH);
+        digitalWrite(MOTOR_2_IN_B, LOW);
         analogWrite(MOTOR_2_PWM, 255);
-        digitalWrite(MOTOR_3_IN_A, LOW);
-        digitalWrite(MOTOR_3_IN_B, HIGH);
+        digitalWrite(MOTOR_3_IN_A, HIGH);
+        digitalWrite(MOTOR_3_IN_B, LOW);
         analogWrite(MOTOR_3_PWM, 255);
-        digitalWrite(MOTOR_4_IN_A, LOW);
-        digitalWrite(MOTOR_4_IN_B, HIGH);
+        digitalWrite(MOTOR_4_IN_A, HIGH);
+        digitalWrite(MOTOR_4_IN_B, LOW);
         analogWrite(MOTOR_4_PWM, 255);
         Serial.println("Motors should spin...");
     }
@@ -267,43 +269,45 @@ void setup() {
 
 void loop() {
     // test_MOTORs();
+    moveRobot(0, 2, 0);
+    // test_MOTORs();
     // moveRobot(45, 2, 0);
-    auto [angle, size] = getSerial_L1();
-    if (!isnan(angle) || !isnan(size)) {
-        //line detected
-        moveRobot(angle, 2, 0);
-    }
-    else {
-        //line not detected
-        getCamData();
-        if (isnan(ballX) || isnan(ballY) || isnan(ballAngle) || isnan(ballDistance)) {
-            //ball not detected, run back towards own goal
-            if (ownGoal == "blue") {
-                moveRobot(lastblueGoalAngle, 2, 0);
-            }
-            else {
-                moveRobot(lastyellowGoalAngle, 2, 0);
-            }
-        }
-        else {
-            //ball detected, move towards ball
-            if (ballDistance > 20) {
-                //still not near ball -> move towards ball
-                moveRobot(ballAngle, 2, 0);
-            }
-            else {
-                //near ball, circle around ball
-                if (!(abs(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) - ballAngle) < 10)) {
-                    //not aligned, continue circling
-                    moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
-                }
-                else {
-                    //aligned, move towards goal
-                    moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
-                }
-            }
-        }
-    }
+    // auto [angle, size] = getSerial_L1();
+    // if (!isnan(angle) || !isnan(size)) {
+    //     //line detected
+    //     moveRobot(angle, 2, 0);
+    // }
+    // else {
+    //     //line not detected
+    //     getCamData();
+    //     if (isnan(ballX) || isnan(ballY) || isnan(ballAngle) || isnan(ballDistance)) {
+    //         //ball not detected, run back towards own goal
+    //         if (ownGoal == "blue") {
+    //             moveRobot(lastblueGoalAngle, 2, 0);
+    //         }
+    //         else {
+    //             moveRobot(lastyellowGoalAngle, 2, 0);
+    //         }
+    //     }
+    //     else {
+    //         //ball detected, move towards ball
+    //         if (ballDistance > 20) {
+    //             //still not near ball -> move towards ball
+    //             moveRobot(ballAngle, 2, 0);
+    //         }
+    //         else {
+    //             //near ball, circle around ball
+    //             if (!(abs(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) - ballAngle) < 10)) {
+    //                 //not aligned, continue circling
+    //                 moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
+    //             }
+    //             else {
+    //                 //aligned, move towards goal
+    //                 moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
+    //             }
+    //         }
+    //     }
+    // }
     // Serial.print(angle);
     // Serial.print(" | ");
     // Serial.println(size);
