@@ -253,23 +253,28 @@ void loop() {
     // Serial.print("test");
     // delay(10);
     // checkLightRing();
-    // auto [angle, size] = findLine();
+    auto [angle, size] = findLine();
     // for testing communication, fabricated numbers
     // double angle = 22.5;
     // double size = 1.0;
-    // if (isnan(angle) || isnan(size)) {
-    //     //not on line, continue doing whatever, no complains
-    //     Serial.println("NOT ON LINE");
-    // }
-    // else {
-    //     //code on what to do if on line
-    //     //just complain to teensy
-    //     communicateSerial(angle, size);
-    //     Serial.println("ON LINE");
-    // }
+    if (isnan(angle) || isnan(size)) {
+        //not on line, continue doing whatever, no complains
+        Serial.println("NOT ON LINE");
+    }
+    else {
+        //code on what to do if on line
+
+        //flip line angle
+        angle = clipAngleTo360(angle + 180);
+
+        //complain to teensy
+        communicateSerial(angle, size);
+        Serial.println("ON LINE");
+    }
     // printLDRThreshold();
+    // checkLightRing();
     // printLightRingCalibration();
-    readLDRs();
+    // readLDRs();
     // Serial.println(readMux1Channel(1));
 
 }

@@ -3,6 +3,10 @@
 
 #include <Arduino.h>
 
+//Goal
+#define ownGoal "blue"
+// #define ownGoal = "yellow"
+
 //MOTOR 1
 #define MOTOR_1_IN_A 12
 #define MOTOR_1_IN_B 11
@@ -30,20 +34,39 @@
 #define Serial_IMU Serial4 // Serial to IMU
 
 //Cam
+
+//ball
 double ballX = NAN;
 double ballY = NAN;
 double ballAngle = NAN;
 double ballDistance = NAN;
+//last known positions
+double lastballX = NAN;
+double lastballY = NAN;
+double lastballAngle = NAN;
+double lastballDistance = NAN;
 
+//blue goal
 double blueGoalX = NAN;
 double blueGoalY = NAN;
 double blueGoalAngle = NAN;
 double blueGoalDistance = NAN;
+//last known positions
+double lastblueGoalX = NAN;
+double lastblueGoalY = NAN;
+double lastblueGoalAngle = NAN;
+double lastblueGoalDistance = NAN;
 
+//yellow goal
 double yellowGoalX = NAN;
 double yellowGoalY = NAN;
-double yellowGoalAngle = NAN;
+double yellowGoalAngle = 0;
 double yellowGoalDistance = NAN;
+//last known positions
+double lastyellowGoalX = NAN;
+double lastyellowGoalY = NAN;
+double lastyellowGoalAngle = 180;
+double lastyellowGoalDistance = NAN;
 
 //Functional Function Prototypes
 void setupMotors();
