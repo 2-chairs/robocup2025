@@ -200,4 +200,3 @@ while True:
     print(uart_line.strip())
 
     time.sleep_ms(0)
-
