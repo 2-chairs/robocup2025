@@ -217,16 +217,6 @@ void getCamData() {
     }
 }
 
-bool isValid(double val) {
-    return !isnan(val) && val != 0;
-}
-
-double ballA = isValid(ballAngle) ? ballAngle : lastballAngle;
-double ballD = isValid(ballDistance) ? ballDistance : lastballDistance;
-double goalA = (strcmp(ownGoal, "blue") == 0)
-             ? (isValid(blueGoalAngle) ? blueGoalAngle : lastblueGoalAngle)
-             : (isValid(yellowGoalAngle) ? yellowGoalAngle : lastyellowGoalAngle);
-
 //Debugging Functions
 bool debugging = true;
 
@@ -295,5 +285,73 @@ void setup() {
 }
 
 void loop() {
-    
+    //ignore boundaries
+    getCamData();
+    //move towards ball
+    if (!isnan(ballAngle) || !isnan(ballDistance)) {
+        //ball detected -> move towards ball
+        if (ballDistance > 40) {
+            //not close enough to ball, move towardsball
+            moveRobot(ballAngle, 1.6, (ballAngle > 180) ? -.2 : .2);
+        }
+        else {
+            // near ball -> circle, align and kick towards goal
+            
+            //check if opps goal in sight
+            if (!isnan((oppsGoal == "blue") ? blueGoalAngle : yellowGoalAngle)) {
+                //opps goal can see, align and shoot
+
+                //check if aligned
+                if (abs(((oppsGoal == "blue") ? blueGoalAngle : yellowGoalAngle) - (ballAngle)) < 10) {
+                    //aligned -> ram forward full speed
+                    moveRobot(ballAngle, 1.6, (ballAngle > 180) ? -.2 : .2);
+                }
+                else {
+                    //not aligned -> circle
+                    moveRobot(clipAngleTo360(ballAngle+90), 1.6, (ballAngle > 180) ? -.2 : .2);
+                }
+            }
+            else {
+                //cannot see opps goal -> prob means can see own goal
+                double ownGoalAngle = (strcmp(oppsGoal, "blue") == 0) ? blueGoalAngle : yellowGoalAngle;
+
+                if (!isnan(ownGoalAngle)) {
+                    // Own goal is visible — move away from it (180° opposite)
+                    double avoidAngle = clipAngleTo360(ownGoalAngle + 180);
+                    Serial.println("Opponent goal not visible — moving away from own goal");
+                    moveRobot(avoidAngle, 1.0, 0.1);  // slightly curve away to reorient
+                }
+                else {
+                    // Neither goal visible — spiral to scan
+                    static double spiralAngle = 0;
+                    spiralAngle = clipAngleTo360(spiralAngle + 10); // increment slowly
+                    Serial.println("Both goals not visible — spiral search");
+                    moveRobot(spiralAngle, 0.5, 0.2);
+                }
+            }
+        }
+    }
+    else {
+        // Ball not seen — go to field center based on goal info or spiral
+        double ownGoalAngle = (strcmp(oppsGoal, "blue") == 0) ? blueGoalAngle : yellowGoalAngle;
+        double oppsGoalAngle = (strcmp(oppsGoal, "blue") == 0) ? yellowGoalAngle : blueGoalAngle;
+
+        if (!isnan(ownGoalAngle)) {
+            // Move toward field center: away from own goal
+            double centerApproachAngle = clipAngleTo360(ownGoalAngle + 180);
+            Serial.println("⚠️ Ball not visible — moving away from own goal to center");
+            moveRobot(centerApproachAngle, 1.0, 0.1);
+        } else if (!isnan(oppsGoalAngle)) {
+            // Move slightly backward from opps goal (safer fallback)
+            double centerApproachAngle = clipAngleTo360(oppsGoalAngle + 180);
+            Serial.println("⚠️ Ball not visible — moving away from opponent goal");
+            moveRobot(centerApproachAngle, 0.8, -0.1);
+        } else {
+            // No goalposts visible — spiral to search for ball/goal
+            static double searchAngle = 0;
+            searchAngle = clipAngleTo360(searchAngle + 8);
+            Serial.println("⚠️ Ball and goals not visible — spiraling to search");
+            moveRobot(searchAngle, 0.6, 0.2);
+        }
+    }
 }

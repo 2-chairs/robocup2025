@@ -1,103 +1,3 @@
-# import sensor, image, time, math, machine
-# import array #for storing data
-
-# sensor.reset()
-# sensor.set_pixformat(sensor.RGB565)
-# sensor.set_framesize(sensor.QVGA)
-# sensor.skip_frames(time = 2000)
-# sensor.set_auto_gain(False)
-# sensor.set_auto_whitebal(False)
-
-# thresholds = [(100, 0, 15, 127, 127, -128)] # Adjust!
-
-# # **IMPORTANT: Replace with your actual mirror center coordinates**
-# x_mirror_center = 177 # Example, you'll need to determine this
-# y_mirror_center = 124 # Example, you'll need to determine this
-
-# image_width = 320 #QVGA
-# image_height = 240
-# image_center_x = image_width / 2
-# image_center_y = image_height / 2
-
-# def reflect_coords(x_cam, y_cam, image_center_x, image_center_y, image_width, image_height):
-#     """Reflects and normalizes camera coordinates."""
-#     x_rel = x_cam - image_center_x
-#     y_rel = y_cam - image_center_y
-
-#     # Simple reflection (adjust for accuracy)
-#     x_reflected = x_rel
-#     y_reflected = y_rel
-
-#     # Normalize to 0-255 range
-#     x_normalized = int(((x_reflected + image_center_x) / image_width) * 255)
-#     y_normalized = int(((y_reflected + image_center_y) / image_height) * 255)
-
-#     # Ensure within 0-255 bounds
-#     x_normalized = max(0, min(255, x_normalized))
-#     y_normalized = max(0, min(255, y_normalized))
-
-#     # Invert the y value.
-#     y_inverted = 255 - y_normalized
-
-#     return x_normalized, y_inverted # Return the normalized x and inverted y.
-
-# def calculate_angle(x_ball, y_ball, x_mirror_center, y_mirror_center):
-#     """Calculates the angle of the ball from the mirror's center, then inverts it."""
-
-#     x_relative = x_ball - x_mirror_center
-#     y_relative = y_ball - y_mirror_center
-
-#     angle_radians = math.atan2(x_relative, y_relative)
-#     angle_degrees = math.degrees(angle_radians)
-
-#     # Invert the angle (angle from the opposite direction)
-#     inverted_angle = (angle_degrees ) % 360
-
-#     return inverted_angle
-
-# def calculate_distance(x_ball, y_ball, x_mirror_center, y_mirror_center):
-#     """Calculates the distance from the ball to the mirror's center."""
-#     x_relative = x_ball - x_mirror_center
-#     y_relative = y_ball - y_mirror_center
-#     distance = math.sqrt(x_relative**2 + y_relative**2)
-#     return distance
-
-# uart_obj = machine.UART(1, 115200) # Initialize UART 1, baud rate 115200.
-
-# x_values = array.array('i', []) #array to hold x values.
-# time_values = array.array('i', []) #array to hold time values.
-
-# start_time = time.ticks_ms() #get start time.
-
-# while(True):
-#     img = sensor.snapshot()
-#     blobs = img.find_blobs(thresholds)
-
-#     if blobs:
-#         largest_blob = max(blobs, key=lambda b: b.area())
-#         x_cam = largest_blob.cx()
-#         y_cam = largest_blob.cy()
-
-#         x_normalized, y_inverted = reflect_coords(x_cam, y_cam, image_center_x, image_center_y, image_width, image_height)
-
-#         y_adjusted = int((127 - y_inverted) * 255 / 127) #inverts the y value and adjusts.
-
-#         angle = calculate_angle(x_cam, y_cam, x_mirror_center, y_mirror_center)
-
-#         distance = calculate_distance(x_cam, y_cam, x_mirror_center, y_mirror_center)
-
-#         data_string = "X:{},Y:{},A:{},D:{}\n".format(x_normalized, y_adjusted, angle, distance) # Format the data
-#         uart_obj.write(data_string.encode('utf-8')) # Send via UART
-
-#         print("Normalized X:", x_normalized, "Adjusted Y:", y_adjusted, "Angle:", angle, "Distance:", distance)
-
-#         img.draw_rectangle(x_cam - 5, y_cam - 5, 10, 10, color=(25, 200, 150))
-
-#         current_time = time.ticks_ms() - start_time #get current time.
-#         x_values.append(x_normalized) #add x value to array.
-#         time_values.append(current_time) #add time to array.
-
-#     time.sleep_ms(0)
 import sensor, time, math, machine
 import array
 
@@ -106,8 +6,10 @@ sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
 sensor.set_framesize(sensor.QVGA)
 sensor.skip_frames(time=2000)
-sensor.set_auto_gain(False)
-sensor.set_auto_whitebal(False)
+sensor.set_auto_gain(False)       # Already in your code, but ensure it's present
+sensor.set_auto_whitebal(False)   # Already in your codesensor.set_auto_exposure(False, exposure_us=30000)  # 30 ms exposure
+sensor.set_auto_exposure(False, exposure_us=60000)  # 30 ms exposure
+
 
 # LAB color thresholds
 red_thresholds = [(100, 0, 15, 127, 127, -128)]
