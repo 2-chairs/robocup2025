@@ -91,32 +91,28 @@ pair<double, double> getSerial_L1() {
 // speed:    how fast to move (0.0 to 1.0)
 // omega:    how fast to rotate (positive = clockwise)
 void moveRobot(double angleDeg, double speed, double omega) {
-    // Convert movement direction to radians
     double angleRad = angleDeg * DEG_TO_RAD;
 
-    // X/Y velocity components
-    double vx = speed * cos(angleRad);  // Rightward
-    double vy = speed * sin(angleRad);  // Forward
+    double vx = speed * cos(angleRad);  // rightward
+    double vy = speed * sin(angleRad);  // forward
 
-    // Standard X-drive motor vector projection:
-    // M1 (Front Left)  = vy + vx + omega
-    // M2 (Back Left)   = vy - vx + omega
-    // M3 (Back Right)  = vy + vx - omega
-    // M4 (Front Right) = vy - vx - omega
-
-    double m1 = vy + vx + omega; // Front Left
-    double m2 = vy - vx + omega; // Back Left
+    // X-drive projection
+    double m1 = vy + vx + omega;  // Front Left
+    double m2 = vy - vx + omega; // Back Left  (needs inversion)
     double m3 = vy + vx - omega; // Back Right
-    double m4 = vy - vx - omega; // Front Right
+    double m4 = vy - vx - omega; // Front Right (needs inversion)
 
-    // Normalize if needed
+    // Normalize
     double maxMag = max({abs(m1), abs(m2), abs(m3), abs(m4), 1.0});
     m1 /= maxMag;
     m2 /= maxMag;
     m3 /= maxMag;
     m4 /= maxMag;
 
-    // Apply motor outputs
+    // Invert Motor 2 and 4 to fix wrong spin direction
+    m2 = -m2;
+    m4 = -m4;
+
     auto setMotor = [](int inA, int inB, int pwmPin, double power) {
         bool forward = (power >= 0);
         int pwmVal = abs(power * 255);
@@ -125,10 +121,10 @@ void moveRobot(double angleDeg, double speed, double omega) {
         analogWrite(pwmPin, pwmVal);
     };
 
-    setMotor(MOTOR_1_IN_A, MOTOR_1_IN_B, MOTOR_1_PWM, m1); // Front Left
-    setMotor(MOTOR_2_IN_A, MOTOR_2_IN_B, MOTOR_2_PWM, m2); // Back Left
-    setMotor(MOTOR_3_IN_A, MOTOR_3_IN_B, MOTOR_3_PWM, m3); // Back Right
-    setMotor(MOTOR_4_IN_A, MOTOR_4_IN_B, MOTOR_4_PWM, m4); // Front Right
+    setMotor(MOTOR_1_IN_A, MOTOR_1_IN_B, MOTOR_1_PWM, m1);   // Front Left (OK)
+    setMotor(MOTOR_2_IN_A, MOTOR_2_IN_B, MOTOR_2_PWM, m2);  // Back Left (flip)
+    setMotor(MOTOR_3_IN_A, MOTOR_3_IN_B, MOTOR_3_PWM, m3);   // Back Right (OK)
+    setMotor(MOTOR_4_IN_A, MOTOR_4_IN_B, MOTOR_4_PWM, m4);  // Front Right (flip)
 }
 
 void getCamData() {
@@ -269,7 +265,7 @@ void setup() {
 
 void loop() {
     // test_MOTORs();
-    moveRobot(0, 2, 0);
+    // moveRobot(90, 2, 0);
     // test_MOTORs();
     // moveRobot(45, 2, 0);
     // auto [angle, size] = getSerial_L1();
