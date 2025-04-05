@@ -4,8 +4,8 @@
 #include <Arduino.h>
 
 //Goal
-#define ownGoal "blue"
-// #define ownGoal = "yellow"
+// #define ownGoal "blue"
+#define ownGoal "yellow"
 
 //MOTOR 1
 #define MOTOR_1_IN_A 12
@@ -43,7 +43,7 @@ double ballDistance = NAN;
 //last known positions
 double lastballX = NAN;
 double lastballY = NAN;
-double lastballAngle = NAN;
+double lastballAngle = 340;
 double lastballDistance = NAN;
 
 //blue goal
@@ -71,5 +71,7 @@ double lastyellowGoalDistance = NAN;
 //Functional Function Prototypes
 void setupMotors();
 void test_MOTOR_1();
+
+bool firstloop = true;
 
 #endif  // TEENSY_H

@@ -127,6 +127,27 @@ void moveRobot(double angleDeg, double speed, double omega) {
     setMotor(MOTOR_4_IN_A, MOTOR_4_IN_B, MOTOR_4_PWM, m4);  // Front Right (flip)
 }
 
+void rotateToAngle(double targetAngle) {
+    // Wrap angle to [0, 360)
+    targetAngle = fmod(targetAngle, 360);
+    if (targetAngle < 0) targetAngle += 360;
+
+    // Error = how far we are off (signed)
+    double angleError = targetAngle;
+    if (angleError > 180) angleError -= 360;  // signed shortest path
+
+    if (abs(angleError) < 5) {
+        // Aligned — stop rotating
+        moveRobot(0, 0, 0);
+    } else if (angleError < 0) {
+        // Target is to the left — spin left
+        moveRobot(0, 0, -1.0);
+    } else {
+        // Target is to the right — spin right
+        moveRobot(0, 0, 1.0);
+    }
+}
+
 void getCamData() {
     if (Serial_CAM.available()) {
         String received = Serial_CAM.readStringUntil('\n');
@@ -260,58 +281,74 @@ void setup() {
         Serial.println("Not Debugging");
     }
     setupMotors();
-    test_MOTORs();
+    // test_MOTORs();
 }
 
 void loop() {
+//     if (firstloop) {}
+//         for (int i = 0; i < 500; i++) {
+//             moveRobot(0, 2, 0);
+//             delay(10);
+//         }
+//         firstloop = false;
+//     }
     // if (Serial_CAM.available()) {
     //     String received = Serial_CAM.readStringUntil('\n');
     //     Serial.print("Received from Teensy: ");
     //     Serial.println(received);
     // }
     // getCamData();
-    // moveRobot(lastballAngle, 2, 0);
+    // rotateToAngle(lastballAngle);
+    // moveRobot(lastballAngle, 2, (lastballAngle > 180) ? -0.2 : 0.2);
+    // moveRobot(lastballAngle, 0.7, 0);
+    // if (!isnan(ballAngle)){
+    //     moveRobot(lastballAngle, 0.7, 0);
+    // }
+    // else {
+    //     moveRobot(0, 2, 0);
+    // }
+    // moveRobot(0, 2, 0);
     // Serial.println("test");
     // test_MOTORs();
     // moveRobot(0, 2, 0);
     // test_MOTORs();
     // moveRobot(45, 2, 0);
-    auto [angle, size] = getSerial_L1();
-    if (!isnan(angle) || !isnan(size)) {
-        //line detected
-        moveRobot(angle, 2, 0);
-    }
-    else {
+    // auto [angle, size] = getSerial_L1();
+    // if (!isnan(angle) || !isnan(size)) {
+    //     //line detected
+    //     moveRobot(angle, 2, 0);
+    // }
+    // else {
         //line not detected
-        getCamData();
-        if (isnan(ballX) || isnan(ballY) || isnan(ballAngle) || isnan(ballDistance)) {
-            //ball not detected, run back towards own goal
-            if (ownGoal == "blue") {
-                moveRobot(lastblueGoalAngle, 2, 0);
-            }
-            else {
-                moveRobot(lastyellowGoalAngle, 2, 0);
-            }
-        }
-        else {
-            //ball detected, move towards ball
-            if (ballDistance > 20) {
-                //still not near ball -> move towards ball
-                moveRobot(ballAngle, 2, 0);
-            }
-            else {
-                //near ball, circle around ball
-                if (!(abs(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) - ballAngle) < 10)) {
-                    //not aligned, continue circling
-                    moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
-                }
-                else {
-                    //aligned, move towards goal
-                    moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
-                }
-            }
-        }
-    }
+        // getCamData();
+        // if (isnan(ballX) || isnan(ballY) || isnan(ballAngle) || isnan(ballDistance)) {
+        //     //ball not detected, run back towards own goal
+        //     if (ownGoal == "blue") {
+        //         moveRobot(lastblueGoalAngle, 2, 0);
+        //     }
+        //     else {
+        //         moveRobot(lastyellowGoalAngle, 2, 0);
+        //     }
+        // }
+        // else {
+        //     //ball detected, move towards ball
+        //     if (ballDistance > 20) {
+        //         //still not near ball -> move towards ball
+        //         moveRobot(ballAngle, 2, 0);
+        //     }
+        //     else {
+        //         //near ball, circle around ball
+        //         if (!(abs(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) - ballAngle) < 10)) {
+        //             //not aligned, continue circling
+        //             moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
+        //         }
+        //         else {
+        //             //aligned, move towards goal
+        //             moveRobot(clipAngleTo360(((ownGoal == "blue") ? lastyellowGoalAngle : lastblueGoalAngle) + 90), 2, 0);
+        //         }
+        //     }
+        // }
+    // }
     // Serial.print(angle);
     // Serial.print(" | ");
     // Serial.println(size);
@@ -319,6 +356,36 @@ void loop() {
     // Serial_L1.write("Hello from Teensy!\n");
     // getCamData();
     // Serial.println("test");
+    getCamData();  // always update sensor data
+
+    if (!isnan(ballAngle) && !isnan(ballDistance)) {
+        // Ball detected
+        if (ballDistance > 20) {
+            // Not near ball yet, move toward it
+            moveRobot(ballAngle, 1.0, 0);
+        } else {
+            // Near ball — align with opponent goal
+            double goalAngle = (strcmp(ownGoal, "blue") == 0) ? lastyellowGoalAngle : lastblueGoalAngle;
+
+            // Check if we are facing the opponent goal (±10° tolerance)
+            double angleDiff = goalAngle - ballAngle;
+            if (angleDiff > 180) angleDiff -= 360;
+            if (angleDiff < -180) angleDiff += 360;
+
+            if (abs(angleDiff) < 10) {
+                // Aligned with goal — drive through the ball
+                moveRobot(ballAngle, 1.0, 0);
+            } else {
+                // Not aligned — circle around ball to align
+                double orbitAngle = clipAngleTo360(goalAngle + 90);  // orbit clockwise
+                moveRobot(orbitAngle, 1.0, 0);
+            }
+        }
+    } else {
+        // Ball not detected — retreat to own goal for repositioning
+        double retreatAngle = (strcmp(ownGoal, "blue") == 0) ? lastblueGoalAngle : lastyellowGoalAngle;
+        moveRobot(retreatAngle, 1.0, 0);
+    }
 }
 // void setup() {
 //     pinMode(13, OUTPUT);
