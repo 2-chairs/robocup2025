@@ -110,13 +110,13 @@ sensor.set_auto_gain(False)
 sensor.set_auto_whitebal(False)
 
 # LAB color thresholds
-red_thresholds = [(100, 0, 15, 127, 127, -128)]
+red_thresholds = [(15, 100, 32, 16, 8, 127)]
 blue_thresholds = [(100, 0, 4, -128, -40, -10)]
-yellow_thresholds = [(100, 7, -103, 127, 127, 19)]
+yellow_thresholds = [(60, 67, -17, 39, 27, 8)]
 
 # Image and mirror center setup
-x_mirror_center = 177
-y_mirror_center = 124
+x_mirror_center = 175
+y_mirror_center = 150
 image_width = 320
 image_height = 240
 image_center_x = image_width / 2
@@ -159,7 +159,7 @@ while True:
     img = sensor.snapshot()
     output_list = []
 
-    # Color detection config: (Name, Threshold, Draw Color)
+    # Color detection config: (Name, Th`reshold, Draw Color)
     color_configs = [
         ("RED", red_thresholds, (255, 0, 0)),
         ("BLUE", blue_thresholds, (0, 0, 255)),
@@ -172,7 +172,7 @@ while True:
             largest_blob = max(blobs, key=lambda b: b.area())
             x_cam = largest_blob.cx()
             y_cam = largest_blob.cy()
-            img.draw_rectangle(largest_blob.rect(), color=draw_color)
+            img.draw_rectangle(largest_blob.rect(),color=draw_color)
 
             x_norm, y_inv = reflect_coords(x_cam, y_cam, image_center_x, image_center_y, image_width, image_height)
             y_adj = int((127 - y_inv) * 255 / 127)
@@ -199,4 +199,4 @@ while True:
     uart_obj.write(uart_line.encode('utf-8'))
     print(uart_line.strip())
 
-    time.sleep_ms(0)
+    time.sleep_ms( 0)
