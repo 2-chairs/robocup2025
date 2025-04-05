@@ -217,6 +217,16 @@ void getCamData() {
     }
 }
 
+bool isValid(double val) {
+    return !isnan(val) && val != 0;
+}
+
+double ballA = isValid(ballAngle) ? ballAngle : lastballAngle;
+double ballD = isValid(ballDistance) ? ballDistance : lastballDistance;
+double goalA = (strcmp(ownGoal, "blue") == 0)
+             ? (isValid(blueGoalAngle) ? blueGoalAngle : lastblueGoalAngle)
+             : (isValid(yellowGoalAngle) ? yellowGoalAngle : lastyellowGoalAngle);
+
 //Debugging Functions
 bool debugging = true;
 
@@ -283,54 +293,175 @@ void setup() {
     setupMotors();
     // test_MOTORs();
 }
-void loop() {
-    getCamData();  // always get latest visual info
 
-    if (!isnan(ballAngle) && !isnan(ballDistance)) {
+// void loop() {
+//     getCamData();  // always get latest visual info
+
+//     if (!isnan(ballAngle) && !isnan(ballDistance)) {
+//         if (ballDistance > 20) {
+//             // Far from ball — go straight to it
+//             moveRobot(ballAngle, 1.0, 0);
+//         } else {
+//             // Near the ball
+//             double goalAngle;
+//             bool goalSeen = false;
+
+//             if (strcmp(ownGoal, "blue") == 0 && !isnan(lastyellowGoalAngle)) {
+//                 goalAngle = lastyellowGoalAngle;
+//                 goalSeen = true;
+//             } else if (strcmp(ownGoal, "yellow") == 0 && !isnan(lastblueGoalAngle)) {
+//                 goalAngle = lastblueGoalAngle;
+//                 goalSeen = true;
+//             }
+
+//             if (goalSeen) {
+//                 double angleDiff = goalAngle - ballAngle;
+//                 if (angleDiff > 180) angleDiff -= 360;
+//                 if (angleDiff < -180) angleDiff += 360;
+
+//                 if (abs(angleDiff) < 10) {
+//                     // Aligned — push through ball
+//                     moveRobot(ballAngle, 1.0, 0);
+//                 } else {
+//                     // Not aligned — orbit to align
+//                     double orbitAngle = clipAngleTo360(goalAngle + 90);  // orbit
+//                     moveRobot(orbitAngle, 1.0, 0);
+//                 }
+//             } else {
+//                 // Goal not seen — just push the ball forward
+//                 moveRobot(ballAngle, 1.0, 0);
+//             }
+//         }
+//     } else {
+//         // No ball detected — fallback to own goal
+//         double retreatAngle = (strcmp(ownGoal, "blue") == 0) ? lastblueGoalAngle : lastyellowGoalAngle;
+//         moveRobot(retreatAngle, 1.0, 0);
+//     }
+// }
+
+// void loop() {
+//     // getCamData();
+//     // moveRobot(lastballAngle, 1.6, 0);
+//     moveRobot(270, 2, 0);
+//     delay(1000);
+//     moveRobot(0, 2, 0);
+//     delay(1000);
+// }
+
+// void loop() {
+//     getCamData();  // Update camera readings
+
+//     bool ballVisible = !isnan(ballAngle) && !isnan(ballDistance);
+//     bool yellowGoalVisible = !isnan(yellowGoalAngle);
+//     bool blueGoalVisible = !isnan(blueGoalAngle);
+
+//     if (ballVisible) {
+//         if (ballDistance > 20) {
+//             // Far from ball — move directly
+//             moveRobot(ballAngle, 1.0, 0);
+//         } else {
+//             // Near ball — align with goal
+//             bool useYellow = strcmp(ownGoal, "blue") == 0;
+//             double goalAngle = useYellow ? lastyellowGoalAngle : lastblueGoalAngle;
+//             bool goalVisible = useYellow ? yellowGoalVisible : blueGoalVisible;
+
+//             if (goalVisible) {
+//                 double angleDiff = goalAngle - ballAngle;
+//                 if (angleDiff > 180) angleDiff -= 360;
+//                 if (angleDiff < -180) angleDiff += 360;
+
+//                 if (abs(angleDiff) < 10) {
+//                     // Aligned — drive through
+//                     moveRobot(ballAngle, 1.0, 0);
+//                 } else {
+//                     // Circle to align
+//                     double orbitAngle = clipAngleTo360(goalAngle + 90);
+//                     moveRobot(orbitAngle, 1.0, 0);
+//                 }
+//             } else {
+//                 // Goal not visible — push ball straight
+//                 moveRobot(ballAngle, 1.0, 0);
+//             }
+//         }
+//     } else {
+//         // Ball not visible — move in a wide circle to scan field
+//         double spinAngle = millis() / 10 % 360;  // creates smooth changing angle
+//         moveRobot(spinAngle, 1.0, 0.3);  // forward with some curve
+//     }
+// }
+
+void loop() {
+    getCamData();  // Update camera readings
+
+    bool ballVisible = !isnan(ballAngle) && !isnan(ballDistance);
+    bool yellowGoalVisible = !isnan(yellowGoalAngle);
+    bool blueGoalVisible = !isnan(blueGoalAngle);
+
+    if (ballVisible) {
         if (ballDistance > 20) {
-            // Far from ball — go straight to it
+            // Far from ball — move directly
             moveRobot(ballAngle, 1.0, 0);
         } else {
-            // Near the ball
-            double goalAngle;
-            bool goalSeen = false;
+            // Near ball — align with goal
+            bool useYellow = strcmp(ownGoal, "blue") == 0;
+            double goalAngle = useYellow ? lastyellowGoalAngle : lastblueGoalAngle;
+            bool goalVisible = useYellow ? yellowGoalVisible : blueGoalVisible;
 
-            if (strcmp(ownGoal, "blue") == 0 && !isnan(lastyellowGoalAngle)) {
-                goalAngle = lastyellowGoalAngle;
-                goalSeen = true;
-            } else if (strcmp(ownGoal, "yellow") == 0 && !isnan(lastblueGoalAngle)) {
-                goalAngle = lastblueGoalAngle;
-                goalSeen = true;
-            }
-
-            if (goalSeen) {
+            if (goalVisible) {
                 double angleDiff = goalAngle - ballAngle;
                 if (angleDiff > 180) angleDiff -= 360;
                 if (angleDiff < -180) angleDiff += 360;
 
                 if (abs(angleDiff) < 10) {
-                    // Aligned — push through ball
+                    // Aligned — drive through
                     moveRobot(ballAngle, 1.0, 0);
                 } else {
-                    // Not aligned — orbit to align
-                    double orbitAngle = clipAngleTo360(goalAngle + 90);  // orbit
+                    // Circle to align
+                    double orbitAngle = clipAngleTo360(goalAngle + 90);
                     moveRobot(orbitAngle, 1.0, 0);
                 }
             } else {
-                // Goal not seen — just push the ball forward
+                // Goal not visible — push ball straight
                 moveRobot(ballAngle, 1.0, 0);
             }
         }
     } else {
-        // No ball detected — fallback to own goal
-        double retreatAngle = (strcmp(ownGoal, "blue") == 0) ? lastblueGoalAngle : lastyellowGoalAngle;
-        moveRobot(retreatAngle, 1.0, 0);
+        // Ball not visible — move diagonally forward-left
+        moveRobot(300, 1.0, 0);
+        delay(1000);
     }
 }
 
+
+
 // void loop() {
 //     getCamData();
-//     moveRobot(lastballAngle, 1.6, 0);
+
+//     double ballA = isValid(ballAngle) ? ballAngle : lastballAngle;
+//     double ballD = isValid(ballDistance) ? ballDistance : lastballDistance;
+//     double goalA = (strcmp(ownGoal, "blue") == 0)
+//                  ? (isValid(blueGoalAngle) ? blueGoalAngle : lastblueGoalAngle)
+//                  : (isValid(yellowGoalAngle) ? yellowGoalAngle : lastyellowGoalAngle);
+
+//     if (isValid(ballA) && isValid(ballD)) {
+//         double angleDiff = goalA - ballA;
+//         if (angleDiff > 180) angleDiff -= 360;
+//         if (angleDiff < -180) angleDiff += 360;
+
+//         if (ballD > 20) {
+//             moveRobot(ballA, 1.0, 0);
+//         } else {
+//             if (abs(angleDiff) < 15) {
+//                 moveRobot(ballA, 1.0, 0);
+//             } else {
+//                 moveRobot(0, 0, angleDiff > 0 ? 1.0 : -1.0);
+//             }
+//         }
+//     } else {
+//         // No reliable ball data, go home
+//         double retreatAngle = (strcmp(ownGoal, "blue") == 0) ? lastblueGoalAngle : lastyellowGoalAngle;
+//         moveRobot(retreatAngle, 1.0, 0);
+//     }
 // }
 
 // void loop() {

@@ -4,8 +4,8 @@
 #include <Arduino.h>
 
 //Goal
-// #define ownGoal "blue"
-#define ownGoal "yellow"
+#define ownGoal "blue"
+// #define ownGoal "yellow"
 
 //MOTOR 1
 #define MOTOR_1_IN_A 12
