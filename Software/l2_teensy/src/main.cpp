@@ -264,6 +264,11 @@ void setup() {
 }
 
 void loop() {
+    if (Serial_CAM.available()) {
+        String received = Serial_CAM.readStringUntil('\n');
+        Serial.print("Received from Teensy: ");
+        Serial.println(received);
+    }
     // test_MOTORs();
     // moveRobot(90, 2, 0);
     // test_MOTORs();
@@ -275,7 +280,7 @@ void loop() {
     // }
     // else {
     //     //line not detected
-    //     getCamData();
+        // getCamData();
     //     if (isnan(ballX) || isnan(ballY) || isnan(ballAngle) || isnan(ballDistance)) {
     //         //ball not detected, run back towards own goal
     //         if (ownGoal == "blue") {
