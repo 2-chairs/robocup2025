@@ -170,7 +170,7 @@ void readLDRs() {
     checkLightRing();
     Serial.println();
     Serial.print("LDRs: ");
-    for (int i = 0; i < 16; i++) {
+    for (int i = 0; i < 32; i++) {
 
         // if (ldr_threshold_pass[i]) {
         //     Serial.print(1);
@@ -178,8 +178,8 @@ void readLDRs() {
         // else {
         //     Serial.print(0);
         // }
-        Serial.print(filtered_ldr_values[i]);
-        // Serial.print(ldr_values[i*2]);
+        // Serial.print(filtered_ldr_values[i]);
+        Serial.print(ldr_values[i]);
         Serial.print(" | ");
     }
 }
@@ -239,18 +239,18 @@ void setup() {
     Serial_L1.begin(9600, SERIAL_8N1, -1, -1);
     analogReadResolution(12);
     setupMux();
-    setupSolenoid();
+    // setupSolenoid();
 }
 
 void loop() {
-    digitalWrite(Solenoid, LOW);
+    // Serial.println("test");
+    // digitalWrite(Solenoid, LOW);
     // if (Serial_L1.available()) {
     //     String received = Serial_L1.readStringUntil('\n');
     //     Serial.print("Received from Teensy: ");
     //     Serial.println(received);
     // }
     // Serial_L1.print("Hello from ESP32C3!\n");
-    // Serial.print("test");
     // delay(10);
     // checkLightRing();
     // auto [angle, size] = findLine();
@@ -263,13 +263,18 @@ void loop() {
     // }
     // else {
     //     //code on what to do if on line
-    //     //just complain to teensy
+
+    //     //flip line angle
+    //     angle = clipAngleTo360(angle + 180);
+
+    //     //complain to teensy
     //     communicateSerial(angle, size);
     //     Serial.println("ON LINE");
     // }
     // printLDRThreshold();
+    // checkLightRing();
     // printLightRingCalibration();
     // readLDRs();
     // Serial.println(readMux1Channel(1));
-
+    Serial.println("test");
 }
