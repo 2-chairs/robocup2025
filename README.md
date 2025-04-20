@@ -11,9 +11,9 @@ This repository is for **Team 2-Chairs**, a Singapore RoboCup Open Soccer Junior
 
 ## Repository Structure
 
-- **Electronics/** - PCB designs, schematics, and component footprints.
+- **Electronics/** - PCB designs, schematics, and component footprints. (Note: regarding layer1 and layer3 pcb files, a critical mistake had been made where the Xiao Esp32c3 was powered through 3v3 pin with 3v3, when it should have been through 5v VIN pin with 5v; regarding layer3 the camera should be powered through 5v instead of 3v3 too)
 - **Mechanical/** - 3D-printable files in **.3MF** and **.STL** formats; includes rendered images of the robot and its mirrored counterpart for reference. 
-- **Code/** *(Not started)* - Firmware and control software for the robot.
+- **Code/** - Firmware and control software for the robot. (sub-par quality, some code untested)
 - **Logo/** - Official team branding and design assets.
 
 ## Credits 
